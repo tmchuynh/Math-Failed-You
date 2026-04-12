@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>Research Quotes — Evidence</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;900&amp;family=Lora:ital,wght@1,400;1,600&amp;display=swap"
+        rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet" />
+    <link href="./main.css" rel="stylesheet" />
+    <style>
+        .quote-card {
+            background-color: white;
+            border-radius: 12px;
+            padding: 24px;
+            box-shadow: 0 4px 15px -3px rgba(0, 0, 0, 0.05);
+            border-left: 5px solid #e5e7eb;
+            transition: transform 0.2s, border-color 0.2s;
+            position: relative;
+        }
+
+        .quote-card:hover {
+            border-left-color: #e62b1e;
+            transform: translateX(5px);
+        }
+
+        .quote-mark {
+            position: absolute;
+            top: 15px;
+            right: 20px;
+            font-size: 60px;
+            color: #f3f4f6;
+            font-family: 'Lora', serif;
+            line-height: 1;
+        }
+
+        .quote-text {
+            font-family: 'Lora', serif;
+            font-size: 18px;
+            line-height: 1.5;
+            color: #374151;
+            font-style: italic;
+            margin-bottom: 12px;
+            position: relative;
+            z-index: 1;
+        }
+
+        .quote-author {
+            font-family: 'Inter', sans-serif;
+            font-weight: 700;
+            color: #111827;
+            font-size: 14px;
+            display: flex;
+            align-items: center;
+        }
+
+        .quote-source {
+            font-weight: 400;
+            color: #6b7280;
+            font-size: 13px;
+            margin-left: 8px;
+        }
+
+        .highlight-box {
+            background-color: #111827;
+            border-radius: 16px;
+            padding: 40px;
+            color: white;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .highlight-box::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 150px;
+            height: 150px;
+            background-color: #e62b1e;
+            border-radius: 50%;
+            filter: blur(60px);
+            opacity: 0.2;
+        }
+
+        .key-takeaway-label {
+            text-transform: uppercase;
+            font-size: 12px;
+            letter-spacing: 2px;
+            font-weight: 700;
+            color: #e62b1e;
+            margin-bottom: 20px;
+            display: flex;
+            align-items: center;
+        }
+
+        .key-takeaway-label::before {
+            content: '';
+            width: 20px;
+            height: 2px;
+            background-color: #e62b1e;
+            margin-right: 10px;
+        }
+
+        .takeaway-text {
+            font-weight: 800;
+            line-height: 1.3;
+            margin-bottom: 20px;
+        }
+
+        .takeaway-sub {
+            font-size: 18px;
+            color: #9ca3af;
+            line-height: 1.5;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="slide-container">
+        <!-- Header -->
+        <div class="header-bar">
+            <div class="accent-dot"></div>
+            <h1 class="header-title">The Core Problem: It's a Language Barrier</h1>
+        </div>
+        <!-- Main Content -->
+        <div class="content-area">
+            <!-- Left Panel: Research Quotes -->
+            <div class="left-panel">
+                <!-- Quote 1: Sheila Tobias -->
+                <div class="quote-card">
+                    <div class="quote-mark">”</div>
+                    <p class="quote-text">
+                        The barrier to math is often linguistic, not conceptual. Many students can handle the
+                        mathematical concepts but become unnerved by the unfamiliarity of the symbols, terminology, and
+                        structure.
+                    </p>
+                    <div class="quote-author">
+                        Sheila Tobias
+                        <span class="quote-source">Author of <em>Overcoming Math Anxiety</em> (1978)</span>
+                    </div>
+                </div>
+                <!-- Quote 2: Anna Sfard -->
+                <div class="quote-card">
+                    <div class="quote-mark">”</div>
+                    <p class="quote-text">
+                        Thinking is a form of communication. Students "hit a wall" not because they can't do the math,
+                        but because they can't parse the formal language it's written in.
+                    </p>
+                    <div class="quote-author">
+                        Anna Sfard
+                        <span class="quote-source"><em>Thinking as Communicating</em> (2008)</span>
+                    </div>
+                </div>
+                <!-- Quote 3: APA -->
+                <div class="quote-card">
+                    <div class="quote-mark">”</div>
+                    <p class="quote-text">
+                        Math anxiety is an emotional problem, not a cognitive one. When anxiety is reduced, anxious
+                        individuals perform just as well as their non-anxious peers.
+                    </p>
+                    <div class="quote-author">
+                        American Psychological Association
+                        <span class="quote-source"><em>Preventing Math Anxiety</em> (2023)</span>
+                    </div>
+                </div>
+                <!-- Quote 4: Interplay of Vocabulary -->
+                <div class="quote-card">
+                    <div class="quote-mark">”</div>
+                    <p class="quote-text">
+                        <b>Jargon</b> is the gatekeeper, <u>not intelligence</u>. The more specialized the vocabulary, the more it creates an "insider vs. outsider" dynamic that can intimidate and alienate learners.
+                    </p>
+                    <div class="quote-author">
+                        Ferreira, R. A., Rodríguez, C., Guzmán, B., Sepúlveda, F., & Peake, C.
+                        <span class="quote-source"><em>The Interplay of Vocabulary, Working Memory, and Math Anxiety</em> (2025)</span>
+                    </div>
+                </div>
+            </div>
+            <!-- Right Panel: Key Insight -->
+            <div class="right-panel">
+                <div class="highlight-box">
+                    <div class="key-takeaway-label">Key Takeaway</div>
+                    <p class="text-4xl takeaway-text">
+                        Most people who say<br />
+                        <span class="highlight">"I'm bad at math"</span>
+                    </p>
+                    <p class="text-3xl takeaway-text">
+                        are actually saying<br />
+                        <span class="border-red-600 border-b-2 text-white">"math language scares
+                            me."</span>
+                    </p>
+                    <p class="takeaway-sub">
+                        The ability is already there. The interface is the problem.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

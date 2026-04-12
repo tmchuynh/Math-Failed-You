@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>Math Anxiety vs Math Engagement</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;900&family=Lora:ital,wght@1,400&display=swap"
+        rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet" />
+    <link href="./main.css" rel="stylesheet" />
+    <style>
+        .content-area {
+            display: grid;
+            grid-template-columns: 3fr 2fr;
+            gap: 26px;
+            padding-top: 28px;
+            padding-bottom: 28px;
+        }
+
+        .left-col,
+        .right-col {
+            display: flex;
+            flex-direction: column;
+            gap: 18px;
+        }
+
+        .left-col {
+            justify-content: space-between;
+            height: 85%;
+        }
+
+        .panel {
+            background-color: #ffffff;
+            border-radius: 14px;
+            border: 1px solid #e5e7eb;
+            padding: 26px 20px;
+            box-shadow: 0 4px 12px rgba(15, 23, 42, 0.04);
+        }
+
+        .primary-claim {
+            border-left: 6px solid #e62b1e;
+            border-radius: 0 12px 12px 0;
+            padding-left: 16px;
+        }
+
+        .big-stat {
+            display: flex;
+            align-items: baseline;
+            gap: 14px;
+            margin-bottom: 6px;
+        }
+
+        .big-stat-value {
+            font-size: 56px;
+            font-weight: 900;
+            line-height: 1;
+            color: #e62b1e;
+            letter-spacing: -1px;
+        }
+
+        .big-stat-text {
+            font-size: 24px;
+            font-weight: 700;
+            line-height: 1.2;
+            color: #1f2937;
+        }
+
+        .subtext {
+            font-size: 17px;
+            color: #4b5563;
+            line-height: 1.45;
+        }
+
+        .highlight {
+            color: #e62b1e;
+            font-weight: 700;
+        }
+
+        .model-title {
+            font-size: 14px;
+            text-transform: uppercase;
+            letter-spacing: 1.2px;
+            font-weight: 800;
+            color: #6b7280;
+            margin-bottom: 12px;
+        }
+
+        .model-row {
+            display: grid;
+            grid-template-columns: 1fr auto 1fr auto 1fr;
+            align-items: center;
+            margin: 1em 0;
+            gap: 8px;
+        }
+
+        .model-box {
+            border-radius: 10px;
+            padding: 12px 10px;
+            text-align: center;
+            font-size: 14px;
+            font-weight: 700;
+            line-height: 1.3;
+            border: 1px solid #d1d5db;
+        }
+
+        .model-box.anxiety {
+            background-color: #fff1f2;
+            color: #9f1239;
+            border-color: #fecdd3;
+        }
+
+        .model-box.engagement {
+            background-color: #eff6ff;
+            color: #1d4ed8;
+            border-color: #bfdbfe;
+        }
+
+        .model-box.performance {
+            background-color: #ecfdf5;
+            color: #047857;
+            border-color: #a7f3d0;
+        }
+
+        .arrow {
+            color: #9ca3af;
+            font-size: 18px;
+            font-weight: 900;
+            text-align: center;
+        }
+
+        .divider-note {
+            margin-top: 12px;
+            font-size: 15px;
+            color: #374151;
+            line-height: 1.45;
+        }
+
+        .evidence {
+            display: flex;
+            flex-direction: column;
+            height: 50%;
+            justify-content: space-around;
+        }
+
+        .evidence-card {
+            background-color: #f9fafb;
+            border-radius: 12px;
+            border: 1px solid #e5e7eb;
+            padding: 16px;
+        }
+
+        .evidence-title {
+            font-size: 15px;
+            font-weight: 800;
+            color: #111827;
+            margin-bottom: 8px;
+        }
+
+        .evidence-text {
+            font-size: 14px;
+            color: #4b5563;
+            line-height: 1.45;
+        }
+
+        .takeaway-box {
+            background-color: #1f2937;
+            color: #f9fafb;
+            border-radius: 14px;
+            padding: 20px;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .takeaway-box::before {
+            content: '';
+            position: absolute;
+            right: -40px;
+            top: -40px;
+            width: 140px;
+            height: 140px;
+            border-radius: 50%;
+            background-color: rgba(230, 43, 30, 0.18);
+        }
+
+        .takeaway-label {
+            font-size: 12px;
+            text-transform: uppercase;
+            letter-spacing: 1.3px;
+            font-weight: 800;
+            color: #fca5a5;
+            margin-bottom: 10px;
+        }
+
+        .takeaway-text {
+            font-family: 'Lora', serif;
+            font-size: 20px;
+            line-height: 1.45;
+            font-style: italic;
+            position: relative;
+            z-index: 1;
+        }
+
+        .source-box {
+            margin-top: auto;
+            border-top: 1px dashed #d1d5db;
+            padding-top: 12px;
+            font-size: 12px;
+            color: #6b7280;
+            line-height: 1.45;
+        }
+
+
+        .insight-box {
+            background-color: #1f2937;
+            color: white;
+            padding: 30px;
+            border-radius: 12px;
+            margin-bottom: auto;
+            position: relative;
+        }
+
+        .insight-box::before {
+            content: '"';
+            position: absolute;
+            top: 10px;
+            left: 20px;
+            font-size: 60px;
+            font-family: 'Lora', serif;
+            color: #e62b1e;
+            opacity: 0.5;
+        }
+
+        .insight-text {
+            font-size: 20px;
+            line-height: 1.5;
+            font-family: 'Lora', serif;
+            font-style: italic;
+            position: relative;
+            z-index: 1;
+        }
+
+        .insight-source {
+            margin-top: 12px;
+            font-size: 14px;
+            color: #9ca3af;
+            font-family: 'Inter', sans-serif;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            font-weight: 600;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="slide-container">
+        <div class="header-bar">
+            <div class="accent-dot"></div>
+            <h1 class="header-title">What Really Drives Performance?</h1>
+        </div>
+
+        <div class="content-area">
+            <div class="left-col">
+                <div class="panel primary-claim">
+                    <div class="big-stat">
+                        <p class="big-stat-value">64%</p>
+                        <p class="big-stat-text">report math anxiety</p>
+                    </div>
+                    <p class="subtext">
+                        But anxiety alone is not the direct performance killer. The stronger mechanism is
+                        <span class="highlight">math engagement</span>.
+                    </p>
+                </div>
+
+                <div class="panel">
+                    <p class="model-title">Mediating Mechanism (Springer, 2025)</p>
+                    <div class="model-row">
+                        <div class="model-box anxiety">Math Anxiety</div>
+                        <div class="arrow"><i class="fa-arrow-right fas"></i></div>
+                        <div class="model-box engagement">Math Engagement</div>
+                        <div class="arrow"><i class="fa-arrow-right fas"></i></div>
+                        <div class="model-box performance">Math Performance</div>
+                    </div>
+                    <p class="divider-note">
+                        Anxiety still matters because it suppresses engagement. If we can standardize high engagement,
+                        anxiety's performance impact drops substantially.
+                    </p>
+                </div>
+
+                <div class="takeaway-box">
+                    <p class="takeaway-label">Argument</p>
+                    <p class="takeaway-text">
+                        "Math anxiety" is a major indirect force, not always a direct one. Engagement is the
+                        lever we can design and control.
+                    </p>
+                </div>
+            </div>
+
+
+
+            <div class="right-col">
+                <div class="insight-box">
+                    <p class="insight-text">
+                        People with high math anxiety often know how to do the math — it's an <span
+                            class="font-bold highlight">emotional reaction</span> that interferes, not a
+                        lack of skill.
+                    </p>
+                    <p class="insight-source">— American Psychological Association</p>
+                </div>
+
+
+                <div class="evidence">
+                    <div class="evidence-card">
+                        <p class="evidence-title">Direct Effect Is Weaker</p>
+                        <p class="evidence-text">
+                            Students with anxiety do not automatically perform poorly in every condition. Performance is
+                            more strongly tied to whether they stay cognitively engaged with the task.
+                        </p>
+                    </div>
+
+                    <div class="evidence-card">
+                        <p class="evidence-title">Engagement Mediates</p>
+                        <p class="evidence-text">
+                            The 2025 study shows anxiety predicts lower engagement, and lower engagement predicts lower
+                            performance. The pathway is primarily mediated through engagement.
+                        </p>
+                    </div>
+                </div>
+
+
+
+                <div class="source-box">
+                    Source: "Influence of mathematics anxiety on mathematics performance: mediating effects of
+                    mathematical engagement" (Mathematics Education Research Journal, 2025).
+                    DOI: 10.1007/s13394-025-00536-1
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

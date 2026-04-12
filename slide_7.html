@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>What The Research Confirms</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800;900&family=Lora:ital,wght@1,400;1,600&family=Space+Grotesk:wght@400;500;700&display=swap"
+        rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet" />
+    <link href="./main.css" rel="stylesheet" />
+    <style>
+        .slide-container {
+            flex-direction: row;
+        }
+
+        /* ── Left: Quote / Synthesis column ── */
+        .quote-col {
+            width: 57%;
+            padding: 60px 72px;
+            background-color: #ffffff;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            gap: 18px;
+        }
+
+        .col-kicker {
+            font-size: 12px;
+            font-weight: 800;
+            text-transform: uppercase;
+            letter-spacing: 2.2px;
+            color: #e62b1e;
+        }
+
+        .big-quote {
+            font-family: 'Space Grotesk', sans-serif;
+            font-size: 38px;
+            font-weight: 700;
+            color: #111827;
+            line-height: 1.1;
+            letter-spacing: -0.9px;
+            max-width: 580px;
+        }
+
+        .big-quote .highlight {
+            color: #e62b1e;
+        }
+
+        .quote-rule {
+            width: 48px;
+            height: 3px;
+            background-color: #e62b1e;
+            border-radius: 2px;
+        }
+
+        .quote-body {
+            font-size: 17px;
+            color: #4b5563;
+            line-height: 1.6;
+            max-width: 560px;
+        }
+
+        .cite-pill {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            background-color: #fef2f2;
+            color: #b91c1c;
+            font-size: 12px;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            padding: 5px 14px;
+            border-radius: 20px;
+            align-self: flex-start;
+        }
+
+        /* ── Right: Evidence column ── */
+        .evidence-col {
+            width: 43%;
+            background-color: #111827;
+            padding: 52px 44px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            gap: 14px;
+            position: relative;
+            border-left: 1px solid rgba(255, 255, 255, 0.07);
+        }
+
+        .evidence-col::before {
+            content: '';
+            position: absolute;
+            bottom: -40px;
+            left: -40px;
+            width: 200px;
+            height: 200px;
+            background-color: #e62b1e;
+            filter: blur(80px);
+            opacity: 0.12;
+            border-radius: 50%;
+            pointer-events: none;
+        }
+
+        .evidence-heading {
+            font-size: 11px;
+            font-weight: 800;
+            color: #6b7280;
+            text-transform: uppercase;
+            letter-spacing: 2.2px;
+            position: relative;
+            z-index: 10;
+        }
+
+        .evidence-card {
+            position: relative;
+            z-index: 10;
+            border: 1px solid rgba(255, 255, 255, 0.11);
+            border-radius: 14px;
+            background-color: rgba(31, 41, 55, 0.7);
+            padding: 16px 18px;
+            transition: border-color 0.2s;
+        }
+
+        .evidence-card:hover {
+            border-color: rgba(230, 43, 30, 0.4);
+        }
+
+        .ev-source {
+            font-size: 11px;
+            font-weight: 800;
+            color: #fca5a5;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 5px;
+        }
+
+        .ev-title {
+            font-size: 16px;
+            font-weight: 700;
+            color: #f3f4f6;
+            line-height: 1.25;
+            margin-bottom: 5px;
+        }
+
+        .ev-text {
+            font-size: 13px;
+            color: #d1d5db;
+            line-height: 1.45;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="slide-container">
+
+        <!-- Left: Synthesis thesis -->
+        <div class="quote-col">
+            <p class="col-kicker">Research Synthesis</p>
+            <h2 class="big-quote">
+                Engagement is the <span class="highlight">mediating variable</span>.
+                Language controls engagement.
+            </h2>
+            <div class="quote-rule"></div>
+            <p class="quote-body">
+                The strongest predictor of whether students persist in math is not ability—it's engagement
+                quality. And engagement quality is directly shaped by language, format, and the order in which
+                concepts are introduced. Pedagogy can break the anxiety-performance chain.
+            </p>
+            <span class="cite-pill"><i class="fas fa-link"></i>&nbsp; Springer MERJ, 2025</span>
+        </div>
+
+        <!-- Right: Evidence cards -->
+        <div class="evidence-col">
+            <p class="evidence-heading">Supporting Evidence</p>
+
+            <div class="evidence-card">
+                <p class="ev-source">Frontiers in Psychology — 2022</p>
+                <p class="ev-title">Format as a trigger condition</p>
+                <p class="ev-text">The state vs. trait anxiety distinction reveals that symbolic presentation acts
+                    as the situational trigger for chronic fear responses—not concept difficulty.</p>
+            </div>
+
+            <div class="evidence-card">
+                <p class="ev-source">Springer MERJ — 2025</p>
+                <p class="ev-title">Engagement mediates anxiety → performance</p>
+                <p class="ev-text">When language-first pedagogy sustains engagement, anxiety's negative effect on
+                    performance is significantly buffered. The link can be broken.</p>
+            </div>
+
+            <div class="evidence-card">
+                <p class="ev-source">Meta-Analysis (ERIC) — 2023</p>
+                <p class="ev-title">Language interventions are repeatable</p>
+                <p class="ev-text">Vocabulary support and gradual notation introduction consistently improve
+                    outcomes across different populations, settings, and math subjects.</p>
+            </div>
+        </div>
+
+    </div>
+</body>
+
+</html>

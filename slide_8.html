@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>Math You Already Use Daily</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&amp;family=Lora:ital,wght@1,400&amp;display=swap"
+        rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet" />
+    <link href="./main.css" rel="stylesheet" />
+    <style>
+        /* Grid Layout */
+        .concept-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-rows: repeat(3, 1fr);
+            gap: 20px;
+            height: 100%;
+        }
+
+        /* Card Styling */
+        .concept-card {
+            background-color: white;
+            border-radius: 12px;
+            padding: 20px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+            display: flex;
+            flex-direction: column;
+            position: relative;
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+            border-top: 4px solid transparent;
+            height: 100%;
+            overflow: hidden;
+        }
+
+        .concept-card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.08);
+            border-top-color: #e62b1e;
+        }
+
+        /* Card Content */
+        .card-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 12px;
+        }
+
+        .term-name {
+            font-size: 18px;
+            font-weight: 800;
+            color: #1f2937;
+            font-family: 'Inter', sans-serif;
+        }
+
+        .icon-wrapper {
+            width: 36px;
+            height: 36px;
+            border-radius: 8px;
+            background-color: #fef2f2;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #e62b1e;
+            font-size: 16px;
+        }
+
+        .everyday-example {
+            font-size: 14px;
+            color: #4b5563;
+            line-height: 1.5;
+            flex-grow: 1;
+        }
+
+        .example-label {
+            font-size: 11px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            color: #9ca3af;
+            font-weight: 700;
+            margin-bottom: 4px;
+            display: block;
+        }
+
+        .math-symbol {
+            position: absolute;
+            bottom: -10px;
+            right: -10px;
+            font-size: 60px;
+            opacity: 0.05;
+            font-family: 'Times New Roman', serif;
+            font-style: italic;
+            pointer-events: none;
+        }
+
+        /* Connection Visual */
+        .connection-line {
+            height: 1px;
+            background-color: #e5e7eb;
+            margin: 10px 0;
+            position: relative;
+        }
+
+        .connection-line::after {
+            content: '';
+            position: absolute;
+            right: 0;
+            top: -2px;
+            width: 5px;
+            height: 5px;
+            border-radius: 50%;
+            background-color: #d1d5db;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="slide-container">
+        <!-- Header -->
+        <div class="header-bar">
+            <div class="accent-dot"></div>
+            <h1 class="header-title">Math You Already Use Daily (Without Realizing It)</h1>
+        </div>
+        <!-- Main Content -->
+        <div class="content-area">
+            <div class="concept-grid">
+                <!-- Card 1: Quick Estimation -->
+                <div class="concept-card">
+                    <div class="card-header">
+                        <p class="term-name">Quick Estimation</p>
+                        <div class="icon-wrapper"><i class="fas fa-ruler-combined"></i></div>
+                    </div>
+                    <span class="example-label">You do this when:</span>
+                    <p class="everyday-example">
+                        <strong>Eyeballing a tip or travel time.</strong> You deliberately accept a small error in
+                        exchange for a fast, useful answer — the exact trade-off that defines
+                        Approximation Theory.
+                    </p>
+                    <div class="math-symbol">≈</div>
+                </div>
+                <!-- Card 2: Spatial Geometry -->
+                <div class="concept-card">
+                    <div class="card-header">
+                        <p class="term-name">Spatial Geometry</p>
+                        <div class="icon-wrapper"><i class="fas fa-cubes"></i></div>
+                    </div>
+                    <span class="example-label">You do this when:</span>
+                    <p class="everyday-example">
+                        <strong>Parallel parking or packing a suitcase.</strong> Judging angles, distances, and fit on
+                        flat surfaces is Euclidean Geometry — every measurement you make in the
+                        physical world relies on it.
+                    </p>
+                    <div class="math-symbol">π</div>
+                </div>
+                <!-- Card 3: Symbolic Modeling -->
+                <div class="concept-card">
+                    <div class="card-header">
+                        <p class="term-name">Symbolic Modeling</p>
+                        <div class="icon-wrapper"><i class="fas fa-shapes"></i></div>
+                    </div>
+                    <span class="example-label">You do this when:</span>
+                    <p class="everyday-example">
+                        <strong>Reading a map or a traffic sign.</strong> Substituting a simpler stand-in that
+                        preserves the key structure of a complex situation is the core move of
+                        Representation Theory.
+                    </p>
+                    <div class="math-symbol">ρ</div>
+                </div>
+                <!-- Card 4: Pattern Recognition -->
+                <div class="concept-card">
+                    <div class="card-header">
+                        <p class="term-name">Pattern Recognition</p>
+                        <div class="icon-wrapper"><i class="fas fa-music"></i></div>
+                    </div>
+                    <span class="example-label">You do this when:</span>
+                    <p class="everyday-example">
+                        <strong>Predicting the next song or guessing a plot twist.</strong> Any process whose next
+                        step has predictable probabilities rather than a fixed outcome is a
+                        Stochastic Process — you navigate them constantly.
+                    </p>
+                    <div class="math-symbol">Ω</div>
+                </div>
+                <!-- Card 5: Budget Arithmetic -->
+                <div class="concept-card">
+                    <div class="card-header">
+                        <p class="term-name">Budget Arithmetic</p>
+                        <div class="icon-wrapper"><i class="fas fa-receipt"></i></div>
+                    </div>
+                    <span class="example-label">You do this when:</span>
+                    <p class="everyday-example">
+                        <strong>Comparing unit prices at the grocery store.</strong> Finding the best option within a
+                        spending constraint is Linear Optimization — the same math behind airline
+                        pricing and logistics networks.
+                    </p>
+                    <div class="math-symbol">min</div>
+                </div>
+                <!-- Card 6: Inevitable Patterns -->
+                <div class="concept-card">
+                    <div class="card-header">
+                        <p class="term-name">Inevitable Patterns</p>
+                        <div class="icon-wrapper"><i class="fas fa-users"></i></div>
+                    </div>
+                    <span class="example-label">You do this when:</span>
+                    <p class="everyday-example">
+                        <strong>Noticing that in every large group, certain dynamics emerge.</strong> Ramsey Theory
+                        proves that complete disorder is impossible at scale — order always appears,
+                        no matter how the pieces are arranged.
+                    </p>
+                    <div class="math-symbol">R</div>
+                </div>
+                <!-- Card 7: Cascade Effects -->
+                <div class="concept-card">
+                    <div class="card-header">
+                        <p class="term-name">Cascade Effects</p>
+                        <div class="icon-wrapper"><i class="fas fa-bolt"></i></div>
+                    </div>
+                    <span class="example-label">You do this when:</span>
+                    <p class="everyday-example">
+                        <strong>Leaving two minutes late and having a completely different day.</strong> Systems
+                        sensitive to tiny initial differences are the subject of Chaos Theory —
+                        deterministic, yet practically unpredictable.
+                    </p>
+                    <div class="math-symbol">∞</div>
+                </div>
+                <!-- Card 8: Clock Arithmetic -->
+                <div class="concept-card">
+                    <div class="card-header">
+                        <p class="term-name">Clock Arithmetic</p>
+                        <div class="icon-wrapper"><i class="far fa-clock"></i></div>
+                    </div>
+                    <span class="example-label">You do this when:</span>
+                    <p class="everyday-example">
+                        <strong>Calculating time zones or scheduling across a 12-hour cycle.</strong> "10am + 5 hours =
+                        3pm" — numbers that wrap around is Number Theory's modular arithmetic in
+                        everyday form.
+                    </p>
+                    <div class="math-symbol">mod</div>
+                </div>
+                <!-- Card 9: Curvature Intuition -->
+                <div class="concept-card">
+                    <div class="card-header">
+                        <p class="term-name">Curvature Intuition</p>
+                        <div class="icon-wrapper"><i class="fas fa-globe-americas"></i></div>
+                    </div>
+                    <span class="example-label">You do this when:</span>
+                    <p class="everyday-example">
+                        <strong>Knowing that a flight path curves north on a flat map.</strong> The shortest route on a
+                        sphere is a geodesic — the central object of Differential Geometry, solved
+                        by your GPS every trip.
+                    </p>
+                    <div class="math-symbol">κ</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

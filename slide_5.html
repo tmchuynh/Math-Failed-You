@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>Scary Terms You Already Understand</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800;900&amp;family=Lora:ital,wght@0,400;0,600;1,400&amp;display=swap"
+        rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet" />
+        <link href="./main.css" rel="stylesheet" />
+    <style>
+        /* Grid Layout */
+        .concept-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-rows: repeat(3, 1fr);
+            gap: 20px;
+            height: 100%;
+        }
+
+        /* Card Styling */
+        .concept-card {
+            background-color: white;
+            border-radius: 12px;
+            padding: 20px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+            display: flex;
+            flex-direction: column;
+            position: relative;
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+            border-top: 4px solid transparent;
+            height: 100%;
+            overflow: hidden;
+        }
+
+        .concept-card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.08);
+            border-top-color: #e62b1e;
+        }
+
+        /* Card Content */
+        .card-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 12px;
+        }
+
+        .term-name {
+            font-size: 18px;
+            font-weight: 800;
+            color: #1f2937;
+            font-family: 'Inter', sans-serif;
+        }
+
+        .icon-wrapper {
+            width: 36px;
+            height: 36px;
+            border-radius: 8px;
+            background-color: #fef2f2;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #e62b1e;
+            font-size: 16px;
+        }
+
+        .everyday-example {
+            font-size: 14px;
+            color: #4b5563;
+            line-height: 1.5;
+            flex-grow: 1;
+        }
+
+        .example-label {
+            font-size: 11px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            color: #9ca3af;
+            font-weight: 700;
+            margin-bottom: 4px;
+            display: block;
+        }
+
+        .math-symbol {
+            position: absolute;
+            bottom: -10px;
+            right: -10px;
+            font-size: 60px;
+            opacity: 0.05;
+            font-family: 'Times New Roman', serif;
+            font-style: italic;
+            pointer-events: none;
+        }
+
+        /* Connection Visual */
+        .connection-line {
+            height: 1px;
+            background-color: #e5e7eb;
+            margin: 10px 0;
+            position: relative;
+        }
+
+        .connection-line::after {
+            content: '';
+            position: absolute;
+            right: 0;
+            top: -2px;
+            width: 5px;
+            height: 5px;
+            border-radius: 50%;
+            background-color: #d1d5db;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="slide-container">
+        <!-- Header -->
+        <div class="header-bar">
+            <div class="accent-dot"></div>
+            <h1 class="header-title">Scary Terms You Already Understand</h1>
+        </div>
+        <!-- Main Content -->
+        <div class="content-area">
+            <div class="concept-grid">
+                <!-- Card 1: Derivative -->
+                <div class="concept-card">
+                    <div class="card-header">
+                        <p class="term-name">Derivative</p>
+                        <div class="icon-wrapper"><i class="fas fa-tachometer-alt"></i></div>
+                    </div>
+                    <span class="example-label">You know this as:</span>
+                    <p class="everyday-example">
+                        <strong>Your Speedometer.</strong> It shows the rate of change of your position at this exact
+                        instant. How fast are you going <em>right now</em>? That's a derivative.
+                    </p>
+                    <div class="math-symbol">dx</div>
+                </div>
+                <!-- Card 2: Integral -->
+                <div class="concept-card">
+                    <div class="card-header">
+                        <p class="term-name">Integral</p>
+                        <div class="icon-wrapper"><i class="fa-layer-group fas"></i></div>
+                    </div>
+                    <span class="example-label">You know this as:</span>
+                    <p class="everyday-example">
+                        <strong>Accumulation.</strong> Estimating the total cost of gas for a trip by adding up small
+                        chunks along the way. Summing up tiny pieces to get a total.
+                    </p>
+                    <div class="math-symbol">∫</div>
+                </div>
+                <!-- Card 3: Eigenvalue / Eigenvector -->
+                <div class="concept-card">
+                    <div class="card-header">
+                        <p class="term-name">Eigenvalue / Eigenvector</p>
+                        <div class="icon-wrapper"><i class="fas fa-compress-arrows-alt"></i></div>
+                    </div>
+                    <span class="example-label">You know this as:</span>
+                    <p class="everyday-example">
+                        <strong>Stretching a Rubber Band.</strong> The direction along the band that
+                        only <em>stretches</em> — never rotates — is the eigenvector. How much it
+                        stretches is the eigenvalue.
+                    </p>
+                    <div class="math-symbol">λ</div>
+                </div>
+                <!-- Card 4: Combinatorics -->
+                <div class="concept-card">
+                    <div class="card-header">
+                        <p class="term-name">Combinatorics</p>
+                        <div class="icon-wrapper"><i class="fas fa-tshirt"></i></div>
+                    </div>
+                    <span class="example-label">You know this as:</span>
+                    <p class="everyday-example">
+                        <strong>Outfit Planning.</strong> "4 shirts and 3 pants = 12 outfits." Counting arrangements and
+                        possibilities is the heart of combinatorics.
+                    </p>
+                    <div class="math-symbol">n!</div>
+                </div>
+                <!-- Card 5: Ergodicity -->
+                <div class="concept-card">
+                    <div class="card-header">
+                        <p class="term-name">Ergodicity</p>
+                        <div class="icon-wrapper"><i class="fas fa-random"></i></div>
+                    </div>
+                    <span class="example-label">You know this as:</span>
+                    <p class="everyday-example">
+                        <strong>Shuffling Cards.</strong> Shuffle a deck enough times and you statistically
+                        see every arrangement — the same picture as laying all possibilities out at once.
+                        You live inside ergodic processes daily.
+                    </p>
+                    <div class="math-symbol">μ</div>
+                </div>
+                <!-- Card 6: Graph Theory -->
+                <div class="concept-card">
+                    <div class="card-header">
+                        <p class="term-name">Graph Theory</p>
+                        <div class="icon-wrapper"><i class="fas fa-project-diagram"></i></div>
+                    </div>
+                    <span class="example-label">You know this as:</span>
+                    <p class="everyday-example">
+                        <strong>Social Networks.</strong> "Friend of a friend." Finding the shortest connection path
+                        between people. Dots (people) connected by lines (relationships).
+                    </p>
+                    <div class="math-symbol">G</div>
+                </div>
+                <!-- Card 7: Fourier Transform -->
+                <div class="concept-card">
+                    <div class="card-header">
+                        <p class="term-name">Fourier Transform</p>
+                        <div class="icon-wrapper"><i class="fas fa-music"></i></div>
+                    </div>
+                    <span class="example-label">You know this as:</span>
+                    <p class="everyday-example">
+                        <strong>Hearing Music.</strong> Your ear breaks a complex sound wave (a chord) into individual
+                        notes. That decomposition is a biological Fourier transform.
+                    </p>
+                    <div class="math-symbol">ℱ</div>
+                </div>
+                <!-- Card 8: Topology -->
+                <div class="concept-card">
+                    <div class="card-header">
+                        <p class="term-name">Topology</p>
+                        <div class="icon-wrapper"><i class="fas fa-mug-hot"></i></div>
+                    </div>
+                    <span class="example-label">You know this as:</span>
+                    <p class="everyday-example">
+                        <strong>Shape Equivalence.</strong> A donut and a coffee mug are "the same" because each has one
+                        hole. You intuitively group objects by their fundamental structure.
+                    </p>
+                    <div class="math-symbol">🍩</div>
+                </div>
+                <!-- Card 9: Diffeomorphism -->
+                <div class="concept-card">
+                    <div class="card-header">
+                        <p class="term-name">Diffeomorphism</p>
+                        <div class="icon-wrapper"><i class="fas fa-pizza-slice"></i></div>
+                    </div>
+                    <span class="example-label">You know this as:</span>
+                    <p class="everyday-example">
+                        <strong>Stretching Pizza Dough.</strong> Reshaping something smoothly without tearing or gluing.
+                        A reversible transformation of shape is a diffeomorphism.
+                    </p>
+                    <div class="math-symbol">φ</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
