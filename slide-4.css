@@ -41,7 +41,6 @@
   font-weight: 700;
   color: #111827;
   font-size: 14px;
-  display: flex;
   align-items: center;
 }
 
@@ -49,7 +48,6 @@
   font-weight: 400;
   color: #6b7280;
   font-size: 13px;
-  margin-left: 8px;
 }
 
 .highlight-box {
@@ -68,8 +66,8 @@
 .highlight-box::after {
   content: "";
   position: absolute;
-  top: 0;
-  right: 0;
+  top: 100px;
+  left: 0;
   width: 150px;
   height: 150px;
   background-color: #e62b1e;

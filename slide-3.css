@@ -131,7 +131,8 @@
   display: flex;
   flex-direction: column;
   height: 50%;
-  justify-content: space-around;
+  justify-content: start;
+  gap: 18px;
 }
 
 .slide-3 .evidence-card {
@@ -168,6 +169,7 @@
   position: absolute;
   right: -40px;
   top: -40px;
+  filter: blur(40px);
   width: 140px;
   height: 140px;
   border-radius: 50%;
@@ -179,7 +181,7 @@
   text-transform: uppercase;
   letter-spacing: 1.3px;
   font-weight: 800;
-  color: #fca5a5;
+  color: #e95353;
   margin-bottom: 10px;
 }
 

@@ -1,17 +1,6 @@
 /* Header bar */
-.slide-9 .kicker-bar {
-  padding: 18px 56px;
-  display: flex;
-  align-items: center;
-  gap: 12px;
-  border-bottom: 1px solid #e5e7eb;
-  flex-shrink: 0;
-}
-
-.slide-9 .slide-title {
-  font-size: 21px;
-  font-weight: 700;
-  color: #1f2937;
+.slide-9 .content-area {
+  padding: 15px 0px 30px 0px;
 }
 
 /* Body */
@@ -24,21 +13,11 @@
   overflow: hidden;
 }
 
-.slide-9 .body-headline {
-  font-family: "Space Grotesk", sans-serif;
-  font-size: 37px;
-  font-weight: 700;
-  color: #111827;
-  letter-spacing: -1px;
-  line-height: 1.1;
-}
-
 /* 2×2 grid */
 .slide-9 .solutions-grid {
   padding-bottom: 0;
   align-content: space-evenly;
   display: flex;
-  gap: 1em;
   flex-wrap: wrap;
   width: 50%;
 }
@@ -88,34 +67,4 @@
   font-size: 13.5px;
   color: #4b5563;
   line-height: 1.45;
-}
-
-/* Quote footer */
-.slide-9 .quote-bar {
-  background-color: #111827;
-  padding: 13px 56px;
-  display: flex;
-  align-items: center;
-  gap: 14px;
-  flex-shrink: 0;
-  height: 35px;
-}
-
-.slide-9 .quote-mark {
-  font-family: "Lora", serif;
-  font-size: 38px;
-  color: #e62b1e;
-  line-height: 0.5;
-  opacity: 0.55;
-  flex-shrink: 0;
-}
-
-.slide-9 .quote-text {
-  font-size: 15.5px;
-  color: #d1d5db;
-}
-
-.slide-9 .quote-text strong {
-  color: #ffffff;
-  font-style: normal;
 }
