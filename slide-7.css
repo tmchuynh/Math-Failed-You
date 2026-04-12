@@ -1,0 +1,135 @@
+.slide-7 .slide-container {
+  flex-direction: row;
+}
+
+/* ── Left: Quote / Synthesis column ── */
+.slide-7 .quote-col {
+  width: 57%;
+  padding: 60px 72px;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 18px;
+}
+
+.slide-7 .col-kicker {
+  font-size: 12px;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 2.2px;
+  color: #e62b1e;
+}
+
+.slide-7 .big-quote {
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 38px;
+  font-weight: 700;
+  color: #111827;
+  line-height: 1.1;
+  letter-spacing: -0.9px;
+  max-width: 580px;
+}
+
+.slide-7 .quote-rule {
+  width: 48px;
+  height: 3px;
+  background-color: #e62b1e;
+  border-radius: 2px;
+}
+
+.slide-7 .quote-body {
+  font-size: 17px;
+  color: #4b5563;
+  line-height: 1.6;
+  max-width: 560px;
+}
+
+.slide-7 .cite-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background-color: #fef2f2;
+  color: #b91c1c;
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  padding: 5px 14px;
+  border-radius: 20px;
+  align-self: flex-start;
+}
+
+/* ── Right: Evidence column ── */
+.slide-7 .evidence-col {
+  width: 43%;
+  background-color: #111827;
+  padding: 52px 44px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 14px;
+  position: relative;
+  border-left: 1px solid rgba(255, 255, 255, 0.07);
+}
+
+.slide-7 .evidence-col::before {
+  content: "";
+  position: absolute;
+  bottom: -40px;
+  left: -40px;
+  width: 200px;
+  height: 200px;
+  background-color: #e62b1e;
+  filter: blur(80px);
+  opacity: 0.12;
+  border-radius: 50%;
+  pointer-events: none;
+}
+
+.slide-7 .evidence-heading {
+  font-size: 11px;
+  font-weight: 800;
+  color: #6b7280;
+  text-transform: uppercase;
+  letter-spacing: 2.2px;
+  position: relative;
+  z-index: 10;
+}
+
+.slide-7 .evidence-card {
+  position: relative;
+  z-index: 10;
+  border: 1px solid rgba(255, 255, 255, 0.11);
+  border-radius: 14px;
+  background-color: rgba(31, 41, 55, 0.7);
+  padding: 16px 18px;
+  transition: border-color 0.2s;
+}
+
+.slide-7 .evidence-card:hover {
+  border-color: rgba(230, 43, 30, 0.4);
+}
+
+.slide-7 .ev-source {
+  font-size: 11px;
+  font-weight: 800;
+  color: #fca5a5;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 5px;
+}
+
+.slide-7 .ev-title {
+  font-size: 16px;
+  font-weight: 700;
+  color: #f3f4f6;
+  line-height: 1.25;
+  margin-bottom: 5px;
+}
+
+.slide-7 .ev-text {
+  font-size: 13px;
+  color: #d1d5db;
+  line-height: 1.45;
+}

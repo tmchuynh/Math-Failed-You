@@ -1,0 +1,105 @@
+/* Grid Layout */
+.concept-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 20px;
+  height: 100%;
+}
+
+/* Card Styling */
+.concept-card {
+  background-color: white;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease;
+  border-top: 4px solid transparent;
+  height: 100%;
+  overflow: hidden;
+}
+
+.concept-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.08);
+  border-top-color: #e62b1e;
+}
+
+/* Card Content */
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.term-name {
+  font-size: 18px;
+  font-weight: 800;
+  color: #1f2937;
+  font-family: "Inter", sans-serif;
+}
+
+.icon-wrapper {
+  width: 36px;
+  height: 36px;
+  border-radius: 8px;
+  background-color: #fef2f2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #e62b1e;
+  font-size: 16px;
+}
+
+.everyday-example {
+  font-size: 14px;
+  color: #4b5563;
+  line-height: 1.5;
+  flex-grow: 1;
+}
+
+.example-label {
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #9ca3af;
+  font-weight: 700;
+  margin-bottom: 4px;
+  display: block;
+}
+
+.math-symbol {
+  position: absolute;
+  bottom: -10px;
+  right: -10px;
+  font-size: 60px;
+  opacity: 0.05;
+  font-family: "Times New Roman", serif;
+  font-style: italic;
+  pointer-events: none;
+}
+
+/* Connection Visual */
+.connection-line {
+  height: 1px;
+  background-color: #e5e7eb;
+  margin: 10px 0;
+  position: relative;
+}
+
+.connection-line::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  top: -2px;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background-color: #d1d5db;
+}

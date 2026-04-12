@@ -1,0 +1,13 @@
+/* ===========================
+   SLIDE 2: CONTENT AREA LAYOUT
+   =========================== */
+
+.main-title {
+  font-size: 80px;
+  margin-bottom: 32px;
+}
+
+.subtitle {
+  font-size: 28px;
+  max-width: 950px;
+}
