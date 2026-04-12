@@ -24,22 +24,16 @@
 
 .slide-9 .sol-card {
   border-radius: 14px;
-  background-color: #f9fafb;
+  background-color: #fff;
   border: 1px solid #e5e7eb;
-  border-left: 4px solid #e5e7eb;
+  border-left: 4px solid #e62b1e;
+  justify-content: center;
+  align-items: center;
   padding: 18px 22px;
   display: flex;
-  align-items: flex-start;
   gap: 14px;
   transition: all 0.25s ease;
   width: 100%;
-}
-
-.slide-9 .sol-card:hover {
-  background-color: white;
-  border-left-color: #e62b1e;
-  box-shadow: 0 8px 24px -4px rgba(0, 0, 0, 0.1);
-  transform: translateY(-2px);
 }
 
 .slide-9 .sol-icon {

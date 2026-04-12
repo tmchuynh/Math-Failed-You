@@ -19,15 +19,9 @@
   transition:
     transform 0.2s ease,
     box-shadow 0.2s ease;
-  border-top: 4px solid transparent;
+  border-top: 4px solid #e62b1e;
   height: 100%;
   overflow: hidden;
-}
-
-.concept-card:hover {
-  transform: translateY(-4px);
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.08);
-  border-top-color: #e62b1e;
 }
 
 /* Card Content */

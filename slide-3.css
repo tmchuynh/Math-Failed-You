@@ -27,12 +27,11 @@
   border-radius: 14px;
   border: 1px solid #e5e7eb;
   padding: 26px 20px;
-  box-shadow: 0 4px 12px rgba(15, 23, 42, 0.04);
 }
 
 .slide-3 .primary-claim {
   border-left: 6px solid #e62b1e;
-  border-radius: 0 12px 12px 0;
+  border-radius: 12px;
   padding-left: 16px;
 }
 
@@ -136,7 +135,7 @@
 }
 
 .slide-3 .evidence-card {
-  background-color: #f9fafb;
+  background-color: #ffffff;
   border-radius: 12px;
   border: 1px solid #e5e7eb;
   padding: 16px;
@@ -155,7 +154,8 @@
   line-height: 1.45;
 }
 
-.slide-3 .takeaway-box {
+.slide-3 .takeaway-box,
+.slide-3 .insight-box {
   background-color: #1f2937;
   color: #f9fafb;
   border-radius: 14px;
@@ -167,8 +167,8 @@
 .slide-3 .takeaway-box::before {
   content: "";
   position: absolute;
-  right: -40px;
-  top: -40px;
+  left: -40px;
+  bottom: -60px;
   filter: blur(40px);
   width: 140px;
   height: 140px;
@@ -204,23 +204,30 @@
 }
 
 .slide-3 .insight-box {
-  background-color: #1f2937;
-  color: white;
   padding: 30px;
-  border-radius: 12px;
-  margin-bottom: auto;
-  position: relative;
 }
 
 .slide-3 .insight-box::before {
   content: '"';
   position: absolute;
-  top: 10px;
+  top: 20px;
   left: 20px;
   font-size: 60px;
   font-family: "Lora", serif;
   color: #e62b1e;
   opacity: 0.5;
+}
+
+.slide-3 .insight-box::after {
+  content: "";
+  position: absolute;
+  right: -40px;
+  top: -40px;
+  filter: blur(40px);
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  background-color: rgba(230, 43, 30, 0.18);
 }
 
 .slide-3 .insight-text {
