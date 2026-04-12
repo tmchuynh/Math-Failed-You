@@ -208,14 +208,14 @@
 }
 
 .slide-3 .insight-box::before {
-  content: '"';
+  content: url("./quote_red.png");
   position: absolute;
-  top: 20px;
-  left: 20px;
-  font-size: 60px;
+  top: 10px;
+  left: 10px;
+  font-size: 10px;
   font-family: "Lora", serif;
   color: #e62b1e;
-  opacity: 0.5;
+  opacity: 0.25;
 }
 
 .slide-3 .insight-box::after {
