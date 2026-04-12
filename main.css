@@ -3,9 +3,9 @@
 /* ===========================
    REVEAL.JS BASE OVERRIDES
    =========================== */
-/* .reveal .slides {
+.reveal .slides {
   text-align: left;
-} */
+}
 
 .reveal .slides section {
   height: 100%;
