@@ -1,5 +1,22 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700;900&amp;family=Lora:ital,wght@1,400&amp;display=swap");
 
+:root {
+  --accent-color: #e62b1e;
+  --primary-font: "Inter", sans-serif;
+  --secondary-font: "Lora", serif;
+  --bg-color: #f3f4f6;
+  --text-color: #111827;
+  --subtext-color: #6b7280;
+  --highlight-color: #e62b1e;
+  --light-bg: #fcfcfc;
+  --dark-bg: #111827;
+  --accent-bg: #fef2f2;
+  --accent-text: #b91c1c;
+  --quote-color: #374151;
+  --cite-bg: #fef2f2;
+  --cite-text: #b91c1c;
+}
+
 /* ===========================
    REVEAL.JS BASE OVERRIDES
    =========================== */
