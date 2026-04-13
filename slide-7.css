@@ -31,13 +31,6 @@
   max-width: 580px;
 }
 
-.slide-7 .quote-rule {
-  width: 48px;
-  height: 3px;
-  background-color: #e62b1e;
-  border-radius: 2px;
-}
-
 .slide-7 .quote-body {
   font-size: 17px;
   color: #4b5563;
@@ -62,7 +55,7 @@
 
 /* ── Right: Evidence column ── */
 .slide-7 .evidence-col {
-  width: 43%;
+  width: 53%;
   background-color: #111827;
   padding: 52px 44px;
   display: flex;
@@ -107,24 +100,12 @@
   transition: border-color 0.2s;
 }
 
-.slide-7 .evidence-card:hover {
-  border-color: rgba(230, 43, 30, 0.4);
-}
-
 .slide-7 .ev-source {
   font-size: 11px;
   font-weight: 800;
   color: #e95353;
   text-transform: uppercase;
   letter-spacing: 1px;
-  margin-bottom: 5px;
-}
-
-.slide-7 .ev-title {
-  font-size: 16px;
-  font-weight: 700;
-  color: #f3f4f6;
-  line-height: 1.25;
   margin-bottom: 5px;
 }
 

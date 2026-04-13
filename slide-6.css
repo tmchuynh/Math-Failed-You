@@ -69,10 +69,6 @@
   transition: border-color 0.25s;
 }
 
-.slide-6 .research-card:hover {
-  border-color: #1c2e57;
-}
-
 .slide-6 .card-icon-wrap {
   width: 42px;
   height: 42px;
