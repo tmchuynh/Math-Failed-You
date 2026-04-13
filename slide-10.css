@@ -63,15 +63,6 @@
   max-width: 800px;
 }
 
-.slide-10 .pivot-line {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 30px;
-  font-size: 32px;
-  font-weight: 500;
-}
-
 .slide-10 .label {
   font-size: 14px;
   text-transform: uppercase;
@@ -124,14 +115,6 @@
 }
 
 /* Footer */
-.slide-10 .footer {
-  height: 100px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  z-index: 10;
-}
-
 .slide-10 .thank-you {
   font-family: "Space Grotesk", sans-serif;
   font-size: 18px;
@@ -141,13 +124,6 @@
   display: flex;
   align-items: center;
   gap: 12px;
-}
-
-.slide-10 .dot {
-  width: 8px;
-  height: 8px;
-  background-color: #ef4444;
-  border-radius: 50%;
 }
 
 /* Decorative Elements */
