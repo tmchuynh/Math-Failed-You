@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700;900&amp;family=Lora:ital,wght@1,400&amp;display=swap");
 
+@import "tailwindcss";
+
 :root {
   --accent-color: #e62b1e;
   --primary-font: "Inter", sans-serif;
