@@ -294,132 +294,280 @@
                     </div>
                     <!-- Main Content -->
                     <div class="content-area">
-                        <div class="concept-grid">
-                            <!-- Card 1: Derivative -->
-                            <div class="concept-card shdow-lg fragment fade-in" data-fragment-index="1">
-                                <div class="card-header">
-                                    <p class="term-name">Derivative</p>
-                                    <div class="icon-wrapper"><i class="fas fa-tachometer-alt"></i></div>
+                        <div class="absolute left-0 top-30 gap-5 grid grid-cols-3 px-20">
+                            <!-- Taylor Series -->
+                            <div class="relative flex flex-col bg-white shadow-md p-5 rounded-md h-52 overflow-hidden shdow-lg fragment fade-in"
+                                data-fragment-index="1">
+                                <div class="flex justify-between mb-2 align-center">
+                                    <p class="font-extrabold text-gray-900 text-lg">Taylor Series</p>
+                                    <div class="flex items-center justify-center bg-red-100 rounded-lg h-8 w-8 text-base text-red-600"><i class="fas fa-tachometer-alt"></i></div>
                                 </div>
-                                <span class="example-label">You know this as:</span>
-                                <p class="everyday-example">
-                                    <strong>Your Speedometer.</strong> It shows the rate of change of your position at
-                                    this exact
-                                    instant. How fast are you going <em>right now</em>? That's a derivative.
+                                <span class="block mb-1 font-bold text-gray-500 text-sm tracking-tight uppercase">You know this as:</span>
+                                <p class="flex-grow leading-normal text-gray-700 text-sm">
+                                    <strong>Estimated Time Arrival.</strong> When your GPS estimates your arrival time,
+                                    it is approximating future behavior from what's happening right now — recent speed
+                                    and acceleration
                                 </p>
-                                <div class="math-symbol">dx</div>
+                                <div class="math-symbol">f<sup>(n)</sup>(a)</div>
                             </div>
-                            <!-- Card 2: Integral -->
-                            <div class="concept-card shdow-lg fragment fade-in" data-fragment-index="1">
-                                <div class="card-header">
-                                    <p class="term-name">Integral</p>
-                                    <div class="icon-wrapper"><i class="fa-layer-group fas"></i></div>
+                            <!-- Integral -->
+                            <div class="relative flex flex-col bg-white shadow-md p-5 rounded-md h-52 overflow-hidden shdow-lg fragment fade-in"
+                                data-fragment-index="1">
+                                <div class="flex justify-between mb-2 align-center">
+                                    <p class="font-extrabold text-gray-900 text-lg">Integral</p>
+                                    <div class="flex items-center justify-center bg-red-100 rounded-lg h-8 w-8 text-base text-red-600"><i class="fa-layer-group fas"></i></div>
                                 </div>
-                                <span class="example-label">You know this as:</span>
-                                <p class="everyday-example">
+                                <span class="block mb-1 font-bold text-gray-500 text-sm tracking-tight uppercase">You know this as:</span>
+                                <p class="flex-grow leading-normal text-gray-700 text-sm">
                                     <strong>Accumulation.</strong> Estimating the total cost of gas for a trip by adding
                                     up small
                                     chunks along the way. Summing up tiny pieces to get a total.
                                 </p>
                                 <div class="math-symbol">∫</div>
                             </div>
-                            <!-- Card 3: Eigenvalue / Eigenvector -->
-                            <div class="concept-card shdow-lg fragment fade-in" data-fragment-index="1">
-                                <div class="card-header">
-                                    <p class="term-name">Eigenvalue / Eigenvector</p>
-                                    <div class="icon-wrapper"><i class="fas fa-compress-arrows-alt"></i></div>
+                            <!-- Eigenvalue / Eigenvector -->
+                            <div class="relative flex flex-col bg-white shadow-md p-5 rounded-md h-52 overflow-hidden shdow-lg fragment fade-in"
+                                data-fragment-index="1">
+                                <div class="flex justify-between mb-2 align-center">
+                                    <p class="font-extrabold text-gray-900 text-lg">Eigenvalue / Eigenvector</p>
+                                    <div class="flex items-center justify-center bg-red-100 rounded-lg h-8 w-8 text-base text-red-600"><i class="fas fa-compress-arrows-alt"></i></div>
                                 </div>
-                                <span class="example-label">You know this as:</span>
-                                <p class="everyday-example">
+                                <span class="block mb-1 font-bold text-gray-500 text-sm tracking-tight uppercase">You know this as:</span>
+                                <p class="flex-grow leading-normal text-gray-700 text-sm">
                                     <strong>Stretching a Rubber Band.</strong> The direction along the band that
                                     only <em>stretches</em> — never rotates — is the eigenvector. How much it
                                     stretches is the eigenvalue.
                                 </p>
                                 <div class="math-symbol">λ</div>
                             </div>
-                            <!-- Card 4: Combinatorics -->
-                            <div class="concept-card shdow-lg fragment fade-in" data-fragment-index="2">
-                                <div class="card-header">
-                                    <p class="term-name">Combinatorics</p>
-                                    <div class="icon-wrapper"><i class="fas fa-tshirt"></i></div>
+                            <!-- Combinatorics -->
+                            <div class="relative flex flex-col bg-white shadow-md p-5 rounded-md h-52 overflow-hidden shdow-lg fragment fade-in"
+                                data-fragment-index="2">
+                                <div class="flex justify-between mb-2 align-center">
+                                    <p class="font-extrabold text-gray-900 text-lg">Combinatorics</p>
+                                    <div class="flex items-center justify-center bg-red-100 rounded-lg h-8 w-8 text-base text-red-600"><i class="fas fa-tshirt"></i></div>
                                 </div>
-                                <span class="example-label">You know this as:</span>
-                                <p class="everyday-example">
+                                <span class="block mb-1 font-bold text-gray-500 text-sm tracking-tight uppercase">You know this as:</span>
+                                <p class="flex-grow leading-normal text-gray-700 text-sm">
                                     <strong>Outfit Planning.</strong> "4 shirts and 3 pants = 12 outfits." Counting
                                     arrangements and
                                     possibilities is the heart of combinatorics.
                                 </p>
                                 <div class="math-symbol">n!</div>
                             </div>
-                            <!-- Card 5: Ergodicity -->
-                            <div class="concept-card shdow-lg fragment fade-in" data-fragment-index="2">
-                                <div class="card-header">
-                                    <p class="term-name">Ergodicity</p>
-                                    <div class="icon-wrapper"><i class="fas fa-random"></i></div>
+                            <!-- Ergodicity -->
+                            <div class="relative flex flex-col bg-white shadow-md p-5 rounded-md h-52 overflow-hidden shdow-lg fragment fade-in"
+                                data-fragment-index="2">
+                                <div class="flex justify-between mb-2 align-center">
+                                    <p class="font-extrabold text-gray-900 text-lg">Ergodicity</p>
+                                    <div class="flex items-center justify-center bg-red-100 rounded-lg h-8 w-8 text-base text-red-600"><i class="fas fa-random"></i></div>
                                 </div>
-                                <span class="example-label">You know this as:</span>
-                                <p class="everyday-example">
+                                <span class="block mb-1 font-bold text-gray-500 text-sm tracking-tight uppercase">You know this as:</span>
+                                <p class="flex-grow leading-normal text-gray-700 text-sm">
                                     <strong>Shuffling Cards.</strong> Shuffle a deck enough times and you statistically
                                     see every arrangement — the same picture as laying all possibilities out at once.
                                     You live inside ergodic processes daily.
                                 </p>
                                 <div class="math-symbol">μ</div>
                             </div>
-                            <!-- Card 6: Graph Theory -->
-                            <div class="concept-card shdow-lg fragment fade-in" data-fragment-index="2">
-                                <div class="card-header">
-                                    <p class="term-name">Graph Theory</p>
-                                    <div class="icon-wrapper"><i class="fas fa-project-diagram"></i></div>
+                            <!-- Graph Theory -->
+                            <div class="relative flex flex-col bg-white shadow-md p-5 rounded-md h-52 overflow-hidden shdow-lg fragment fade-in"
+                                data-fragment-index="2">
+                                <div class="flex justify-between mb-2 align-center">
+                                    <p class="font-extrabold text-gray-900 text-lg">Graph Theory</p>
+                                    <div class="flex items-center justify-center bg-red-100 rounded-lg h-8 w-8 text-base text-red-600"><i class="fas fa-project-diagram"></i></div>
                                 </div>
-                                <span class="example-label">You know this as:</span>
-                                <p class="everyday-example">
+                                <span class="block mb-1 font-bold text-gray-500 text-sm tracking-tight uppercase">You know this as:</span>
+                                <p class="flex-grow leading-normal text-gray-700 text-sm">
                                     <strong>Social Networks.</strong> "Friend of a friend." Finding the shortest
                                     connection path
                                     between people. Dots (people) connected by lines (relationships).
                                 </p>
                                 <div class="math-symbol">G</div>
                             </div>
-                            <!-- Card 7: Fourier Transform -->
-                            <div class="concept-card shdow-lg fragment fade-in" data-fragment-index="3">
-                                <div class="card-header">
-                                    <p class="term-name">Fourier Transform</p>
-                                    <div class="icon-wrapper"><i class="fas fa-music"></i></div>
+                            <!-- Fourier Transform -->
+                            <div class="relative flex flex-col bg-white shadow-md p-5 rounded-md h-52 overflow-hidden shdow-lg fragment fade-in"
+                                data-fragment-index="3">
+                                <div class="flex justify-between mb-2 align-center">
+                                    <p class="font-extrabold text-gray-900 text-lg">Fourier Transform</p>
+                                    <div class="flex items-center justify-center bg-red-100 rounded-lg h-8 w-8 text-base text-red-600"><i class="fas fa-music"></i></div>
                                 </div>
-                                <span class="example-label">You know this as:</span>
-                                <p class="everyday-example">
+                                <span class="block mb-1 font-bold text-gray-500 text-sm tracking-tight uppercase">You know this as:</span>
+                                <p class="flex-grow leading-normal text-gray-700 text-sm">
                                     <strong>Hearing Music.</strong> Your ear breaks a complex sound wave (a chord) into
                                     individual
                                     notes. That decomposition is a biological Fourier transform.
                                 </p>
                                 <div class="math-symbol">ℱ</div>
                             </div>
-                            <!-- Card 8: Topology -->
-                            <div class="concept-card shdow-lg fragment fade-in" data-fragment-index="3">
-                                <div class="card-header">
-                                    <p class="term-name">Topology</p>
-                                    <div class="icon-wrapper"><i class="fas fa-mug-hot"></i></div>
+                            <!-- Topology -->
+                            <div class="relative flex flex-col bg-white shadow-md p-5 rounded-md h-52 overflow-hidden shdow-lg fragment fade-in"
+                                data-fragment-index="3">
+                                <div class="flex justify-between mb-2 align-center">
+                                    <p class="font-extrabold text-gray-900 text-lg">Topology</p>
+                                    <div class="flex items-center justify-center bg-red-100 rounded-lg h-8 w-8 text-base text-red-600"><i class="fas fa-mug-hot"></i></div>
                                 </div>
-                                <span class="example-label">You know this as:</span>
-                                <p class="everyday-example">
+                                <span class="block mb-1 font-bold text-gray-500 text-sm tracking-tight uppercase">You know this as:</span>
+                                <p class="flex-grow leading-normal text-gray-700 text-sm">
                                     <strong>Shape Equivalence.</strong> A donut and a coffee mug are "the same" because
                                     each has one
                                     hole. You intuitively group objects by their fundamental structure.
                                 </p>
                                 <div class="math-symbol">τ</div>
                             </div>
-                            <!-- Card 9: Diffeomorphism -->
-                            <div class="concept-card shdow-lg fragment fade-in" data-fragment-index="3">
-                                <div class="card-header">
-                                    <p class="term-name">Diffeomorphism</p>
-                                    <div class="icon-wrapper"><i class="fas fa-pizza-slice"></i></div>
+                            <!-- Diffeomorphism -->
+                            <div class="relative flex flex-col bg-white shadow-md p-5 rounded-md h-52 overflow-hidden shdow-lg fragment fade-in"
+                                data-fragment-index="3">
+                                <div class="flex justify-between mb-2 align-center">
+                                    <p class="font-extrabold text-gray-900 text-lg">Diffeomorphism</p>
+                                    <div class="flex items-center justify-center bg-red-100 rounded-lg h-8 w-8 text-base text-red-600"><i class="fas fa-pizza-slice"></i></div>
                                 </div>
-                                <span class="example-label">You know this as:</span>
-                                <p class="everyday-example">
+                                <span class="block mb-1 font-bold text-gray-500 text-sm tracking-tight uppercase">You know this as:</span>
+                                <p class="flex-grow leading-normal text-gray-700 text-sm">
                                     <strong>Stretching Pizza Dough.</strong> Reshaping something smoothly without
                                     tearing or gluing.
                                     A reversible transformation of shape is a diffeomorphism.
                                 </p>
                                 <div class="math-symbol">φ</div>
+                            </div>
+                        </div>
+
+                        <div class="absolute left-0 top-30 gap-5 grid grid-cols-3 px-20">
+                            <!-- Euclidean Geometry -->
+                            <div class="relative flex flex-col bg-white shadow-md p-5 rounded-md h-52 overflow-hidden shdow-lg fragment fade-in"
+                                data-fragment-index="4">
+                                <div class="flex justify-between mb-2 align-center">
+                                    <p class="font-extrabold text-gray-900 text-lg">Euclidean Geometry</p>
+                                    <div class="flex items-center justify-center bg-red-100 rounded-lg h-8 w-8 text-base text-red-600"><i class="fas fa-drafting-compass"></i></div>
+                                </div>
+                                <span class="block mb-1 font-bold text-gray-500 text-sm tracking-tight uppercase">You already know:</span>
+                                <p class="flex-grow leading-normal text-gray-700 text-sm">
+                                    <strong>Triangle's angles add up to 180°.</strong> The shortest distance between two
+                                    points is a straight line — these are Euclid's axioms, formalized over two thousand
+                                    years ago, and you internalized them without a textbook.
+                                </p>
+                                <div class="math-symbol">△</div>
+                            </div>
+                            <!-- Abstract Algebra -->
+                            <div class="relative flex flex-col bg-white shadow-md p-5 rounded-md h-52 overflow-hidden shdow-lg fragment fade-in"
+                                data-fragment-index="4">
+                                <div class="flex justify-between mb-2 align-center">
+                                    <p class="font-extrabold text-gray-900 text-lg">Abstract Algebra</p>
+                                    <div class="flex items-center justify-center bg-red-100 rounded-lg h-8 w-8 text-base text-red-600"><i class="fas fa-snowflake"></i></div>
+                                </div>
+                                <span class="block mb-1 font-bold text-gray-500 text-sm tracking-tight uppercase">You already know:</span>
+                                <p class="flex-grow leading-normal text-gray-700 text-sm">
+                                    <strong>Symmetry everywhere.</strong> The symmetry of a snowflake, the repeating
+                                    pattern of wallpaper, the rotational symmetry of a car wheel — all are described by
+                                    group theory.
+                                </p>
+                                <div class="math-symbol">G</div>
+                            </div>
+                            <!-- Epsilon-Delta Limits -->
+                            <div class="relative flex flex-col bg-white shadow-md p-5 rounded-md h-52 overflow-hidden shdow-lg fragment fade-in"
+                                data-fragment-index="4">
+                                <div class="flex justify-between mb-2 align-center">
+                                    <p class="font-extrabold text-gray-900 text-lg">Epsilon-Delta Limits</p>
+                                    <div class="flex items-center justify-center bg-red-100 rounded-lg h-8 w-8 text-base text-red-600"><i class="fas fa-route"></i></div>
+                                </div>
+                                <span class="block mb-1 font-bold text-gray-500 text-sm tracking-tight uppercase">You already know:</span>
+                                <p class="flex-grow leading-normal text-gray-700 text-sm">
+                                    <strong>"We're almost there."</strong> When the GPS counts down — 2 miles, 1 mile,
+                                    0.5 miles, 0.1 miles — you're watching a limit converge in real time. The
+                                    destination is the limit; you approach it, getting arbitrarily close.
+                                </p>
+                                <div class="math-symbol">ε</div>
+                            </div>
+                            <!-- Topoisomerases -->
+                            <div class="relative flex flex-col bg-white shadow-md p-5 rounded-md h-52 overflow-hidden shdow-lg fragment fade-in"
+                                data-fragment-index="5">
+                                <div class="flex justify-between mb-2 align-center">
+                                    <p class="font-extrabold text-gray-900 text-lg">Topoisomerases</p>
+                                    <div class="flex items-center justify-center bg-red-100 rounded-lg h-8 w-8 text-base text-red-600"><i class="fas fa-headphones"></i></div>
+                                </div>
+                                <span class="block mb-1 font-bold text-gray-500 text-sm tracking-tight uppercase">You already know:</span>
+                                <p class="flex-grow leading-normal text-gray-700 text-sm">
+                                    <strong>Headphone tangles.</strong> "Spontaneous knotting" is a mathematical
+                                    certainty. If a string is long enough and agitated, it will form a knot. Researchers
+                                    use Jones Polynomials to study why certain cords tangle more than others.
+                                </p>
+                                <div class="math-symbol"> ΔLk </div>
+                            </div>
+                            <!-- Bayesian Inference -->
+                            <div class="relative flex flex-col bg-white shadow-md p-5 rounded-md h-52 overflow-hidden shdow-lg fragment fade-in"
+                                data-fragment-index="5">
+                                <div class="flex justify-between mb-2 align-center">
+                                    <p class="font-extrabold text-gray-900 text-lg">Bayesian Inference</p>
+                                    <div class="flex items-center justify-center bg-red-100 rounded-lg h-8 w-8 text-base text-red-600"><i class="fas fa-mobile-alt"></i></div>
+                                </div>
+                                <span class="block mb-1 font-bold text-gray-500 text-sm tracking-tight uppercase">You already know:</span>
+                                <p class="flex-grow leading-normal text-gray-700 text-sm">
+                                    <strong>Finding your lost phone.</strong> You search the couch where you last saw it
+                                    (prior belief). Not there? A Bayesian updates the probability and decides the
+                                    kitchen is now the most likely posterior location.
+                                </p>
+                                <div class="math-symbol">P(B|A)</div>
+                            </div>
+                            <!-- Game Theory -->
+                            <div class="relative flex flex-col bg-white shadow-md p-5 rounded-md h-52 overflow-hidden shdow-lg fragment fade-in"
+                                data-fragment-index="5">
+                                <div class="flex justify-between mb-2 align-center">
+                                    <p class="font-extrabold text-gray-900 text-lg">Game Theory</p>
+                                    <div class="flex items-center justify-center bg-red-100 rounded-lg h-8 w-8 text-base text-red-600"><i class="fas fa-traffic-light"></i></div>
+                                </div>
+                                <span class="block mb-1 font-bold text-gray-500 text-sm tracking-tight uppercase">You already know:</span>
+                                <p class="flex-grow leading-normal text-gray-700 text-sm">
+                                    <strong>Four-way stop standoff.</strong> Everyone waiting for someone else to move —
+                                    you're in a "stable" state where no one gains anything by changing their strategy
+                                    alone. That's high-level economics and math in a suburban intersection.
+                                </p>
+                                <div class="math-symbol">s*</div>
+                            </div>
+                            <!-- Quaternions -->
+                            <div class="relative flex flex-col bg-white shadow-md p-5 rounded-md h-52 overflow-hidden shdow-lg fragment fade-in"
+                                data-fragment-index="6">
+                                <div class="flex justify-between mb-2 align-center">
+                                    <p class="font-extrabold text-gray-900 text-lg">Quaternions</p>
+                                    <div class="flex items-center justify-center bg-red-100 rounded-lg h-8 w-8 text-base text-red-600"><i class="fas fa-vr-cardboard"></i></div>
+                                </div>
+                                <span class="block mb-1 font-bold text-gray-500 text-sm tracking-tight uppercase">You already know:</span>
+                                <p class="flex-grow leading-normal text-gray-700 text-sm">
+                                    <strong>Smooth 3D rotation.</strong> While we think in 3D, computer programs — like
+                                    video games or AR filters on your phone — use 4D quaternions to calculate how
+                                    objects rotate smoothly without glitching.
+                                </p>
+                                <div class="math-symbol">i²</div>
+                            </div>
+                            <!-- Differential Equations -->
+                            <div class="relative flex flex-col bg-white shadow-md p-5 rounded-md h-52 overflow-hidden shdow-lg fragment fade-in"
+                                data-fragment-index="6">
+                                <div class="flex justify-between mb-2 align-center">
+                                    <p class="font-extrabold text-gray-900 text-lg">Differential Equations</p>
+                                    <div class="flex items-center justify-center bg-red-100 rounded-lg h-8 w-8 text-base text-red-600"><i class="fas fa-mug-hot"></i></div>
+                                </div>
+                                <span class="block mb-1 font-bold text-gray-500 text-sm tracking-tight uppercase">You already know:</span>
+                                <p class="flex-grow leading-normal text-gray-700 text-sm">
+                                    <strong>Your morning coffee cooling.</strong> Newton's Law of Cooling (a first-order
+                                    differential equation) dictates how fast it hits room temperature. The hotter it is
+                                    compared to the room, the faster it loses heat.
+                                </p>
+                                <div class="math-symbol">dy/dx</div>
+                            </div>
+                            <!-- Markov Chains -->
+                            <div class="relative flex flex-col bg-white shadow-md p-5 rounded-md h-52 overflow-hidden shdow-lg fragment fade-in"
+                                data-fragment-index="6">
+                                <div class="flex justify-between mb-2 align-center">
+                                    <p class="font-extrabold text-gray-900 text-lg">Markov Chains</p>
+                                    <div class="flex items-center justify-center bg-red-100 rounded-lg h-8 w-8 text-base text-red-600"><i class="fas fa-brain"></i></div>
+                                </div>
+                                <span class="block mb-1 font-bold text-gray-500 text-sm tracking-tight uppercase">You already know:</span>
+                                <p class="flex-grow leading-normal text-gray-700 text-sm">
+                                    <strong>Smartphone Text Prediction</strong> When your phone suggests the next word
+                                    you’re likely to type, it's using a Markov model. It
+                                    looks at the word you just typed and calculates the most statistically likely word
+                                    to follow it.
+                                </p>
+                                <div class="math-symbol">X<sub>n</sub></div>
                             </div>
                         </div>
                     </div>
@@ -541,30 +689,31 @@
                     </div>
                     <!-- Main Content -->
                     <div class="content-area">
-                        <div class="concept-grid">
-                            <!-- Card 1: Quick Estimation -->
-                            <div class="concept-card shdow-lg fragment fade-in" data-fragment-index="1">
-                                <div class="card-header">
-                                    <p class="term-name">Approximation Theory </p>
-                                    <div class="icon-wrapper"><i class="fas fa-ruler-combined"></i></div>
+                        <div class="absolute left-0 top-30 gap-5 grid grid-cols-3 px-20">
+                            <!-- Galois Theory -->
+                            <div class="relative flex flex-col bg-white shadow-md p-5 rounded-md h-52 overflow-hidden shdow-lg fragment fade-in"
+                                data-fragment-index="1">
+                                <div class="flex justify-between mb-2 align-center">
+                                    <p class="font-extrabold text-gray-900 text-lg">Galois Theory </p>
+                                    <div class="flex items-center justify-center bg-red-100 rounded-lg h-8 w-8 text-base text-red-600"><i class="fas fa-ruler-combined"></i></div>
                                 </div>
-                                <span class="example-label">You do this when:</span>
-                                <p class="everyday-example">
-                                    <strong>Eyeballing a tip or travel time.</strong> You deliberately accept a small
-                                    error in
-                                    exchange for a fast, useful answer — the exact trade-off that defines
-                                    Approximation Theory.
+                                <span class="block mb-1 font-bold text-gray-500 text-sm tracking-tight uppercase">You do this when:</span>
+                                <p class="flex-grow leading-normal text-gray-700 text-sm">
+                                    <strong>Diving a pizza between friends.</strong> If you want to cut a pizza into 8
+                                    equal slices, you are essentially solving the equation x<sup>8</sup> = 1 in the
+                                    complex plane — a problem that Galois solved in the 19th century.
                                 </p>
-                                <div class="math-symbol">≈</div>
+                                <div class="math-symbol">K(α)</div>
                             </div>
-                            <!-- Card 2: Spatial Geometry -->
-                            <div class="concept-card shdow-lg fragment fade-in" data-fragment-index="1">
-                                <div class="card-header">
-                                    <p class="term-name">Euclidean Geometry </p>
-                                    <div class="icon-wrapper"><i class="fas fa-cubes"></i></div>
+                            <!-- Euclidean Geometry -->
+                            <div class="relative flex flex-col bg-white shadow-md p-5 rounded-md h-52 overflow-hidden shdow-lg fragment fade-in"
+                                data-fragment-index="1">
+                                <div class="flex justify-between mb-2 align-center">
+                                    <p class="font-extrabold text-gray-900 text-lg">Euclidean Geometry </p>
+                                    <div class="flex items-center justify-center bg-red-100 rounded-lg h-8 w-8 text-base text-red-600"><i class="fas fa-cubes"></i></div>
                                 </div>
-                                <span class="example-label">You do this when:</span>
-                                <p class="everyday-example">
+                                <span class="block mb-1 font-bold text-gray-500 text-sm tracking-tight uppercase">You do this when:</span>
+                                <p class="flex-grow leading-normal text-gray-700 text-sm">
                                     <strong>Parallel parking or packing a suitcase.</strong> Judging angles, distances,
                                     and fit on
                                     flat surfaces is a core of Euclidean Geometry — every measurement you make in the
@@ -572,14 +721,14 @@
                                 </p>
                                 <div class="math-symbol">Ε<sup>n</sup></div>
                             </div>
-                            <!-- Card 3: Symbolic Modeling -->
-                            <div class="concept-card shdow-lg fragment fade-in" data-fragment-index="1">
-                                <div class="card-header">
-                                    <p class="term-name">Representation Theory</p>
-                                    <div class="icon-wrapper"><i class="fas fa-shapes"></i></div>
+                            <!-- Representation Theory -->
+                            <div class="relative flex flex-col bg-white shadow-md p-5 rounded-md h-52 overflow-hidden shdow-lg fragment fade-in" data-fragment-index="1">
+                                <div class="flex justify-between mb-2 align-center">
+                                    <p class="font-extrabold text-gray-900 text-lg">Representation Theory</p>
+                                    <div class="flex items-center justify-center bg-red-100 rounded-lg h-8 w-8 text-base text-red-600"><i class="fas fa-shapes"></i></div>
                                 </div>
-                                <span class="example-label">You do this when:</span>
-                                <p class="everyday-example">
+                                <span class="block mb-1 font-bold text-gray-500 text-sm tracking-tight uppercase">You do this when:</span>
+                                <p class="flex-grow leading-normal text-gray-700 text-sm">
                                     <strong>Reading a map or a traffic sign.</strong> Substituting a simpler stand-in
                                     that
                                     preserves the key structure of a complex situation is the core move of
@@ -587,30 +736,32 @@
                                 </p>
                                 <div class="math-symbol">ρ</div>
                             </div>
-                            <!-- Card 4: Pattern Recognition -->
-                            <div class="concept-card shdow-lg fragment fade-in" data-fragment-index="2">
-                                <div class="card-header">
-                                    <p class="term-name">Stochastic Process </p>
-                                    <div class="icon-wrapper"><i class="fas fa-music"></i></div>
+                            <!-- Stochastic Process -->
+                            <div class="relative flex flex-col bg-white shadow-md p-5 rounded-md h-52 overflow-hidden shdow-lg fragment fade-in"
+                                data-fragment-index="2">
+                                <div class="flex justify-between mb-2 align-center">
+                                    <p class="font-extrabold text-gray-900 text-lg">Stochastic Process </p>
+                                    <div class="flex items-center justify-center bg-red-100 rounded-lg h-8 w-8 text-base text-red-600"><i class="fas fa-music"></i></div>
                                 </div>
-                                <span class="example-label">You do this when:</span>
-                                <p class="everyday-example">
+                                <span class="block mb-1 font-bold text-gray-500 text-sm tracking-tight uppercase">You do this when:</span>
+                                <p class="flex-grow leading-normal text-gray-700 text-sm">
                                     <strong>Predicting the next song or guessing a plot twist through patterns.</strong>
                                     Any process
                                     whose next
                                     step has predictable probabilities rather than a fixed outcome is a
                                     Stochastic Process — you navigate them constantly.
                                 </p>
-                                <div class="math-symbol">Ω</div>
+                                <div class="math-symbol">{X<sub>t</sub>}</div>
                             </div>
-                            <!-- Card 5: Budget Arithmetic -->
-                            <div class="concept-card shdow-lg fragment fade-in" data-fragment-index="2">
-                                <div class="card-header">
-                                    <p class="term-name">Linear Optimization </p>
-                                    <div class="icon-wrapper"><i class="fas fa-receipt"></i></div>
+                            <!-- Linear Optimization -->
+                            <div class="relative flex flex-col bg-white shadow-md p-5 rounded-md h-52 overflow-hidden shdow-lg fragment fade-in"
+                                data-fragment-index="2">
+                                <div class="flex justify-between mb-2 align-center">
+                                    <p class="font-extrabold text-gray-900 text-lg">Linear Optimization </p>
+                                    <div class="flex items-center justify-center bg-red-100 rounded-lg h-8 w-8 text-base text-red-600"><i class="fas fa-receipt"></i></div>
                                 </div>
-                                <span class="example-label">You do this when:</span>
-                                <p class="everyday-example">
+                                <span class="block mb-1 font-bold text-gray-500 text-sm tracking-tight uppercase">You do this when:</span>
+                                <p class="flex-grow leading-normal text-gray-700 text-sm">
                                     <strong>Comparing unit prices at the grocery store.</strong> Finding the best option
                                     within a
                                     spending constraint is Linear Optimization — the same math behind airline
@@ -618,29 +769,30 @@
                                 </p>
                                 <div class="math-symbol">min</div>
                             </div>
-                            <!-- Card 6: Inevitable Patterns -->
-                            <div class="concept-card shdow-lg fragment fade-in" data-fragment-index="2">
-                                <div class="card-header">
-                                    <p class="term-name">Ramsey Theory </p>
-                                    <div class="icon-wrapper"><i class="fas fa-users"></i></div>
+                            <!-- Irreducible Quintic -->
+                            <div class="relative flex flex-col bg-white shadow-md p-5 rounded-md h-52 overflow-hidden shdow-lg fragment fade-in"
+                                data-fragment-index="2">
+                                <div class="flex justify-between mb-2 align-center">
+                                    <p class="font-extrabold text-gray-900 text-lg">Irreducible Quintic </p>
+                                    <div class="flex items-center justify-center bg-red-100 rounded-lg h-8 w-8 text-base text-red-600"><i class="fas fa-users"></i></div>
                                 </div>
-                                <span class="example-label">You do this when:</span>
-                                <p class="everyday-example">
-                                    <strong>Noticing that in every large group, certain dynamics emerge.</strong> Ramsey
-                                    Theory
-                                    proves that complete disorder is impossible at scale — order always appears,
-                                    no matter how the pieces are arranged.
+                                <span class="block mb-1 font-bold text-gray-500 text-sm tracking-tight uppercase">You do this when:</span>
+                                <p class="flex-grow leading-normal text-gray-700 text-sm">
+                                    <strong>Solving polynomial equations of degree five or higher.</strong> The
+                                    Irreducible Quintic theorem proves that complete solutions using radicals are
+                                    impossible for general quintic equations — some problems have no simple formula.
                                 </p>
-                                <div class="math-symbol">R</div>
+                                <div class="math-symbol">x<sup>7</sup></div>
                             </div>
-                            <!-- Card 7: Cascade Effects -->
-                            <div class="concept-card shdow-lg fragment fade-in" data-fragment-index="3">
-                                <div class="card-header">
-                                    <p class="term-name">Chaos Theory </p>
-                                    <div class="icon-wrapper"><i class="fas fa-bolt"></i></div>
+                            <!-- Chaos Theory -->
+                            <div class="relative flex flex-col bg-white shadow-md p-5 rounded-md h-52 overflow-hidden shdow-lg fragment fade-in"
+                                data-fragment-index="3">
+                                <div class="flex justify-between mb-2 align-center">
+                                    <p class="font-extrabold text-gray-900 text-lg">Chaos Theory </p>
+                                    <div class="flex items-center justify-center bg-red-100 rounded-lg h-8 w-8 text-base text-red-600"><i class="fas fa-bolt"></i></div>
                                 </div>
-                                <span class="example-label">You do this when:</span>
-                                <p class="everyday-example">
+                                <span class="block mb-1 font-bold text-gray-500 text-sm tracking-tight uppercase">You do this when:</span>
+                                <p class="flex-grow leading-normal text-gray-700 text-sm">
                                     <strong>Leaving two minutes late and having a completely different day.</strong>
                                     Systems
                                     sensitive to tiny initial differences are the subject of Chaos Theory —
@@ -648,35 +800,178 @@
                                 </p>
                                 <div class="math-symbol">x<sub>n+1</sub></div>
                             </div>
-                            <!-- Card 8: Clock Arithmetic -->
-                            <div class="concept-card shdow-lg fragment fade-in" data-fragment-index="3">
-                                <div class="card-header">
-                                    <p class="term-name">Number Theory </p>
-                                    <div class="icon-wrapper"><i class="far fa-clock"></i></div>
+                            <!-- Manifold -->
+                            <div class="relative flex flex-col bg-white shadow-md p-5 rounded-md h-52 overflow-hidden shdow-lg fragment fade-in"
+                                data-fragment-index="3">
+                                <div class="flex justify-between mb-2 align-center">
+                                    <p class="font-extrabold text-gray-900 text-lg">Manifold </p>
+                                    <div class="flex items-center justify-center bg-red-100 rounded-lg h-8 w-8 text-base text-red-600"><i class="far fa-clock"></i></div>
                                 </div>
-                                <span class="example-label">You do this when:</span>
-                                <p class="everyday-example">
-                                    <strong>Calculating time zones or scheduling across a 12-hour cycle.</strong> "10am
-                                    + 5 hours =
-                                    3pm" — numbers that wrap around is Number Theory's modular arithmetic in
-                                    everyday form.
+                                <span class="block mb-1 font-bold text-gray-500 text-sm tracking-tight uppercase">You do this when:</span>
+                                <p class="flex-grow leading-normal text-gray-700 text-sm">
+                                    <strong>Understanding the shape of the Earth</strong> Standing on it, the ground
+                                    looks flat — but zoom out and it's a sphere. Every point on a manifold has a
+                                    "locally flat"
+                                    neighborhood.
                                 </p>
-                                <div class="math-symbol">σ</div>
+                                <div class="math-symbol">T<sub>p</sub>M</div>
                             </div>
-                            <!-- Card 9: Curvature Intuition -->
-                            <div class="concept-card shdow-lg fragment fade-in" data-fragment-index="3">
-                                <div class="card-header">
-                                    <p class="term-name">Differential Geometry </p>
-                                    <div class="icon-wrapper"><i class="fas fa-globe-americas"></i></div>
+                            <!-- Differential Geometry -->
+                            <div class="relative flex flex-col bg-white shadow-md p-5 rounded-md h-52 overflow-hidden shdow-lg fragment fade-in"
+                                data-fragment-index="3">
+                                <div class="flex justify-between mb-2 align-center">
+                                    <p class="font-extrabold text-gray-900 text-lg">Differential Geometry </p>
+                                    <div class="flex items-center justify-center bg-red-100 rounded-lg h-8 w-8 text-base text-red-600"><i class="fas fa-globe-americas"></i></div>
                                 </div>
-                                <span class="example-label">You do this when:</span>
-                                <p class="everyday-example">
+                                <span class="block mb-1 font-bold text-gray-500 text-sm tracking-tight uppercase">You do this when:</span>
+                                <p class="flex-grow leading-normal text-gray-700 text-sm">
                                     <strong>Knowing that a flight path curves north on a flat map.</strong> The shortest
                                     route on a
                                     sphere is a geodesic — the central object of Differential Geometry, solved
                                     by your GPS every trip.
                                 </p>
-                                <div class="math-symbol">κ</div>
+                                <div class="math-symbol">dω</div>
+                            </div>
+                        </div>
+
+                        <div class="absolute left-0 top-30 gap-5 grid grid-cols-3 px-20">
+                            <!-- Cardinality of the Continuum -->
+                            <div class="relative flex flex-col bg-white shadow-md p-5 rounded-md h-52 overflow-hidden shdow-lg fragment fade-in"
+                                data-fragment-index="4">
+                                <div class="flex justify-between mb-2 align-center">
+                                    <p class="font-extrabold text-gray-900 text-lg">Cardinality of the Continuum </p>
+                                    <div class="flex items-center justify-center bg-red-100 rounded-lg h-8 w-8 text-base text-red-600"><i class="fas fa-ruler-combined"></i></div>
+                                </div>
+                                <span class="block mb-1 font-bold text-gray-500 text-sm tracking-tight uppercase">You do this when:</span>
+                                <p class="flex-grow leading-normal text-gray-700 text-sm">
+                                    <strong>Acknowledging the sizes of infinity.</strong> You already sense that some
+                                    infinities feel bigger than others. There are infinitely many whole numbers — but
+                                    also
+                                    infinitely many numbers between 0 and 1 alone.
+                                </p>
+                                <div class="math-symbol">&#x1D520</div>
+                            </div>
+                            <!-- Markov Chains -->
+                            <div class="relative flex flex-col bg-white shadow-md p-5 rounded-md h-52 overflow-hidden shdow-lg fragment fade-in"
+                                data-fragment-index="4">
+                                <div class="flex justify-between mb-2 align-center">
+                                    <p class="font-extrabold text-gray-900 text-lg">Markov Chains </p>
+                                    <div class="flex items-center justify-center bg-red-100 rounded-lg h-8 w-8 text-base text-red-600"><i class="fas fa-cubes"></i></div>
+                                </div>
+                                <span class="block mb-1 font-bold text-gray-500 text-sm tracking-tight uppercase">You do this when:</span>
+                                <p class="flex-grow leading-normal text-gray-700 text-sm">
+                                    <strong>Playing board games.</strong> Any game determined entirely by dice is a
+                                    Markov Chain. Your next position depends solely on
+                                    where you are now and the roll of the dice.
+                                </p>
+                                <div class="math-symbol">π*</div>
+                            </div>
+                            <!-- Genus -->
+                            <div class="relative flex flex-col bg-white shadow-md p-5 rounded-md h-52 overflow-hidden shdow-lg fragment fade-in"
+                                data-fragment-index="4">
+                                <div class="flex justify-between mb-2 align-center">
+                                    <p class="font-extrabold text-gray-900 text-lg">Genus</p>
+                                    <div class="flex items-center justify-center bg-red-100 rounded-lg h-8 w-8 text-base text-red-600"><i class="fas fa-shapes"></i></div>
+                                </div>
+                                <span class="block mb-1 font-bold text-gray-500 text-sm tracking-tight uppercase">You do this when:</span>
+                                <p class="flex-grow leading-normal text-gray-700 text-sm">
+                                    <strong>Classifying objects based on their topological properties.</strong> A sphere
+                                    has genus 0 (no holes). A donut has genus 1. A pretzel has genus 2. When you
+                                    categorize objects by their "holes," you're using the concept of genus.
+                                </p>
+                                <div class="math-symbol">&#967</div>
+                            </div>
+                            <!-- Ansatz -->
+                            <div class="relative flex flex-col bg-white shadow-md p-5 rounded-md h-52 overflow-hidden shdow-lg fragment fade-in"
+                                data-fragment-index="5">
+                                <div class="flex justify-between mb-2 align-center">
+                                    <p class="font-extrabold text-gray-900 text-lg">Ansatz </p>
+                                    <div class="flex items-center justify-center bg-red-100 rounded-lg h-8 w-8 text-base text-red-600"><i class="fas fa-music"></i></div>
+                                </div>
+                                <span class="block mb-1 font-bold text-gray-500 text-sm tracking-tight uppercase">You do this when:</span>
+                                <p class="flex-grow leading-normal text-gray-700 text-sm">
+                                    <strong>Use an educated guess or assumption to simplify a problem.</strong>
+                                    Every time you estimate a tip, guess how long a drive will take, or eyeball whether
+                                    furniture will fit in a room, you're using an ansatz.
+                                </p>
+                                <div class="math-symbol">ψ</div>
+                            </div>
+                            <!-- Heuristic -->
+                            <div class="relative flex flex-col bg-white shadow-md p-5 rounded-md h-52 overflow-hidden shdow-lg fragment fade-in"
+                                data-fragment-index="5">
+                                <div class="flex justify-between mb-2 align-center">
+                                    <p class="font-extrabold text-gray-900 text-lg">Heuristic </p>
+                                    <div class="flex items-center justify-center bg-red-100 rounded-lg h-8 w-8 text-base text-red-600"><i class="fas fa-receipt"></i></div>
+                                </div>
+                                <span class="block mb-1 font-bold text-gray-500 text-sm tracking-tight uppercase">You do this when:</span>
+                                <p class="flex-grow leading-normal text-gray-700 text-sm">
+                                    <strong>Using rules of thumb or shortcuts to make decisions.</strong> “Don't grocery
+                                    shop hungry." "If it sounds too good to be true, it probably is." You use heuristics
+                                    constantly — they're reliable shortcuts that don't need a formal proof.
+                                </p>
+                                <div class="math-symbol">h(n)</div>
+                            </div>
+                            <!-- Ramsey Theory -->
+                            <div class="relative flex flex-col bg-white shadow-md p-5 rounded-md h-52 overflow-hidden shdow-lg fragment fade-in"
+                                data-fragment-index="5">
+                                <div class="flex justify-between mb-2 align-center">
+                                    <p class="font-extrabold text-gray-900 text-lg">Ramsey Theory </p>
+                                    <div class="flex items-center justify-center bg-red-100 rounded-lg h-8 w-8 text-base text-red-600"><i class="fas fa-users"></i></div>
+                                </div>
+                                <span class="block mb-1 font-bold text-gray-500 text-sm tracking-tight uppercase">You do this when:</span>
+                                <p class="flex-grow leading-normal text-gray-700 text-sm">
+                                    <strong>Noticing that in every large group, certain dynamics emerge.</strong> Ramsey
+                                    Theory
+                                    proves that complete disorder is impossible at scale — order always appears,
+                                    no matter how the pieces are arranged.
+                                </p>
+                                <div class="math-symbol">R</div>
+                            </div>
+                            <!-- Measure Theory -->
+                            <div class="relative flex flex-col bg-white shadow-md p-5 rounded-md h-52 overflow-hidden shdow-lg fragment fade-in"
+                                data-fragment-index="6">
+                                <div class="flex justify-between mb-2 align-center">
+                                    <p class="font-extrabold text-gray-900 text-lg">Measure Theory </p>
+                                    <div class="flex items-center justify-center bg-red-100 rounded-lg h-8 w-8 text-base text-red-600"><i class="fas fa-bolt"></i></div>
+                                </div>
+                                <span class="block mb-1 font-bold text-gray-500 text-sm tracking-tight uppercase">You do this when:</span>
+                                <p class="flex-grow leading-normal text-gray-700 text-sm">
+                                    <strong>Assigning "size" to sets.</strong>
+                                    "What's the chance of rain today?" You just assigned a measure (a probability) to a
+                                    set of outcomes (weather conditions) — that's Measure Theory in action.
+                                </p>
+                                <div class="math-symbol">μ</div>
+                            </div>
+                            <!-- Ergodicity -->
+                            <div class="relative flex flex-col bg-white shadow-md p-5 rounded-md h-52 overflow-hidden shdow-lg fragment fade-in"
+                                data-fragment-index="6">
+                                <div class="flex justify-between mb-2 align-center">
+                                    <p class="font-extrabold text-gray-900 text-lg">Ergodicity </p>
+                                    <div class="flex items-center justify-center bg-red-100 rounded-lg h-8 w-8 text-base text-red-600"><i class="fas fa-globe-americas"></i></div>
+                                </div>
+                                <span class="block mb-1 font-bold text-gray-500 text-sm tracking-tight uppercase">You do this when:</span>
+                                <p class="flex-grow leading-normal text-gray-700 text-sm">
+                                    <strong>Flipping a coin repeatedly.</strong> Ergodicity is the idea that over time,
+                                    the average outcome of a process will converge to its expected value. When you flip
+                                    a coin many times, the proportion of heads will approach 50%
+                                </p>
+                                <div class="math-symbol">f&#773</div>
+                            </div>
+                            <!-- Number Theory -->
+                            <div class="relative flex flex-col bg-white shadow-md p-5 rounded-md h-52 overflow-hidden shdow-lg fragment fade-in"
+                                data-fragment-index="6">
+                                <div class="flex justify-between mb-2 align-center">
+                                    <p class="font-extrabold text-gray-900 text-lg">Number Theory </p>
+                                    <div class="flex items-center justify-center bg-red-100 rounded-lg h-8 w-8 text-base text-red-600"><i class="far fa-clock"></i></div>
+                                </div>
+                                <span class="block mb-1 font-bold text-gray-500 text-sm tracking-tight uppercase">You do this when:</span>
+                                <p class="flex-grow leading-normal text-gray-700 text-sm">
+                                    <strong>Calculating time zones or scheduling across a 12-hour cycle.</strong> "10am
+                                    + 5 hours =
+                                    3pm" — numbers that wrap around is Number Theory's modular arithmetic in
+                                    everyday form.
+                                </p>
+                                <div class="math-symbol">&#8484</div>
                             </div>
                         </div>
                     </div>
