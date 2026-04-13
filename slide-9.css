@@ -22,20 +22,6 @@
   width: 50%;
 }
 
-.slide-9 .sol-card {
-  border-radius: 14px;
-  background-color: #fff;
-  border: 1px solid #e5e7eb;
-  border-left: 4px solid #e62b1e;
-  justify-content: center;
-  align-items: center;
-  padding: 18px 22px;
-  display: flex;
-  gap: 14px;
-  transition: all 0.25s ease;
-  width: 100%;
-}
-
 .slide-9 .sol-icon {
   width: 44px;
   height: 44px;
