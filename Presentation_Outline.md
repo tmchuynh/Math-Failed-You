@@ -1,11 +1,13 @@
 # Math Didn't Fail You — Language Did
 ## Presentation Outline
 
+**Last Updated:** April 13, 2026  
+**Version:** 2.0 (Expanded with 18-card layered examples)
+
 **Subtitle:** The barrier between "everyday people" and "advanced mathematics" is largely linguistic and psychological, not conceptual.
 
 **Tagline:** A perspective on math from a girl tired of being the only one excited about it
 
----
 
 ## PRESENTATION FLOW
 
@@ -19,25 +21,21 @@
 ---
 
 ### Slide 1: Title Slide
-**"Math Didn't Fail You — Language Did."**
-
-- Main thesis: The barrier between "everyday people" and "advanced mathematics" is largely linguistic and psychological, not conceptual
-- Set tone: personal, frustrated with status quo, evidence-based
 
 **Speaker Notes:**
 - Open with vulnerability: "I'm tired of being the only one excited about math"
 - Position this as a perspective shift, not a lecture
 - Promise: By the end, you'll see you already 'do' calculus, abstract algebra, and topology in everyday life
 
+
+**"Math Didn't Fail You — Language Did."**
+
+- Main thesis: The barrier between "everyday people" and "advanced mathematics" is largely linguistic and psychological, not conceptual
+- Set tone: personal, frustrated with status quo, evidence-based
+
 ---
 
 ### Slide 2: Who here thinks they're bad at math?
-
-**Who here thinks they're bad at math?**
-
-By the end, you'll see you already 'do' calculus, abstract algebra, and topology in everyday life. I'll prove it with one scary-looking problem that collapses to simple algebra.
-
-**THE REALITY CHECK** | **INTRODUCTION**
 
 **Speaker Notes:**
 - This is the hook that engages the audience immediately
@@ -46,25 +44,41 @@ By the end, you'll see you already 'do' calculus, abstract algebra, and topology
 - Set expectation: You'll prove the thesis with a real example
 - Transition: "Let's start by understanding what's really happening"
 
+
+**Who here thinks they're bad at math?**
+
+By the end, you'll see you already 'do' calculus, abstract algebra, and topology in everyday life. I'll prove it with one scary-looking problem that collapses to simple algebra.
+
+**THE REALITY CHECK** | **INTRODUCTION**
+
 ---
 
-### Slide 3: What Really Drives Performance?
+### Slide 3: Why Are You "Bad" at Math?
+
+**Speaker Notes:**
+- Don't dismiss anxiety — it's real
+- But point out: the problem isn't that anxious people CAN'T do math
+- The problem is they DISENGAGE
+- This means: we can intervene by redesigning HOW we present math
+- If we keep people engaged, anxiety's impact drops dramatically
+
 
 **64% report math anxiety**
 But anxiety alone is not the direct performance killer. The stronger mechanism is **math engagement**.
 
-**KEY QUOTE (Dark Box):**
+**KEY QUOTE:**
 > "People with high math anxiety often know how to do the math — it's an emotional reaction that interferes, not a lack of skill."
 > — American Psychological Association
 
 **MEDIATING MECHANISM (SPRINGER, 2025):**
+
 ```
 Math Anxiety → Math Engagement → Math Performance
 ```
 
 Anxiety still matters because it suppresses engagement. If we can standardize high engagement, anxiety's performance impact drops substantially.
 
-**ARGUMENT BOX:**
+**KEY TAKEAWAY:**
 > "Math anxiety" is a major indirect force, not always a direct one. Engagement is the lever we can design and control.
 
 **Supporting Points:**
@@ -80,16 +94,16 @@ Anxiety still matters because it suppresses engagement. If we can standardize hi
 **Source Citation:**
 "Influence of mathematics anxiety on mathematics performance: mediating effects of mathematical engagement" (Mathematics Education Research Journal, 2025). DOI: 10.1007/s13394-025-00536-1
 
-**Speaker Notes:**
-- Don't dismiss anxiety — it's real
-- But point out: the problem isn't that anxious people CAN'T do math
-- The problem is they DISENGAGE
-- This means: we can intervene by redesigning HOW we present math
-- If we keep people engaged, anxiety's impact drops dramatically
-
 ---
 
 ### Slide 4: The Core Problem: It's a Language Barrier
+
+**Speaker Notes:**
+- This is the thesis slide
+- Hammer home: it's NOT about intelligence
+- It's about ACCESS — specifically linguistic access
+- Set up the examples coming next
+
 
 **Four Authoritative Quotes:**
 
@@ -110,39 +124,71 @@ Anxiety still matters because it suppresses engagement. If we can standardize hi
 
 The ability is already there. The interface is the problem.
 
-**Speaker Notes:**
-- This is the thesis slide
-- Hammer home: it's NOT about intelligence
-- It's about ACCESS — specifically linguistic access
-- Set up the examples coming next
-
 ---
 
 ### Slide 5: Scary Terms You Already Understand
 
-**Nine Examples in 3x3 Grid:**
-
-| **Derivative** | **Integral** | **Eigenvalue / Eigenvector** |
-|---|---|---|
-| 🔴 YOU KNOW THIS AS: **Your Speedometer.** It shows the rate of change of your position at this exact instant. How fast are you going *right now?* That's a derivative. | 📚 YOU KNOW THIS AS: **Accumulation.** Estimating the total cost of gas for a trip by adding up small chunks along the way. Summing up tiny pieces to get a total. | 🔀 YOU KNOW THIS AS: **Stretching a Rubber Band.** The direction along the band that only *stretches* — never rotates — is the eigenvector. How much it stretches is the eigenvalue. |
-
-| **Combinatorics** | **Ergodicity** | **Graph Theory** |
-|---|---|---|
-| 👕 YOU KNOW THIS AS: **Outfit Planning.** "4 shirts and 3 pants = 12 outfits." Counting arrangements and possibilities is the heart of combinatorics. | 🚌 YOU KNOW THIS AS: **Shuffling Cards.** Shuffle a deck enough times and you eventually experience every typical outcome — the average over time equals the average across all possibilities at once. You live inside ergodic processes daily. | 🔗 YOU KNOW THIS AS: **Social Networks.** "Friend of a friend." Finding the shortest connection path between people. Dots (people) connected by lines (relationships). |
-
-| **Fourier Transform** | **Topology** | **Diffeomorphism** |
-|---|---|---|
-| 🎵 YOU KNOW THIS AS: **Hearing Music.** Your ear breaks a complex sound wave (a chord) into individual notes. That decomposition is a biological Fourier transform. | ☕ YOU KNOW THIS AS: **Shape Equivalence.** A donut and a coffee mug are "the same" because each has one hole. You could mold one into the other without tearing or gluing. | 🍕 YOU KNOW THIS AS: **Stretching Pizza Dough.** Reshaping something smoothly without tearing or cutting, and being able to smoosh it back. A reversible transformation of shape is a diffeomorphism. |
-
 **Speaker Notes:**
+- This slide has TWO LAYERS of 9 cards each (18 total)
+- First layer appears with fragments 1-3, then overlays with second layer (fragments 4-6)
 - Move through these quickly but confidently
 - Emphasize: "You ALREADY understand the concept"
 - The only difference is the label
 - This builds momentum and confidence
 
+
+**18 Examples (Two Layers):**
+
+**First Layer (Cards 1-9):**
+
+1. **Taylor Series** — YOU KNOW THIS AS: **Estimated Time Arrival.** When your GPS estimates your arrival time, it is approximating future behavior from what's happening right now — recent speed and acceleration.
+
+2. **Integral** — YOU KNOW THIS AS: **Accumulation.** Estimating the total cost of gas for a trip by adding up small chunks along the way. Summing up tiny pieces to get a total.
+
+3. **Eigenvalue / Eigenvector** — YOU KNOW THIS AS: **Stretching a Rubber Band.** The direction along the band that only *stretches* — never rotates — is the eigenvector. How much it stretches is the eigenvalue.
+
+4. **Combinatorics** — YOU KNOW THIS AS: **Outfit Planning.** "4 shirts and 3 pants = 12 outfits." Counting arrangements and possibilities is the heart of combinatorics.
+
+5. **Ergodicity** — YOU KNOW THIS AS: **Shuffling Cards.** Shuffle a deck enough times and you statistically see every arrangement — the same picture as laying all possibilities out at once. You live inside ergodic processes daily.
+
+6. **Graph Theory** — YOU KNOW THIS AS: **Social Networks.** "Friend of a friend." Finding the shortest connection path between people. Dots (people) connected by lines (relationships).
+
+7. **Fourier Transform** — YOU KNOW THIS AS: **Hearing Music.** Your ear breaks a complex sound wave (a chord) into individual notes. That decomposition is a biological Fourier transform.
+
+8. **Topology** — YOU KNOW THIS AS: **Shape Equivalence.** A donut and a coffee mug are "the same" because each has one hole. You intuitively group objects by their fundamental structure.
+
+9. **Diffeomorphism** — YOU KNOW THIS AS: **Stretching Pizza Dough.** Reshaping something smoothly without tearing or gluing. A reversible transformation of shape is a diffeomorphism.
+
+**Second Layer (Cards 10-18 - Overlays):**
+
+10. **Euclidean Geometry** — YOU ALREADY KNOW: **Triangle's angles add up to 180°.** The shortest distance between two points is a straight line — these are Euclid's axioms, formalized over two thousand years ago, and you internalized them without a textbook.
+
+11. **Abstract Algebra** — YOU ALREADY KNOW: **Symmetry everywhere.** The symmetry of a snowflake, the repeating pattern of wallpaper, the rotational symmetry of a car wheel — all are described by group theory.
+
+12. **Epsilon-Delta Limits** — YOU ALREADY KNOW: **When the GPS counts down** — 2 miles, 1 mile, 0.5 miles, 0.1 miles — and you get to say, "We're almost there." You're watching a limit converge in real time. The destination is the limit; you approach it, getting arbitrarily close.
+
+13. **Topoisomerases** — YOU ALREADY KNOW: **Headphone tangles.** "Spontaneous knotting" is a mathematical certainty. If a string is long enough and agitated, it will form a knot. Researchers use Jones Polynomials to study why certain cords tangle more than others.
+
+14. **Bayesian Inference** — YOU ALREADY KNOW: **Finding your lost phone.** You search the couch where you last saw it (prior belief). Not there? A Bayesian updates the probability and decides the kitchen is now the most likely posterior location.
+
+15. **Game Theory** — YOU ALREADY KNOW: **Four-way stop standoff.** Everyone waiting for someone else to move — you're in a "stable" state where no one gains anything by changing their strategy alone. That's high-level economics and math in a suburban intersection.
+
+16. **Quaternions** — YOU ALREADY KNOW: **Smooth 3D rotation.** While we think in 3D, computer programs — like video games or AR filters on your phone — use 4D quaternions to calculate how objects rotate smoothly without glitching.
+
+17. **Differential Equations** — YOU ALREADY KNOW: **Your morning coffee cooling.** Newton's Law of Cooling (a first-order differential equation) dictates how fast it hits room temperature. The hotter it is compared to the room, the faster it loses heat.
+
+18. **Markov Chains** — YOU ALREADY KNOW: **Smartphone Text Prediction.** When your phone suggests the next word you're likely to type, it's using a Markov model. It looks at the word you just typed and calculates the most statistically likely word to follow it.
+
 ---
 
 ### Slide 6: Research Evidence
+
+**Speaker Notes:**
+- This is your credibility slide
+- You're not just opining — published research backs this up
+- The problem is PRESENTATION, not ability
+- Set up the solution section
+
 
 **RESEARCH EVIDENCE**
 
@@ -162,40 +208,9 @@ Trait math anxiety amplifies performance failures on complex tasks—but the tri
 
 When unfamiliar symbols don't map to a student's intuitive model, working memory fills up translating notation—leaving little capacity for actual mathematical reasoning.
 
-**Speaker Notes:**
-- This is your credibility slide
-- You're not just opining — published research backs this up
-- The problem is PRESENTATION, not ability
-- Set up the solution section
-
 ---
 
 ### Slide 7: Engagement is the Mediating Variable
-
-**RESEARCH SYNTHESIS**
-
-**Engagement is the mediating variable. Language controls engagement.**
-
-The strongest predictor of whether students persist in math is not ability—it's engagement quality. And engagement quality is directly shaped by language, format, and the order in which concepts are introduced. Pedagogy can break the anxiety-performance chain.
-
-**SUPPORTING EVIDENCE**
-
-**FRONTIERS IN PSYCHOLOGY — 2022**
-**Format as a trigger condition**
-
-The state vs. trait anxiety distinction reveals that symbolic presentation acts as the situational trigger for chronic fear responses—not concept difficulty.
-
-**SPRINGER MERJ — 2025**
-**Engagement mediates anxiety → performance**
-
-When language-first pedagogy sustains engagement, anxiety's negative effect on performance is significantly buffered. The link can be broken.
-
-**META-ANALYSIS (ERIC) — 2023**
-**Language interventions are repeatable**
-
-Vocabulary support and gradual notation introduction consistently improve outcomes across different populations, settings, and math subjects.
-
-**🔗 SPRINGER MERJ, 2025**
 
 **Speaker Notes:**
 - This is the "so what?" moment
@@ -204,67 +219,138 @@ Vocabulary support and gradual notation introduction consistently improve outcom
 - And engagement breaks the anxiety chain
 - Transition: "So what do we actually DO about this?"
 
+
+**RESEARCH SYNTHESIS**
+
+**Engagement is the mediating variable. Language controls engagement.**
+
+The strongest predictor of whether students persist in math is not ability—it's engagement quality. And engagement quality is directly shaped by language, format, and the order in which concepts are introduced. Pedagogy can break the anxiety-performance chain.
+
+**SPRINGER MERJ, 2025**
+
+**SUPPORTING EVIDENCE**
+
+**META-ANALYSIS (ERIC) — 2023**
+**Language interventions are repeatable**
+
+Vocabulary support and gradual notation introduction consistently improve outcomes across different populations, settings, and math subjects.
+
+**MDPI EDUCATION SCIENCES — 2025**
+**Vocabulary is the gatekeeper**
+
+Math-specific vocabulary is a stronger predictor of early math performance than general language skills. Students who can't parse terminology experience higher anxiety, creating a vicious cycle where jargon blocks access.
+
+**FRONTIERS IN EDUCATION — 2025**
+**Formal notation is a barrier**
+
+Integrating symbolic notation with concrete, intuitive representations is critical. Formal notation alone significantly reduces motivation and increases intimidation—even when students understand the underlying ideas.
+
 ---
 
 ### Slide 8: Math You Already Use Daily (Without Realizing It)
 
-**Nine Examples in 3x3 Grid:**
-
-| **Quick Estimation** | **Spatial Geometry** | **Symbolic Modeling** |
-|---|---|---|
-| 📊 YOU DO THIS WHEN: **Eyeballing a tip or travel time.** You deliberately accept a small error in exchange for a fast, useful answer — the exact trade-off that defines Approximation Theory. | 🚗 YOU DO THIS WHEN: **Parallel parking or packing a suitcase.** Judging angles, distances, and fit on flat surfaces is Euclidean Geometry — every measurement you make in the physical world relies on it. | 🗺️ YOU DO THIS WHEN: **Reading a map or a traffic sign.** Substituting a simpler stand-in that preserves the key structure of a complex situation is the core move of Representation Theory. |
-
-| **Pattern Recognition** | **Budget Arithmetic** | **Inevitable Patterns** |
-|---|---|---|
-| 🎶 YOU DO THIS WHEN: **Predicting the next song or guessing a plot twist.** Any process whose next step has predictable probabilities rather than a fixed outcome is a Stochastic Process — you navigate constant uncertainty constantly. | 💰 YOU DO THIS WHEN: **Comparing unit prices at the grocery store.** Finding the best option within a spending constraint is Linear Optimization — the same math behind airline pricing and logistics networks. | 👥 YOU DO THIS WHEN: **Noticing that in every large group, certain dynamics emerge.** Ramsey Theory proves that complete disorder is impossible at scale — order always appears, no matter how the pieces are arranged. |
-
-| **Cascade Effects** | **Clock Arithmetic** | **Curvature Intuition** |
-|---|---|---|
-| ⚡ YOU DO THIS WHEN: **Leaving two minutes late and having a completely different day.** Systems sensitive to tiny initial differences are the subject of Chaos Theory — deterministic, yet practically unpredictable. | 🕐 YOU DO THIS WHEN: **Calculating time zones or scheduling across a 12-hour cycle.** "10am + 5 hours = 3pm" — numbers that wrap around is Number Theory's modular arithmetic in everyday form. | 🌍 YOU DO THIS WHEN: **Knowing that a flight path curves north on a flat map.** The shortest route on a sphere is a geodesic — the central object of Differential Geometry, solved by your GPS every trip. |
-
 **Speaker Notes:**
+- This slide has TWO LAYERS of 9 cards each (18 total)
+- First layer appears with fragments 1-3, then overlays with second layer (fragments 4-6)
 - This is the empowerment moment
 - Don't just list — DEMONSTRATE
 - Ask: "How many of you have done [action]?" for a few examples
 - Make them realize: they're ALREADY mathematical thinkers
 - The only difference is vocabulary
 
+
+**18 Examples (Two Layers):**
+
+**First Layer (Cards 1-9):**
+
+1. **Galois Theory** — YOU DO THIS WHEN: **Dividing a pizza between friends.** If you want to cut a pizza into 8 equal slices, you are essentially solving the equation x⁸ = 1 in the complex plane — a problem that Galois solved in the 19th century.
+
+2. **Euclidean Geometry** — YOU DO THIS WHEN: **Parallel parking or packing a suitcase.** Judging angles, distances, and fit on flat surfaces is a core of Euclidean Geometry — every measurement you make in the physical world relies on it.
+
+3. **Representation Theory** — YOU DO THIS WHEN: **Reading a map or a traffic sign.** Substituting a simpler stand-in that preserves the key structure of a complex situation is the core move of Representation Theory.
+
+4. **Stochastic Process** — YOU DO THIS WHEN: **Predicting the next song or guessing a plot twist through patterns.** Any process whose next step has predictable probabilities rather than a fixed outcome is a Stochastic Process — you navigate them constantly.
+
+5. **Linear Optimization** — YOU DO THIS WHEN: **Comparing unit prices at the grocery store.** Finding the best option within a spending constraint is Linear Optimization — the same math behind airline pricing and logistics networks.
+
+6. **Irreducible Quintic** — YOU DO THIS WHEN: **Solving polynomial equations of degree five or higher.** The Irreducible Quintic theorem proves that complete solutions using radicals are impossible for general quintic equations — some problems have no simple formula.
+
+7. **Chaos Theory** — YOU DO THIS WHEN: **Leaving two minutes late and having a completely different day.** Systems sensitive to tiny initial differences are the subject of Chaos Theory — deterministic, yet practically unpredictable.
+
+8. **Manifold** — YOU DO THIS WHEN: **Understanding the shape of the Earth.** Standing on it, the ground looks flat — but zoom out and it's a sphere. Every point on a manifold has a "locally flat" neighborhood.
+
+9. **Differential Geometry** — YOU DO THIS WHEN: **Knowing that a flight path curves north on a flat map.** The shortest route on a sphere is a geodesic — the central object of Differential Geometry, solved by your GPS every trip.
+
+**Second Layer (Cards 10-18 - Overlays):**
+
+10. **Cardinality of the Continuum** — YOU DO THIS WHEN: **Acknowledging the sizes of infinity.** You already sense that some infinities feel bigger than others. There are infinitely many whole numbers — but also infinitely many numbers between 0 and 1 alone.
+
+11. **Markov Chains** — YOU DO THIS WHEN: **Playing board games.** Any game determined entirely by dice is a Markov Chain. Your next position depends solely on where you are now and the roll of the dice.
+
+12. **Genus** — YOU DO THIS WHEN: **Classifying objects based on their topological properties.** A sphere has genus 0 (no holes). A donut has genus 1. A pretzel has genus 2. When you categorize objects by their "holes," you're using the concept of genus.
+
+13. **Ansatz** — YOU DO THIS WHEN: **Use an educated guess or assumption to simplify a problem.** Every time you estimate a tip, guess how long a drive will take, or eyeball whether furniture will fit in a room, you're using an ansatz.
+
+14. **Heuristic** — YOU DO THIS WHEN: **Using rules of thumb or shortcuts to make decisions.** "Don't grocery shop hungry." "If it sounds too good to be true, it probably is." You use heuristics constantly — they're reliable shortcuts that don't need a formal proof.
+
+15. **Ramsey Theory** — YOU DO THIS WHEN: **Noticing that in every large group, certain dynamics emerge.** Ramsey Theory proves that complete disorder is impossible at scale — order always appears, no matter how the pieces are arranged.
+
+16. **Measure Theory** — YOU DO THIS WHEN: **Assigning "size" to sets.** "What's the chance of rain today?" You just assigned a measure (a probability) to a set of outcomes (weather conditions) — that's Measure Theory in action.
+
+17. **Ergodicity** — YOU DO THIS WHEN: **Flipping a coin repeatedly.** Ergodicity is the idea that over time, the average outcome of a process will converge to its expected value. When you flip a coin many times, the proportion of heads will approach 50%.
+
+18. **Number Theory** — YOU DO THIS WHEN: **Calculating time zones or scheduling across a 12-hour cycle.** "10am + 5 hours = 3pm" — numbers that wrap around is Number Theory's modular arithmetic in everyday form.
+
 ---
 
 ### Slide 9: How We Fix The Interface
 
-**Four evidence-backed moves any teacher can make.**
-
-**Four Strategies (2x2 Grid):**
-
-**💬 Language First, Notation Second**
-
-Introduce concepts in plain English before introducing symbols. Build the intuition, then label it mathematically.
-
-**📖 Define Vocabulary Explicitly**
-
-Don't assume it. Decode the jargon immediately so students can focus on the logic, not on deciphering unfamiliar words.
-
-**⚓ Use Familiar Anchors**
-
-Connect abstract rules to concrete reality — like using a speedometer to explain what a derivative actually means.
-
-**❤️ Normalize the Anxiety**
-
-Acknowledge that fear is an emotional block, not an ability block. It's okay to feel it — it doesn't mean you can't do it.
-
-**FOOTER QUOTE:**
-> "It is time to stop gatekeeping intelligence behind jargon. Mathematical thinking is not a rare talent — it is a human universal."
-
 **Speaker Notes:**
 - This is the ACTION slide
-- These are tangible, research-backed strategies
+- These are five tangible, research-backed strategies
 - Neither you nor the audience needs a PhD to implement these
 - Emphasize: these aren't "nice to have" — they're PROVEN to work
+- The fifth strategy (normalizing anxiety) is especially important for immediate impact
+
+
+**Five evidence-backed improvements any teacher can make.**
+
+**Five Strategies:**
+
+**1. Language First, Notation Second**
+
+Start with clear, plain English explanations before using mathematical symbols. This helps students develop a strong intuitive understanding before introducing the formal terminology.
+
+**2. Breaking Assignments and Problems into Smaller Steps**
+
+It's helpful to break down problems into smaller, manageable components. This approach promotes a sense of accomplishment with each completed part, ultimately boosting confidence in handling challenging work.
+
+**3. Define Vocabulary Explicitly**
+
+Don't assume students know mathematical jargon. Explain terms upfront to keep their focus on understanding concepts rather than getting distracted by unfamiliar words.
+
+**4. Use Familiar Anchors**
+
+Connect abstract mathematical ideas to real-life experiences. For example, use a speedometer to explain derivatives, making complex concepts more tangible and easier to grasp.
+
+**5. Acknowledge and Normalize Anxiety**
+
+Recognize that anxiety is a common barrier in learning math. Validate these feelings to show students that they don't reflect their ability to succeed.
+
+**KEY TAKEAWAY:**
+> "It is time to stop gatekeeping intelligence behind jargon. Mathematical thinking is not a rare talent — it is a universal human ability."
 
 ---
 
 ### Slide 10: You're Not Bad at Math
+
+**Speaker Notes:**
+- This is the emotional landing
+- Full circle back to the opening
+- Reframe: it's not about ability, it's about ACCESS
+- Leave them empowered, not lectured
+- End on the call to action: change how you talk about math, to yourself and others
+
 
 **You're not bad at math.**
 
@@ -279,35 +365,6 @@ You already think mathematically every day. Learn the dialect, and the field ope
 **"I'm learning the language."**
 
 **THANK YOU ●**
-
-**Speaker Notes:**
-- This is the emotional landing
-- Full circle back to the opening
-- Reframe: it's not about ability, it's about ACCESS
-- Leave them empowered, not lectured
-- End on the call to action: change how you talk about math, to yourself and others
-
----
-
-## DELIVERY NOTES
-
-### Timing (10-15 minute version)
-- **Slides 1-2:** 2 minutes (title + hook)
-- **Slides 3-4:** 3-4 minutes (thesis + problem statement)
-- **Slides 5-6:** 3-4 minutes (examples + evidence)
-- **Slides 7-8:** 3-4 minutes (mechanisms + daily math)
-- **Slides 9-10:** 3-4 minutes (solutions + closing)
-
-### Tone
-- **Personal, not preachy:** You're sharing a frustration and a revelation
-- **Evidence-backed, not opinion:** Every claim is sourced
-- **Empowering, not condescending:** The audience already has the ability
-
-### Key Rhetorical Moves
-1. **Open with vulnerability:** "I'm tired of being the only one excited"
-2. **Use "you already do this" framing** throughout
-3. **Cite concrete research** to build credibility
-4. **End with linguistic reframe:** "I'm learning the language"
 
 ---
 
@@ -325,32 +382,34 @@ You already think mathematically every day. Learn the dialect, and the field ope
 
 ### Key Academic Sources
 
-**Sheila Tobias** - *Overcoming Math Anxiety* (1978)
+[**Sheila Tobias** - *Overcoming Math Anxiety* (1978)](https://www.scirp.org/reference/referencespapers?referenceid=2811649)
 - Foundational work establishing math anxiety as a linguistic barrier
 
-**Anna Sfard** - *Thinking as Communicating* (2008)
+[**Anna Sfard** - *Thinking as Communicating* (2008)](
+https://doi.org/10.1017/CBO9780511499944)
 - Mathematics as discourse/language
 
-**APA** - *Preventing Math Anxiety* (2023)
+**APA** - [*Preventing Math Anxiety* (2023)](https://www.apa.org/monitor/2023/10/preventing-math-anxiety)
 - Math anxiety is emotional, not cognitive
-- [Link](https://www.apa.org/monitor/2023/10/preventing-math-anxiety)
 
-**Ferreira et al.** - *The Interplay of Vocabulary, Working Memory, and Math Anxiety* (2025)
+**Ferreira et al. MDPI Education Sciences** - [*The Interplay of Vocabulary, Working Memory, and Math Anxiety* (2025)](https://www.mdpi.com/2079-3200/13/10/125)
 - Math-specific vocabulary as gatekeeper
-- [Link](https://www.mdpi.com/2079-3200/13/10/125)
+- Math-specific vocabulary as stronger predictor than general language skills
+- Jargon creates vicious cycle of anxiety and blocked access
 
-**Frontiers in Psychology** - *Unraveling the Role of Math Anxiety* (2022)
+**Frontiers in Psychology** - [*Unraveling the Role of Math Anxiety* (2022)](https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2022.979113/full)
 - State vs. trait anxiety; presentation as trigger
-- [Link](https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2022.979113/full)
 
-**Springer MERJ** - *Influence of Mathematics Anxiety on Performance* (2025)
+**Springer MERJ** - [*Influence of Mathematics Anxiety on Performance* (2025)](https://link.springer.com/article/10.1007/s13394-025-00536-1)
 - Engagement as mediating variable
 - Language-first pedagogy buffers anxiety effects
-- [Link](https://link.springer.com/article/10.1007/s13394-025-00536-1)
 
-**ERIC Meta-Analysis** (2023)
+[**ERIC Meta-Analysis** (2023)](https://files.eric.ed.gov/fulltext/EJ1400784.pdf)
 - Language interventions consistently effective
-- [Link](https://files.eric.ed.gov/fulltext/EJ1400784.pdf)
+
+[**Frontiers in Education** (2025)](https://www.frontiersin.org/journals/education/articles/10.3389/feduc.2025.1536470/full)
+- Integration of symbolic notation with concrete representations is critical
+- Formal notation alone reduces motivation and increases intimidation
 
 ---
 
@@ -358,9 +417,7 @@ You already think mathematically every day. Learn the dialect, and the field ope
 
 ### Additional "Scary Terms You Already Understand"
 
-**Heuristic**
-- Practical rule of thumb
-- "Don't grocery shop hungry" / "If it sounds too good to be true, it probably is"
+*Note: Many previously "extended" examples have been promoted to the main presentation in Slides 5 and 8. The following remain as backup content for Q&A or extended formats.*
 
 **Asymptote**
 - A line you approach but never reach
@@ -370,41 +427,9 @@ You already think mathematically every day. Learn the dialect, and the field ope
 - Symbol meaning "for all" / "every"
 - "Every restaurant here is expensive" — you use this in speech constantly
 
-**Ansatz**
-- An educated starting guess
-- Estimating a tip, guessing drive time, eyeballing if furniture fits
-
-**Genus**
-- Number of holes in a shape
-- Sphere = 0 holes, donut = 1 hole, pretzel = 2 holes
-
-**Manifold**
-- Looks flat up close, curves globally
-- You live on one: Earth appears flat locally but is a sphere globally
-
 **Orthonormal**
 - Perpendicular directions at right angles, evenly scaled
 - Every map grid, every 3D graph axis since middle school
-
-**Cardinality of the Continuum**
-- Different sizes of infinity
-- Infinitely many whole numbers vs. infinitely many numbers between 0 and 1
-
-**Galois Theory**
-- Symmetries among equation solutions
-- Like kaleidoscope patterns — rotation preserves structure
-
-**Real Analysis (Epsilon-Delta)**
-- "You can get as close as you want to a target"
-- Thermostat: no matter how precise your comfort demand, you can dial it in
-
-**Ramsey Theory**
-- Order inevitably appears in large enough structures
-- In any 6 strangers, guaranteed 3 mutual friends OR 3 mutual strangers
-
-**Chaos Theory**
-- Deterministic but sensitive to initial conditions
-- Leaving 2 minutes late cascades into completely different day
 
 **Ring Theory**
 - Algebraic structures with addition and multiplication
