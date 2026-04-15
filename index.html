@@ -1164,13 +1164,14 @@
                     <div class="body-area">
                         <div class="content-area">
                             <div class="math-example">
-                                <p class="model-title fragment fade-in" data-fragment-index="2">The Uniqueness of a
+                                <p class="model-title fragment fade-in-then-out" data-fragment-index="2">The Uniqueness
+                                    of a
                                     Shuffled
                                     Deck</p>
 
-                                <div class="fragment fade-in" data-fragment-index="3">
+                                <div class="fragment fade-in-then-out" data-fragment-index="3">
                                     <div class="flex flex-col gap-4">
-                                        <div class="stat-box">
+                                        <div class="shadow-md stat-box">
                                             <strong>Total Permutations for a Deck</strong>
                                             <p> 52 cards in a deck is \(52 \times 51 \times 50 \times \dots \times 3
                                                 \times
@@ -1182,20 +1183,20 @@
                                     </div>
 
                                     <div class="gap-4 grid grid-cols-9 grid-rows-2 py-4">
-                                        <div class="col-span-3 stat-box">
+                                        <div class="col-span-3 shadow-md stat-box">
                                             <strong>Human Population</strong>
                                             <p class="mb-2"> ~117 billion people have ever lived </p>
                                             <p> based on ~192,000 years of human existence</p>
                                         </div>
-                                        <div class="col-span-6 stat-box">
+                                        <div class="col-span-6 shadow-md stat-box">
                                             <strong>Age of Universe</strong>
                                             ~13.8 billion years.
                                         </div>
-                                        <div class="col-span-3 stat-box">
+                                        <div class="col-span-3 shadow-md stat-box">
                                             <strong>Time Conversion</strong>
                                             <div class="inline-flex gap-2">31,557,600 seconds in a year</div>
                                         </div>
-                                        <div class="col-span-6 stat-box">
+                                        <div class="col-span-6 shadow-md stat-box">
                                             <strong>Total # of shuffles in history</strong>
                                             <div class="inline-flex gap-2">\((1.17 \times 10^{11} \text{ humans}) \times
                                                 (1.38 \times 10^{10} \text{ years}) \times (31,557,600 \text{
@@ -1229,74 +1230,77 @@
                                 </div>
                             </div>
 
-                            <div class="math-example fragment fade-in" data-fragment-index="4">
-                                <p class="model-title">Jackpot</p>
+                            <div class="math-example">
+                                <p class="model-title fragment fade-in-then-out" data-fragment-index="4">Jackpot</p>
 
-                                <div class="comparison-grid fragment fade-in" data-fragment-index="5">
-                                    <div class="stat-box">
-                                        <strong>Standard Jackpot </strong>
-                                        \[ \binom{n}{k} = \frac{n!}{k!(n-k)!} \rightarrow \frac{49!}{6!(49-6)!} =
-                                        13,983,816\]
-                                        <p> \(n\): Total numbers in the pool (e.g., \(49\) or \(69\)).</p>
-                                        <p> \(k\): How many numbers you must pick (e.g., \(6\)).</p>
-                                    </div>
-                                    <div class="stat-box">
-                                        <strong>The Odds of Matching Some But Not All Numbers</strong>
-                                        \[ P(X=k) = \frac{\binom{K}{k} \binom{N-K}{n-k}}{\binom{N}{n}} \]
-                                        <p> \(N\): Total pool size.</p>
-                                        <p> \(n\): Numbers you picked.</p>
-                                        <p> \(K\): Number of winning balls drawn.</p>
-                                        <p> \(k\): Number of your balls that must match the winning balls.</p>
+                                <div class="fragment fade-in-then-out" data-fragment-index="5">
+                                    <div class="gap-4 grid grid-cols-2 pb-6 pt-2">
+                                        <div class="shadow-md stat-box">
+                                            <strong>Standard Jackpot </strong>
+                                            \[ \binom{n}{k} = \frac{n!}{k!(n-k)!} \rightarrow \frac{49!}{6!(49-6)!} =
+                                            13,983,816\]
+                                            <p> \(n\): Total numbers in the pool (e.g., \(49\) or \(69\)).</p>
+                                            <p> \(k\): How many numbers you must pick (e.g., \(6\)).</p>
+                                        </div>
+                                        <div class="shadow-md stat-box">
+                                            <strong>The Odds of Matching Some But Not All Numbers</strong>
+                                            \[ P(X=k) = \frac{\binom{K}{k} \binom{N-K}{n-k}}{\binom{N}{n}} \]
+                                            <p> \(N\): Total pool size.</p>
+                                            <p> \(n\): Numbers you picked.</p>
+                                            <p> \(K\): Number of winning balls drawn.</p>
+                                            <p> \(k\): Number of your balls that must match the winning balls.</p>
+                                        </div>
+
                                     </div>
 
+                                    <table>
+                                        <thead>
+                                            <tr>
+                                                <th> </th>
+                                                <th>Odds (1 in X)</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td><strong>Winning Mega Millions Jackpot</strong></td>
+                                                <td>\(290,472,336\)</td>
+                                            </tr>
+                                            <tr>
+                                                <td><strong>Winning Powerball Jackpot</strong></td>
+                                                <td>\(292,201,338\)</td>
+                                            </tr>
+                                            <tr>
+                                                <td><strong>Winning a Standard 6/49 Lottery Jackpot</strong></td>
+                                                <td>\(13,983,816\)</td>
+                                            </tr>
+                                            <tr>
+                                                <td><strong>An Average Person Winning an Olympic Medal</strong></td>
+                                                <td>\(662,000\) (lifetime)</td>
+                                            </tr>
+                                            <tr>
+                                                <td><strong>Making a Hole-in-One</strong></td>
+                                                <td>\(\sim 12,500\) (per par-3 hole)</td>
+                                            </tr>
+                                            <tr>
+                                                <td><strong>Being Bitten by a Shark</strong></td>
+                                                <td>\(\sim 3,700,000\) in the US and \(\sim 11,000,000\) worldwide (per
+                                                    beach visit)</td>
+                                            </tr>
+                                            <tr>
+                                                <td><strong>Being Killed by a Shark</strong></td>
+                                                <td>\(\sim 4,332,817\) (lifetime)</td>
+                                            </tr>
+                                            <tr>
+                                                <td><strong>Being Killed by a Vending Machine</strong></td>
+                                                <td>\(\sim 112,000,000\) (yearly)</td>
+                                            </tr>
+                                            <tr>
+                                                <td><strong>Being Injured by a Toilet</strong></td>
+                                                <td>\(\sim 10,000\) (yearly)</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
                                 </div>
-
-                                <table class="fragment fade-in" data-fragment-index="5">
-                                    <thead>
-                                        <tr>
-                                            <th> </th>
-                                            <th>Odds (1 in X)</th>
-                                        </tr>
-                                    </thead>
-                                    <tbody>
-                                        <tr>
-                                            <td><strong>Winning Mega Millions Jackpot</strong></td>
-                                            <td>\(290,472,336\)</td>
-                                        </tr>
-                                        <tr>
-                                            <td><strong>Winning Powerball Jackpot</strong></td>
-                                            <td>\(292,201,338\)</td>
-                                        </tr>
-                                        <tr>
-                                            <td><strong>Winning a Standard 6/49 Lottery Jackpot</strong></td>
-                                            <td>\(13,983,816\)</td>
-                                        </tr>
-                                        <tr>
-                                            <td><strong>An Average Person Winning an Olympic Medal</strong></td>
-                                            <td>\(662,000\) (lifetime)</td>
-                                        </tr>
-                                        <tr>
-                                            <td><strong>Making a Hole-in-One</strong></td>
-                                            <td>\(\sim 12,500\) (per par-3 hole)</td>
-                                        </tr>
-                                        <tr>
-                                            <td><strong>Being Bitten by a Shark</strong></td>
-                                            <td>\(\sim 3,700,000\) in the US and \(\sim 11,000,000\) worldwide (per beach visit)</td>
-                                        </tr>
-                                        <tr>
-                                            <td><strong>Being Killed by a Shark</strong></td>
-                                            <td>\(\sim 4,332,817\) (lifetime)</td>
-                                        </tr>
-                                        <tr>
-                                            <td><strong>Being Killed by a Vending Machine</strong></td>
-                                            <td>\(\sim 112,000,000\) (yearly)</td>
-                                        </tr>
-                                        <tr>
-                                            <td><strong>Being Injured by a Toilet</strong></td>
-                                            <td>\(\sim 10,000\) (yearly)</td>
-                                        </tr>
-                                    </tbody>
-                                </table>
                             </div>
 
                             <div class="math-example fragment fade-in" data-fragment-index="6">
@@ -1304,21 +1308,21 @@
                                     Characters</p>
 
                                 <div class="comparison-grid fragment fade-in" data-fragment-index="7">
-                                    <div class="stat-box">
+                                    <div class="shadow-md stat-box">
                                         <strong><span class="highlight">ONLY</span> Lowercase Letters </strong>
                                         \[\sum_{i=1}^{6} 26^i = 308,915,776\]
                                     </div>
-                                    <div class="stat-box">
+                                    <div class="shadow-md stat-box">
                                         <strong>At Least One Capital Letter</strong>
                                         \[\sum_{k=1}^{6} \binom{6}{k} 26^6 = 1.946 \times 10^{10}\]
                                     </div>
-                                    <div class="stat-box">
+                                    <div class="shadow-md stat-box">
                                         <strong>At Least One Capital <span class="highlight">AND</span> One
                                             Number</strong>
                                         \[ \sum_{j=1}^{5} \sum_{k=1}^{6-j} \frac{6!}{j!k!(6-j-k)!} 26^{6-k} 10^k = 3.591
                                         \times 10^{10}\]
                                     </div>
-                                    <div class="stat-box">
+                                    <div class="shadow-md stat-box">
                                         <strong>At Least One Capital, One Number <span class="highlight">AND</span> One
                                             Special Character</strong>
                                         \[ \sum_{c=1} \sum_{n=1} \sum_{s=1} \frac{6!}{c!n!s!(6-c-n-s)!} 26^c 10^n 32^s
@@ -1326,8 +1330,6 @@
                                     </div>
                                 </div>
                             </div>
-
-
                         </div>
 
                     </div>
