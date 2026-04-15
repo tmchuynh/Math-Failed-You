@@ -40,6 +40,10 @@
   align-items: center;
 }
 
+.slide-4 .quote-author p:first-child {
+  padding-bottom: 8px;
+}
+
 .highlight-box::after {
   content: "";
   position: absolute;

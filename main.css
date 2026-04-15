@@ -43,6 +43,18 @@ body {
   overflow: hidden;
 }
 
+br {
+  display: block;
+  content: "";
+  margin: 0;
+  padding: 0;
+  line-height: 0.5;
+}
+
+em {
+  font-style: italic;
+}
+
 .slide-container {
   width: calc(1280px * 1.15);
   height: calc(720px * 1.15);
