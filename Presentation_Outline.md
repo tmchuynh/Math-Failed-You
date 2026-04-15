@@ -1,4 +1,5 @@
 # Math Didn't Fail You — Language Did
+
 ## Presentation Outline
 
 **Last Updated:** April 13, 2026  
@@ -8,12 +9,12 @@
 
 **Tagline:** A perspective on math from a girl tired of being the only one excited about it
 
-
 ## PRESENTATION FLOW
 
 ### Opening: Hook & Reality Check
 
 **THE REALITY CHECK**
+
 - Ask the room: "Who here thinks they're bad at math?"
 - Emphasize the universality of math anxiety
 - Frame: This is THE INTRODUCTION to shift their perspective
@@ -23,10 +24,10 @@
 ### Slide 1: Title Slide
 
 **Speaker Notes:**
+
 - Open with vulnerability: "I'm tired of being the only one excited about math"
 - Position this as a perspective shift, not a lecture
 - Promise: By the end, you'll see you already 'do' calculus, abstract algebra, and topology in everyday life
-
 
 **"Math Didn't Fail You — Language Did."**
 
@@ -38,12 +39,12 @@
 ### Slide 2: Who here thinks they're bad at math?
 
 **Speaker Notes:**
+
 - This is the hook that engages the audience immediately
 - Show of hands: ask who thinks they're bad at math
 - Promise a concrete demonstration
 - Set expectation: You'll prove the thesis with a real example
 - Transition: "Let's start by understanding what's really happening"
-
 
 **Who here thinks they're bad at math?**
 
@@ -56,17 +57,18 @@ By the end, you'll see you already 'do' calculus, abstract algebra, and topology
 ### Slide 3: Why Are You "Bad" at Math?
 
 **Speaker Notes:**
+
 - Don't dismiss anxiety — it's real
 - But point out: the problem isn't that anxious people CAN'T do math
 - The problem is they DISENGAGE
 - This means: we can intervene by redesigning HOW we present math
 - If we keep people engaged, anxiety's impact drops dramatically
 
-
 **64% report math anxiety**
 But anxiety alone is not the direct performance killer. The stronger mechanism is **math engagement**.
 
 **KEY QUOTE:**
+
 > "People with high math anxiety often know how to do the math — it's an emotional reaction that interferes, not a lack of skill."
 > — American Psychological Association
 
@@ -79,15 +81,18 @@ Math Anxiety → Math Engagement → Math Performance
 Anxiety still matters because it suppresses engagement. If we can standardize high engagement, anxiety's performance impact drops substantially.
 
 **KEY TAKEAWAY:**
+
 > "Math anxiety" is a major indirect force, not always a direct one. Engagement is the lever we can design and control.
 
 **Supporting Points:**
 
 **Direct Effect Is Weaker**
+
 - Students with anxiety do not automatically perform poorly in every condition
 - Performance is more strongly tied to whether they stay cognitively engaged with the task
 
 **Engagement Mediates**
+
 - The 2025 study shows anxiety predicts lower engagement, and lower engagement predicts lower performance
 - The pathway is primarily mediated through engagement
 
@@ -99,27 +104,32 @@ Anxiety still matters because it suppresses engagement. If we can standardize hi
 ### Slide 4: The Core Problem: It's a Language Barrier
 
 **Speaker Notes:**
+
 - This is the thesis slide
 - Hammer home: it's NOT about intelligence
 - It's about ACCESS — specifically linguistic access
 - Set up the examples coming next
 
-
 **Four Authoritative Quotes:**
 
-**Sheila Tobias** (Author of *Overcoming Math Anxiety*, 1978)
+**Sheila Tobias** (Author of _Overcoming Math Anxiety_, 1978)
+
 > "The barrier to math is often linguistic, not conceptual. Many students can handle the mathematical concepts but become unnerved by the unfamiliarity of the symbols, terminology, and structure."
 
-**Anna Sfard** (*Thinking as Communicating*, 2008)
+**Anna Sfard** (_Thinking as Communicating_, 2008)
+
 > "Thinking is a form of communication. Students 'hit a wall' not because they can't do the math, but because they can't parse the formal language it's written in."
 
-**American Psychological Association** (*Preventing Math Anxiety*, 2023)
+**American Psychological Association** (_Preventing Math Anxiety_, 2023)
+
 > "Math anxiety is an emotional problem, not a cognitive one. When anxiety is reduced, anxious individuals perform just as well as their non-anxious peers."
 
-**Ferreira, R. A., Rodriguez, C., Guzmán, B., Sepúlveda, F., & Peake, C.** (*The Interplay of Vocabulary, Working Memory, and Math Anxiety*, 2025)
+**Ferreira, R. A., Rodriguez, C., Guzmán, B., Sepúlveda, F., & Peake, C.** (_The Interplay of Vocabulary, Working Memory, and Math Anxiety_, 2025)
+
 > "Jargon is the gatekeeper, not intelligence. The more specialized the vocabulary, the more it creates an 'insider vs. outsider' dynamic that can intimidate and alienate learners."
 
 **KEY TAKEAWAY (Dark Box - Right Side):**
+
 > Most people who say "I'm bad at math" are actually saying "math language scares me."
 
 The ability is already there. The interface is the problem.
@@ -129,13 +139,13 @@ The ability is already there. The interface is the problem.
 ### Slide 5: Scary Terms You Already Understand
 
 **Speaker Notes:**
+
 - This slide has TWO LAYERS of 9 cards each (18 total)
 - First layer appears with fragments 1-3, then overlays with second layer (fragments 4-6)
 - Move through these quickly but confidently
 - Emphasize: "You ALREADY understand the concept"
 - The only difference is the label
 - This builds momentum and confidence
-
 
 **18 Examples (Two Layers):**
 
@@ -145,7 +155,7 @@ The ability is already there. The interface is the problem.
 
 2. **Integral** — YOU KNOW THIS AS: **Accumulation.** Estimating the total cost of gas for a trip by adding up small chunks along the way. Summing up tiny pieces to get a total.
 
-3. **Eigenvalue / Eigenvector** — YOU KNOW THIS AS: **Stretching a Rubber Band.** The direction along the band that only *stretches* — never rotates — is the eigenvector. How much it stretches is the eigenvalue.
+3. **Eigenvalue / Eigenvector** — YOU KNOW THIS AS: **Stretching a Rubber Band.** The direction along the band that only _stretches_ — never rotates — is the eigenvector. How much it stretches is the eigenvalue.
 
 4. **Combinatorics** — YOU KNOW THIS AS: **Outfit Planning.** "4 shirts and 3 pants = 12 outfits." Counting arrangements and possibilities is the heart of combinatorics.
 
@@ -184,11 +194,11 @@ The ability is already there. The interface is the problem.
 ### Slide 6: Research Evidence
 
 **Speaker Notes:**
+
 - This is your credibility slide
 - You're not just opining — published research backs this up
 - The problem is PRESENTATION, not ability
 - Set up the solution section
-
 
 **RESEARCH EVIDENCE**
 
@@ -213,12 +223,12 @@ When unfamiliar symbols don't map to a student's intuitive model, working memory
 ### Slide 7: Engagement is the Mediating Variable
 
 **Speaker Notes:**
+
 - This is the "so what?" moment
 - We can INTERVENE
 - If we change how we present math, we keep people engaged
 - And engagement breaks the anxiety chain
 - Transition: "So what do we actually DO about this?"
-
 
 **RESEARCH SYNTHESIS**
 
@@ -250,6 +260,7 @@ Integrating symbolic notation with concrete, intuitive representations is critic
 ### Slide 8: Math You Already Use Daily (Without Realizing It)
 
 **Speaker Notes:**
+
 - This slide has TWO LAYERS of 9 cards each (18 total)
 - First layer appears with fragments 1-3, then overlays with second layer (fragments 4-6)
 - This is the empowerment moment
@@ -257,7 +268,6 @@ Integrating symbolic notation with concrete, intuitive representations is critic
 - Ask: "How many of you have done [action]?" for a few examples
 - Make them realize: they're ALREADY mathematical thinkers
 - The only difference is vocabulary
-
 
 **18 Examples (Two Layers):**
 
@@ -306,12 +316,12 @@ Integrating symbolic notation with concrete, intuitive representations is critic
 ### Slide 9: How We Fix The Interface
 
 **Speaker Notes:**
+
 - This is the ACTION slide
 - These are five tangible, research-backed strategies
 - Neither you nor the audience needs a PhD to implement these
 - Emphasize: these aren't "nice to have" — they're PROVEN to work
 - The fifth strategy (normalizing anxiety) is especially important for immediate impact
-
 
 **Five evidence-backed improvements any teacher can make.**
 
@@ -338,6 +348,7 @@ Connect abstract mathematical ideas to real-life experiences. For example, use a
 Recognize that anxiety is a common barrier in learning math. Validate these feelings to show students that they don't reflect their ability to succeed.
 
 **KEY TAKEAWAY:**
+
 > "It is time to stop gatekeeping intelligence behind jargon. Mathematical thinking is not a rare talent — it is a universal human ability."
 
 ---
@@ -345,12 +356,12 @@ Recognize that anxiety is a common barrier in learning math. Validate these feel
 ### Slide 10: You're Not Bad at Math
 
 **Speaker Notes:**
+
 - This is the emotional landing
 - Full circle back to the opening
 - Reframe: it's not about ability, it's about ACCESS
 - Leave them empowered, not lectured
 - End on the call to action: change how you talk about math, to yourself and others
-
 
 **You're not bad at math.**
 
@@ -371,43 +382,52 @@ You already think mathematically every day. Learn the dialect, and the field ope
 ## RESEARCH SOURCES
 
 ### Statistics on Math Anxiety
+
 - 64% of Americans experience math anxiety (13% severe)
 - Women: 70% vs. Men: 57%
 - 47% say it held them back academically/professionally
 - 37% say it hinders financial decision-making
 
 **Sources:**
+
 - [Prodigy Game](https://www.prodigygame.com/main-en/blog/math-anxiety-in-america)
 - [District Administration](https://districtadministration.com/64-of-americans-struggle-with-math-anxiety/)
 
 ### Key Academic Sources
 
-[**Sheila Tobias** - *Overcoming Math Anxiety* (1978)](https://www.scirp.org/reference/referencespapers?referenceid=2811649)
+[**Sheila Tobias** - _Overcoming Math Anxiety_ (1978)](https://www.scirp.org/reference/referencespapers?referenceid=2811649)
+
 - Foundational work establishing math anxiety as a linguistic barrier
 
-[**Anna Sfard** - *Thinking as Communicating* (2008)](
-https://doi.org/10.1017/CBO9780511499944)
+[**Anna Sfard** - _Thinking as Communicating_ (2008)](https://doi.org/10.1017/CBO9780511499944)
+
 - Mathematics as discourse/language
 
-**APA** - [*Preventing Math Anxiety* (2023)](https://www.apa.org/monitor/2023/10/preventing-math-anxiety)
+**APA** - [_Preventing Math Anxiety_ (2023)](https://www.apa.org/monitor/2023/10/preventing-math-anxiety)
+
 - Math anxiety is emotional, not cognitive
 
-**Ferreira et al. MDPI Education Sciences** - [*The Interplay of Vocabulary, Working Memory, and Math Anxiety* (2025)](https://www.mdpi.com/2079-3200/13/10/125)
+**Ferreira et al. MDPI Education Sciences** - [_The Interplay of Vocabulary, Working Memory, and Math Anxiety_ (2025)](https://www.mdpi.com/2079-3200/13/10/125)
+
 - Math-specific vocabulary as gatekeeper
 - Math-specific vocabulary as stronger predictor than general language skills
 - Jargon creates vicious cycle of anxiety and blocked access
 
-**Frontiers in Psychology** - [*Unraveling the Role of Math Anxiety* (2022)](https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2022.979113/full)
+**Frontiers in Psychology** - [_Unraveling the Role of Math Anxiety_ (2022)](https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2022.979113/full)
+
 - State vs. trait anxiety; presentation as trigger
 
-**Springer MERJ** - [*Influence of Mathematics Anxiety on Performance* (2025)](https://link.springer.com/article/10.1007/s13394-025-00536-1)
+**Springer MERJ** - [_Influence of Mathematics Anxiety on Performance_ (2025)](https://link.springer.com/article/10.1007/s13394-025-00536-1)
+
 - Engagement as mediating variable
 - Language-first pedagogy buffers anxiety effects
 
 [**ERIC Meta-Analysis** (2023)](https://files.eric.ed.gov/fulltext/EJ1400784.pdf)
+
 - Language interventions consistently effective
 
 [**Frontiers in Education** (2025)](https://www.frontiersin.org/journals/education/articles/10.3389/feduc.2025.1536470/full)
+
 - Integration of symbolic notation with concrete representations is critical
 - Formal notation alone reduces motivation and increases intimidation
 
@@ -417,25 +437,30 @@ https://doi.org/10.1017/CBO9780511499944)
 
 ### Additional "Scary Terms You Already Understand"
 
-*Note: Many previously "extended" examples have been promoted to the main presentation in Slides 5 and 8. The following remain as backup content for Q&A or extended formats.*
+_Note: Many previously "extended" examples have been promoted to the main presentation in Slides 5 and 8. The following remain as backup content for Q&A or extended formats._
 
 **Asymptote**
+
 - A line you approach but never reach
 - "Almost there but never quite" — like halving distance to a wall forever
 
 **Universal Quantifier (∀)**
+
 - Symbol meaning "for all" / "every"
 - "Every restaurant here is expensive" — you use this in speech constantly
 
 **Orthonormal**
+
 - Perpendicular directions at right angles, evenly scaled
 - Every map grid, every 3D graph axis since middle school
 
 **Ring Theory**
+
 - Algebraic structures with addition and multiplication
 - Every arithmetic operation on integers is ring theory
 
 **Module Theory**
+
 - Vector spaces where scalars come from rings
 - Budget spreadsheet with different multipliers per category
 
