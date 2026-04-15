@@ -67,7 +67,8 @@
   font-weight: 700;
 }
 
-.slide-3 .model-title {
+.slide-3 .model-title,
+.slide-9 .model-title {
   font-size: 14px;
   text-transform: uppercase;
   letter-spacing: 1.2px;
