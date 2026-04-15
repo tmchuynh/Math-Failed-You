@@ -1177,7 +1177,7 @@
                                                 \times
                                                 2 \times 1 = 52!\)</p>
                                         </div>
-                                        <div class="bg-red-100 p-2 rounded-lg text-red-700">
+                                        <div class="bg-red-100 shadow-lg p-2 rounded-lg text-red-700">
                                             \[80,658,175,170,943,878,571,660,636,856,403,766,975,289,505,440,883,277,824,000,000,000,000\]
                                         </div>
                                     </div>
@@ -1204,7 +1204,7 @@
                                         </div>
                                     </div>
 
-                                    <div class="grid grid-cols-7">
+                                    <div class="grid grid-cols-7 pt-3 px-2">
                                         <div class="col-span-2">
                                             Total # of shuffles in history:
                                             \[\frac{5.1 \times 10^{28}}{8.06 \times 10^{67}} \approx 6.3 \times
@@ -1245,10 +1245,16 @@
                                         <div class="shadow-md stat-box">
                                             <strong>The Odds of Matching Some But Not All Numbers</strong>
                                             \[ P(X=k) = \frac{\binom{K}{k} \binom{N-K}{n-k}}{\binom{N}{n}} \]
-                                            <p> \(N\): Total pool size.</p>
-                                            <p> \(n\): Numbers you picked.</p>
-                                            <p> \(K\): Number of winning balls drawn.</p>
-                                            <p> \(k\): Number of your balls that must match the winning balls.</p>
+                                            <div class="grid grid-cols-5">
+                                                <div class="col-span-2">
+                                                    <p> \(N\): Total pool size.</p>
+                                                    <p> \(n\): #s you picked.</p>
+                                                </div>
+                                                <div class="col-span-3">
+                                                    <p> \(K\): # of winning balls drawn.</p>
+                                                    <p> \(k\): # of your balls that must match the winning balls.</p>
+                                                </div>
+                                            </div>
                                         </div>
 
                                     </div>
@@ -1282,11 +1288,6 @@
                                                 <td>\(\sim 12,500\) (per par-3 hole)</td>
                                             </tr>
                                             <tr>
-                                                <td><strong>Being Bitten by a Shark</strong></td>
-                                                <td>\(\sim 3,700,000\) in the US and \(\sim 11,000,000\) worldwide (per
-                                                    beach visit)</td>
-                                            </tr>
-                                            <tr>
                                                 <td><strong>Being Killed by a Shark</strong></td>
                                                 <td>\(\sim 4,332,817\) (lifetime)</td>
                                             </tr>
@@ -1303,8 +1304,9 @@
                                 </div>
                             </div>
 
-                            <div class="math-example fragment fade-in" data-fragment-index="6">
-                                <p class="model-title">Password Creation - Six Characters Using Standard ASCII
+                            <div class="math-example">
+                                <p class="model-title fragment fade-in-then-out" data-fragment-index="6">Password
+                                    Creation - Six Characters Using Standard ASCII
                                     Characters</p>
 
                                 <div class="comparison-grid fragment fade-in" data-fragment-index="7">
