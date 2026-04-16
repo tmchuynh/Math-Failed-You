@@ -31,7 +31,6 @@
 .reveal-viewport {
   width: calc(1280px * 1.15);
   height: calc(720px * 1.15);
-  border: 2px solid var(--color-border-default);
 }
 
 /* Fullscreen mode - when .reveal is the fullscreen element */
@@ -136,6 +135,10 @@ table th {
   background-color: var(--color-border-default);
 }
 
+/* ===========================
+   CONTENT WRAPPERS
+   =========================== */
+
 .slide-container {
   height: 100%;
   background-color: #ffffff;
@@ -153,20 +156,6 @@ table th {
   width: 100%;
   height: 100%;
 }
-
-.accent-bar {
-  position: absolute;
-  left: 0;
-  top: 120px;
-  bottom: 120px;
-  width: 12px;
-  background-color: #e62b1e;
-  z-index: 0;
-}
-
-/* ===========================
-   CONTENT WRAPPERS
-   =========================== */
 
 .content-wrapper {
   flex: 1;
@@ -238,6 +227,16 @@ table th {
    DECORATIVE ELEMENTS
    =========================== */
 
+.accent-bar {
+  position: absolute;
+  left: 0;
+  top: 120px;
+  bottom: 120px;
+  width: 12px;
+  background-color: #e62b1e;
+  z-index: 0;
+}
+
 .decorative-shape {
   position: absolute;
   right: -100px;
@@ -283,18 +282,20 @@ table th {
   pointer-events: none;
 }
 
-/* _________________________________ */
+/* ===========================
+   TOGGLE FULLSCREEN BUTTON
+   =========================== */
 
 .toggle-fullscreen-btn {
-	position: absolute;
-	z-index: 10000;
-	top: 10px;
-	right: 10px;
-	border: 0;
-	padding: 0;
-	background: none;
-	cursor: pointer;
-	outline: none;
+  position: absolute;
+  z-index: 10000;
+  top: 10px;
+  right: 10px;
+  border: 0;
+  padding: 0;
+  background: none;
+  cursor: pointer;
+  outline: none;
 }
 
 /* Position button when .reveal is fullscreen */
@@ -302,22 +303,22 @@ table th {
 .reveal:-webkit-full-screen .toggle-fullscreen-btn,
 .reveal:-moz-full-screen .toggle-fullscreen-btn,
 .reveal:-ms-fullscreen .toggle-fullscreen-btn {
-	position: fixed;
-	top: 20px;
-	right: 20px;
+  position: fixed;
+  top: 20px;
+  right: 20px;
 }
 
 .toggle-fullscreen-svg {
-	display: block;
-	height: auto;
+  display: block;
+  height: auto;
 }
 
 .toggle-fullscreen-svg path {
-	transform-box: view-box;
-	transform-origin: 12px 12px;
-	fill: none;
-	stroke: hsl(225, 10%, 8%);
-	stroke-width: 4;
+  transform-box: view-box;
+  transform-origin: 12px 12px;
+  fill: none;
+  stroke: hsl(225, 10%, 8%);
+  stroke-width: 4;
   transition: 0.25s;
 }
 
@@ -326,7 +327,7 @@ table th {
 .reveal:-webkit-full-screen .toggle-fullscreen-svg path,
 .reveal:-moz-full-screen .toggle-fullscreen-svg path,
 .reveal:-ms-fullscreen .toggle-fullscreen-svg path {
-	stroke: #ffffff;
+  stroke: #ffffff;
 }
 
 .toggle-fullscreen-btn:hover path:nth-child(1),
