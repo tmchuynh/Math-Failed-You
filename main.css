@@ -34,6 +34,31 @@
   border: 2px solid var(--color-border-default);
 }
 
+/* Fullscreen mode - when .reveal is the fullscreen element */
+.reveal:fullscreen,
+.reveal:-webkit-full-screen,
+.reveal:-moz-full-screen,
+.reveal:-ms-fullscreen {
+  width: 100vw !important;
+  height: 100vh !important;
+  background-color: #000;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+.reveal:fullscreen .slides,
+.reveal:-webkit-full-screen .slides,
+.reveal:-moz-full-screen .slides,
+.reveal:-ms-fullscreen .slides {
+  /* Maintain aspect ratio: 1472 / 828 ≈ 1.777 (16:9) */
+  max-width: 100vw !important;
+  max-height: 100vh !important;
+  width: auto !important;
+  height: 100vh !important;
+  aspect-ratio: 1472 / 828;
+}
+
 .reveal .slides {
   text-align: left;
 }
@@ -118,6 +143,15 @@ table th {
   flex-direction: column;
   position: relative;
   overflow: hidden;
+}
+
+/* Ensure slide-container scales properly in fullscreen */
+.reveal:fullscreen .slide-container,
+.reveal:-webkit-full-screen .slide-container,
+.reveal:-moz-full-screen .slide-container,
+.reveal:-ms-fullscreen .slide-container {
+  width: 100%;
+  height: 100%;
 }
 
 .accent-bar {
@@ -263,6 +297,16 @@ table th {
 	outline: none;
 }
 
+/* Position button when .reveal is fullscreen */
+.reveal:fullscreen .toggle-fullscreen-btn,
+.reveal:-webkit-full-screen .toggle-fullscreen-btn,
+.reveal:-moz-full-screen .toggle-fullscreen-btn,
+.reveal:-ms-fullscreen .toggle-fullscreen-btn {
+	position: fixed;
+	top: 20px;
+	right: 20px;
+}
+
 .toggle-fullscreen-svg {
 	display: block;
 	height: auto;
@@ -275,6 +319,14 @@ table th {
 	stroke: hsl(225, 10%, 8%);
 	stroke-width: 4;
   transition: 0.25s;
+}
+
+/* White button in fullscreen mode */
+.reveal:fullscreen .toggle-fullscreen-svg path,
+.reveal:-webkit-full-screen .toggle-fullscreen-svg path,
+.reveal:-moz-full-screen .toggle-fullscreen-svg path,
+.reveal:-ms-fullscreen .toggle-fullscreen-svg path {
+	stroke: #ffffff;
 }
 
 .toggle-fullscreen-btn:hover path:nth-child(1),
