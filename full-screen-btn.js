@@ -1,31 +1,57 @@
 // Wait for DOM to be fully loaded
 document.addEventListener("DOMContentLoaded", function() {
   const toggleBtn = document.getElementById("fullscreenToggle");
+  const revealElement = document.querySelector(".reveal");
   
   if (!toggleBtn) {
     console.error("Fullscreen button not found");
     return;
   }
 
+  if (!revealElement) {
+    console.error("Reveal element not found");
+    return;
+  }
+
   if (document.fullscreenEnabled || document.webkitFullscreenEnabled) {
-    toggleBtn.addEventListener("click", function () {
+    toggleBtn.addEventListener("click", function (e) {
+      e.preventDefault();
+      e.stopPropagation();
+      
+      console.log("Fullscreen button clicked");
+      
       // Check if currently in fullscreen
       const isFullscreen =
-        document.fullscreenElement || document.webkitFullscreenElement;
+        document.fullscreenElement || 
+        document.webkitFullscreenElement ||
+        document.mozFullScreenElement ||
+        document.msFullscreenElement;
 
       if (isFullscreen) {
+        console.log("Exiting fullscreen");
         // Exit fullscreen
         if (document.exitFullscreen) {
           document.exitFullscreen();
         } else if (document.webkitExitFullscreen) {
           document.webkitExitFullscreen();
+        } else if (document.mozCancelFullScreen) {
+          document.mozCancelFullScreen();
+        } else if (document.msExitFullscreen) {
+          document.msExitFullscreen();
         }
       } else {
-        // Enter fullscreen
-        if (document.documentElement.requestFullscreen) {
-          document.documentElement.requestFullscreen();
-        } else if (document.documentElement.webkitRequestFullscreen) {
-          document.documentElement.webkitRequestFullscreen();
+        console.log("Entering fullscreen");
+        // Enter fullscreen on the reveal element
+        if (revealElement.requestFullscreen) {
+          revealElement.requestFullscreen().catch(err => {
+            console.error("Error entering fullscreen:", err);
+          });
+        } else if (revealElement.webkitRequestFullscreen) {
+          revealElement.webkitRequestFullscreen();
+        } else if (revealElement.mozRequestFullScreen) {
+          revealElement.mozRequestFullScreen();
+        } else if (revealElement.msRequestFullscreen) {
+          revealElement.msRequestFullscreen();
         }
       }
     });
@@ -43,6 +69,8 @@ document.addEventListener("DOMContentLoaded", function() {
         document.mozFullScreenElement ||
         document.msFullscreenElement;
 
+      console.log("Fullscreen state changed:", isFullscreen ? "FULLSCREEN" : "NORMAL");
+
       if (isFullscreen) {
         toggleBtn.classList.add("on");
         toggleBtn.setAttribute("aria-label", "Exit fullscreen mode");
@@ -51,5 +79,8 @@ document.addEventListener("DOMContentLoaded", function() {
         toggleBtn.setAttribute("aria-label", "Enter fullscreen mode");
       }
     }
+  } else {
+    console.warn("Fullscreen API not supported");
+    toggleBtn.style.display = "none";
   }
 });
