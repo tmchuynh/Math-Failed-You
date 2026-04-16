@@ -251,3 +251,46 @@ table th {
   z-index: 1;
   pointer-events: none;
 }
+
+
+
+/* _________________________________ */
+
+
+
+.toggle-fullscreen-btn {
+	position: absolute;
+	z-index: 10000;
+	top: 10px;
+	right: 10px;
+	border: 0;
+	padding: 0;
+	background: none;
+	cursor: pointer;
+	outline: none;
+}
+
+/* Ensure button is visible and accessible in fullscreen */
+:fullscreen .toggle-fullscreen-btn,
+:-webkit-full-screen .toggle-fullscreen-btn,
+:-moz-full-screen .toggle-fullscreen-btn,
+:-ms-fullscreen .toggle-fullscreen-btn {
+	position: fixed;
+	top: 20px;
+	right: 20px;
+}
+
+
+.toggle-fullscreen-svg {
+	display: block;
+	height: auto;
+}
+
+.toggle-fullscreen-svg path {
+	transform-box: view-box;
+	transform-origin: 12px 12px;
+	fill: none;
+	stroke: hsl(225, 10%, 8%);
+	stroke-width: 4;
+	transition: .15s;
+}
