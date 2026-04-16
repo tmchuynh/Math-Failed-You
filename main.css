@@ -19,7 +19,7 @@
   --cite-text: #b91c1c;
   --color-canvas-default: #ffffff;
   --color-canvas-subtle: #f6f8fa;
-  --color-border-default: #d0d7de;
+  --color-border-default: #f1f1f1;
   --color-border-muted: rgb(126, 128, 131);
   --color-neutral-muted: rgba(175, 184, 193, 0.2);
 }
@@ -54,7 +54,7 @@
   right: auto;
   background-color: var(--color-canvas-subtle);
   color: var(--subtext-color);
-  font-family: 'Courier New', Courier, monospace;
+  font-family: "Courier New", Courier, monospace;
 }
 
 /* ===========================
@@ -85,7 +85,6 @@ sup {
   margin-top: 10px;
 }
 
-
 table {
   width: 100%;
   max-width: 100%;
@@ -113,8 +112,6 @@ table th {
 }
 
 .slide-container {
-  width: calc(1280px * 1.15);
-  height: calc(720px * 1.15);
   height: 100%;
   background-color: #ffffff;
   display: flex;
@@ -252,11 +249,7 @@ table th {
   pointer-events: none;
 }
 
-
-
 /* _________________________________ */
-
-
 
 .toggle-fullscreen-btn {
 	position: absolute;
@@ -270,17 +263,6 @@ table th {
 	outline: none;
 }
 
-/* Ensure button is visible and accessible in fullscreen */
-:fullscreen .toggle-fullscreen-btn,
-:-webkit-full-screen .toggle-fullscreen-btn,
-:-moz-full-screen .toggle-fullscreen-btn,
-:-ms-fullscreen .toggle-fullscreen-btn {
-	position: fixed;
-	top: 20px;
-	right: 20px;
-}
-
-
 .toggle-fullscreen-svg {
 	display: block;
 	height: auto;
@@ -292,5 +274,33 @@ table th {
 	fill: none;
 	stroke: hsl(225, 10%, 8%);
 	stroke-width: 4;
-	transition: .15s;
+  transition: 0.25s;
+}
+
+.toggle-fullscreen-btn:hover path:nth-child(1),
+.toggle-fullscreen-btn:focus path:nth-child(1) {
+  transform: translate(-2px, -2px);
+}
+
+.toggle-fullscreen-btn:hover path:nth-child(2),
+.toggle-fullscreen-btn:focus path:nth-child(2) {
+  transform: translate(2px, -2px);
+}
+
+.toggle-fullscreen-btn:hover path:nth-child(3),
+.toggle-fullscreen-btn:focus path:nth-child(3) {
+  transform: translate(2px, 2px);
+}
+
+.toggle-fullscreen-btn:hover path:nth-child(4),
+.toggle-fullscreen-btn:focus path:nth-child(4) {
+  transform: translate(-2px, 2px);
+}
+
+.toggle-fullscreen-btn:not(.on) .icon-fullscreen-leave {
+  display: none;
+}
+
+.toggle-fullscreen-btn.on .icon-fullscreen-enter {
+  display: none;
 }
