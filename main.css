@@ -27,6 +27,13 @@
 /* ===========================
    REVEAL.JS BASE OVERRIDES
    =========================== */
+
+.reveal-viewport {
+  width: calc(1280px * 1.15);
+  height: calc(720px * 1.15);
+  border: 2px solid var(--color-border-default);
+}
+
 .reveal .slides {
   text-align: left;
 }
@@ -34,6 +41,20 @@
 .reveal .slides section {
   height: 100%;
   padding: 0;
+}
+
+.reveal .progress {
+  height: 5px;
+  border-radius: 5px;
+  background-color: var(--color-border-default);
+}
+
+.reveal .slide-number {
+  left: 1%;
+  right: auto;
+  background-color: var(--color-canvas-subtle);
+  color: var(--subtext-color);
+  font-family: 'Courier New', Courier, monospace;
 }
 
 /* ===========================
@@ -94,6 +115,7 @@ table th {
 .slide-container {
   width: calc(1280px * 1.15);
   height: calc(720px * 1.15);
+  height: 100%;
   background-color: #ffffff;
   display: flex;
   flex-direction: column;
