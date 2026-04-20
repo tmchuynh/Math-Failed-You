@@ -11,6 +11,10 @@
   margin-bottom: 24px;
 }
 
+.main-title .highlight {
+  font-weight: 900;
+}
+
 .subtitle {
   font-size: 32px;
   font-weight: 400;
