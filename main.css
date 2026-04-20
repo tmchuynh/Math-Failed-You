@@ -262,6 +262,10 @@ table th {
   color: var(--off-white);
 }
 
+.special .highlight {
+  color: var(--accent-text);
+}
+
 .special span {
   color: var(--subtext-color);
 }
