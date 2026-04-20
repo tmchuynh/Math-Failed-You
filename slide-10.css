@@ -7,7 +7,10 @@
   height: 100%;
   z-index: 0;
   opacity: 0.05;
-  background-image: radial-gradient(#ffffff 1px, transparent 1px);
+  background-image: radial-gradient(
+    var(--color-canvas-default) 1px,
+    transparent 1px
+  );
   background-size: 30px 30px;
   /* Fallback for no-gradient requirement: using SVG instead in HTML */
   background-image: none;
@@ -47,7 +50,7 @@
   font-size: 28px;
   font-weight: 400;
   font-style: italic;
-  color: #9ca3af;
+  color: var(--off-gray);
   max-width: 900px;
   line-height: 1.6;
   margin-bottom: 60px;
@@ -84,9 +87,9 @@
 }
 
 .slide-10 .bad-quote {
-  color: #6b7280;
+  color: var(--subtext-color);
   text-decoration: line-through;
-  text-decoration-color: #ef4444;
+  text-decoration-color: var(--accent-text);
   text-decoration-thickness: 3px;
   opacity: 0.6;
 }
@@ -104,11 +107,11 @@
   left: 0;
   width: 70%;
   height: 2px;
-  background-color: #ef4444;
+  background-color: var(--accent-text);
 }
 
 .slide-10 .arrow-icon {
-  color: #ef4444;
+  color: var(--accent-text);
   font-size: 24px;
   margin-left: -10rem;
   opacity: 0.8;
@@ -120,7 +123,7 @@
   font-size: 18px;
   letter-spacing: 4px;
   text-transform: uppercase;
-  color: #4b5563;
+  color: var(--blue-gray);
   display: flex;
   align-items: center;
   gap: 12px;
