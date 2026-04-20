@@ -6,7 +6,7 @@
   font-size: 96px;
   font-weight: 900;
   line-height: 1.1;
-  color: #111111;
+  color: var(--black);
   letter-spacing: -2px;
   margin-bottom: 24px;
 }
@@ -14,7 +14,7 @@
 .subtitle {
   font-size: 32px;
   font-weight: 400;
-  color: #4b5563;
+  color: var(--blue-gray);
   line-height: 1.4;
   max-width: 900px;
   margin-bottom: 60px;
