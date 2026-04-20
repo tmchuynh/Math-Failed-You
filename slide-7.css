@@ -6,26 +6,26 @@
 .slide-7 .quote-col {
   width: 57%;
   padding: 60px 72px;
-  background-color: #ffffff;
+  background-color: var(--color-canvas-default);
   display: flex;
   flex-direction: column;
   justify-content: center;
   gap: 18px;
 }
 
-.slide-7 .col-kicker {
+/* .slide-7 .kicker {
   font-size: 12px;
   font-weight: 800;
   text-transform: uppercase;
   letter-spacing: 2.2px;
-  color: #e62b1e;
-}
+  color: var(--accent-color);
+} */
 
 .slide-7 .big-quote {
   font-family: "Space Grotesk", sans-serif;
   font-size: 38px;
   font-weight: 700;
-  color: #111827;
+  color: var(--dark-bg);
   line-height: 1.1;
   letter-spacing: -0.9px;
   max-width: 580px;
@@ -33,7 +33,7 @@
 
 .slide-7 .quote-body {
   font-size: 17px;
-  color: #4b5563;
+  color: var(--blue-gray);
   line-height: 1.6;
   max-width: 560px;
 }
@@ -42,8 +42,8 @@
   display: inline-flex;
   align-items: center;
   gap: 6px;
-  background-color: #fef2f2;
-  color: #b91c1c;
+  background-color: var(--accent-bg);
+  color: var(--dark-red);
   font-size: 12px;
   font-weight: 700;
   text-transform: uppercase;
@@ -56,7 +56,7 @@
 /* ── Right: Evidence column ── */
 .slide-7 .evidence-col {
   width: 53%;
-  background-color: #111827;
+  background-color: var(--dark-bg);
   padding: 52px 44px;
   display: flex;
   flex-direction: column;
@@ -73,9 +73,9 @@
   left: -40px;
   width: 200px;
   height: 200px;
-  background-color: #e62b1e;
+  background-color: var(--accent-color);
   filter: blur(80px);
-  opacity: 0.12;
+  opacity: 0.3;
   border-radius: 50%;
   pointer-events: none;
 }
@@ -83,7 +83,7 @@
 .slide-7 .evidence-heading {
   font-size: 11px;
   font-weight: 800;
-  color: #6b7280;
+  color: var(--subtext-color);
   text-transform: uppercase;
   letter-spacing: 2.2px;
   position: relative;
@@ -103,7 +103,7 @@
 .slide-7 .ev-source {
   font-size: 11px;
   font-weight: 800;
-  color: #e95353;
+  color: var(--accent-text);
   text-transform: uppercase;
   letter-spacing: 1px;
   margin-bottom: 5px;
@@ -111,6 +111,6 @@
 
 .slide-7 .ev-text {
   font-size: 13px;
-  color: #d1d5db;
+  color: var(--light-gray);
   line-height: 1.45;
 }
