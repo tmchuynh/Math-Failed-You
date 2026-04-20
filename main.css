@@ -7,21 +7,24 @@
   --primary-font: "Inter", sans-serif;
   --secondary-font: "Lora", serif;
   --bg-color: #f3f4f6;
-  --text-color: #111827;
   --subtext-color: #6b7280;
-  --highlight-color: #e62b1e;
-  --light-bg: #fcfcfc;
-  --dark-bg: #111827;
+
+  --light-gray: #d1d5db;
+  --off-white: #f0f3f7e1;
+  --dark-red: #b61111;
+  --off-gray: #9ca3af;
+  --blue-gray: #4b5563;
+  --dark-blue-gray: #111828;
+  --black: #111;
+
+  --dark-bg: #0d1524;
   --accent-bg: #fef2f2;
   --accent-text: #b91c1c;
   --quote-color: #374151;
-  --cite-bg: #fef2f2;
-  --cite-text: #b91c1c;
   --color-canvas-default: #ffffff;
   --color-canvas-subtle: #f6f8fa;
   --color-border-default: #f1f1f1;
   --color-border-muted: rgb(126, 128, 131);
-  --color-neutral-muted: rgba(175, 184, 193, 0.2);
 }
 
 /* ===========================
@@ -88,7 +91,7 @@
 body {
   margin: 0;
   padding: 0;
-  background-color: #f3f4f6;
+  background-color: var(--bg-color);
   font-family: "Inter", sans-serif;
   overflow: hidden;
 }
@@ -141,7 +144,7 @@ table th {
 
 .slide-container {
   height: 100%;
-  background-color: #ffffff;
+  background-color: var(--color-canvas-default);
   display: flex;
   flex-direction: column;
   position: relative;
@@ -169,7 +172,7 @@ table th {
 
 .content-area {
   flex: 1;
-  padding: 40px 80px;
+  padding: 20px 80px 40px 80px;
   display: flex;
   gap: 40px;
 }
@@ -193,15 +196,15 @@ table th {
   padding: 0 80px;
   display: flex;
   align-items: center;
-  border-bottom: 2px solid #f3f4f6;
-  background-color: #ffffff;
+  border-bottom: 2px solid var(--bg-color);
+  background-color: var(--color-canvas-default);
   z-index: 10;
 }
 
 .header-title {
   font-size: 32px;
   font-weight: 800;
-  color: #111827;
+  color: var(--dark-bg);
   letter-spacing: -0.5px;
 }
 
@@ -209,7 +212,31 @@ table th {
    UTILITY CLASSES
    =========================== */
 .highlight {
-  color: #e62b1e;
+  color: var(--accent-color);
+  font-weight: 700;
+}
+
+.math-symbol {
+  position: absolute;
+  bottom: 0px;
+  right: 10px;
+  font-size: 60px;
+  opacity: 0.05;
+  font-family: "Times New Roman", serif;
+  font-style: italic;
+  pointer-events: none;
+  transform: rotate(-15deg);
+}
+
+.kicker {
+  font-size: 12px;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 2.4px;
+  color: var(--dark-red);
+  display: flex;
+  align-items: center;
+  gap: 8px;
 }
 
 .meta-info {
@@ -218,9 +245,34 @@ table th {
   gap: 20px;
   font-size: 18px;
   font-weight: 600;
-  color: #9ca3af;
+  color: var(--off-gray);
   text-transform: uppercase;
   letter-spacing: 1px;
+}
+
+.special {
+  background-color: var(--dark-bg);
+  height: 99%;
+  width: 99%;
+  margin-top: 0.5%;
+  margin-left: 0.5%;
+}
+
+.special p {
+  color: var(--off-white);
+}
+
+.special span {
+  color: var(--subtext-color);
+}
+
+.special .rounded-lg {
+  background-color: var(--quote-color);
+  color: var(--bg-color);
+}
+
+.special .math-symbol {
+  color: var(--light-bg);
 }
 
 /* ===========================
@@ -233,7 +285,7 @@ table th {
   top: 120px;
   bottom: 120px;
   width: 12px;
-  background-color: #e62b1e;
+  background-color: var(--accent-color);
   z-index: 0;
 }
 
@@ -244,7 +296,7 @@ table th {
   width: 500px;
   height: 500px;
   border-radius: 50%;
-  border: 40px solid #f9fafb;
+  border: 40px solid var(--off-white);
   z-index: 0;
 }
 
@@ -255,14 +307,14 @@ table th {
   width: 300px;
   height: 300px;
   border-radius: 50%;
-  background-color: #fef2f2;
+  background-color: var(--accent-bg);
   z-index: 0;
 }
 
 .accent-dot {
   width: 12px;
   height: 12px;
-  background-color: #e62b1e;
+  background-color: var(--accent-color);
   border-radius: 50%;
   margin-right: 16px;
   flex-shrink: 0;
@@ -270,12 +322,12 @@ table th {
 
 .glow-orb {
   position: absolute;
-  width: 500px;
-  height: 500px;
-  background-color: #e62b1e;
-  border-radius: 50%;
+  width: 400px;
+  height: 400px;
+  background-color: var(--dark-red);
+  border-radius: 60%;
   filter: blur(130px);
-  opacity: 0.11;
+  opacity: 0.21;
   top: -180px;
   right: -120px;
   z-index: 1;
@@ -327,7 +379,7 @@ table th {
 .reveal:-webkit-full-screen .toggle-fullscreen-svg path,
 .reveal:-moz-full-screen .toggle-fullscreen-svg path,
 .reveal:-ms-fullscreen .toggle-fullscreen-svg path {
-  stroke: #ffffff;
+  stroke: var(--color-canvas-default);
 }
 
 .toggle-fullscreen-btn:hover path:nth-child(1),
