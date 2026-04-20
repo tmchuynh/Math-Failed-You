@@ -4,7 +4,7 @@
 
 .slide-3 .content-area {
   display: grid;
-  grid-template-columns: 3fr 2fr;
+  grid-template-columns: 2fr 3fr;
   gap: 26px;
   padding-top: 28px;
   padding-bottom: 28px;
@@ -23,14 +23,14 @@
 }
 
 .slide-3 .panel {
-  background-color: #ffffff;
+  background-color: var(--color-canvas-default);
   border-radius: 14px;
-  border: 1px solid #e5e7eb;
+  border: 1px solid var(--off-white);
   padding: 26px 20px;
 }
 
 .slide-3 .primary-claim {
-  border-left: 6px solid #e62b1e;
+  border-left: 6px solid var(--accent-color);
   border-radius: 12px;
   padding-left: 16px;
 }
@@ -46,7 +46,7 @@
   font-size: 56px;
   font-weight: 900;
   line-height: 1;
-  color: #e62b1e;
+  color: var(--accent-color);
   letter-spacing: -1px;
 }
 
@@ -54,12 +54,12 @@
   font-size: 24px;
   font-weight: 700;
   line-height: 1.2;
-  color: #1f2937;
+  color: var(--blue-gray);
 }
 
 .slide-3 .subtext {
   font-size: 17px;
-  color: #4b5563;
+  color: var(--blue-gray);
   line-height: 1.45;
 }
 
@@ -73,7 +73,7 @@
   text-transform: uppercase;
   letter-spacing: 1.2px;
   font-weight: 800;
-  color: #6b7280;
+  color: var(--subtext-color);
   margin-bottom: 12px;
 }
 
@@ -103,35 +103,34 @@
 .slide-3 .divider-note {
   margin-top: 12px;
   font-size: 15px;
-  color: #374151;
+  color: var(--blue-gray);
   line-height: 1.45;
 }
 
 .slide-3 .evidence {
   display: flex;
   flex-direction: column;
-  height: 50%;
   justify-content: start;
   gap: 18px;
 }
 
 .slide-3 .evidence-card {
-  background-color: #ffffff;
+  background-color: var(--color-canvas-default);
   border-radius: 12px;
-  border: 1px solid #e5e7eb;
+  border: 1px solid var(--off-white);
   padding: 16px;
 }
 
 .slide-3 .evidence-text {
   font-size: 14px;
-  color: #4b5563;
+  color: var(--blue-gray);
   line-height: 1.45;
 }
 
 .slide-3 .takeaway-box,
 .slide-3 .insight-box {
-  background-color: #1f2937;
-  color: #f9fafb;
+  background-color: var(--blue-gray);
+  color: var(--off-white);
   border-radius: 14px;
   padding: 20px;
   position: relative;
@@ -150,15 +149,6 @@
   background-color: rgba(230, 43, 30, 0.18);
 }
 
-.slide-3 .takeaway-label {
-  font-size: 12px;
-  text-transform: uppercase;
-  letter-spacing: 1.3px;
-  font-weight: 800;
-  color: #e95353;
-  margin-bottom: 10px;
-}
-
 .slide-3 .takeaway-text {
   font-family: "Lora", serif;
   font-size: 20px;
@@ -170,10 +160,10 @@
 
 .slide-3 .source-box {
   margin-top: auto;
-  border-top: 1px dashed #d1d5db;
+  border-top: 1px dashed var(--light-gray);
   padding-top: 12px;
   font-size: 12px;
-  color: #6b7280;
+  color: var(--subtext-color);
   line-height: 1.45;
 }
 
@@ -188,7 +178,7 @@
   left: 10px;
   font-size: 10px;
   font-family: "Lora", serif;
-  color: #e62b1e;
+  color: var(--accent-color);
   opacity: 0.25;
 }
 
@@ -216,7 +206,7 @@
 .slide-3 .insight-source {
   margin-top: 12px;
   font-size: 14px;
-  color: #9ca3af;
+  color: var(--off-gray);
   font-family: "Inter", sans-serif;
   text-transform: uppercase;
   letter-spacing: 1px;
