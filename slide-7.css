@@ -31,6 +31,7 @@
   max-width: 580px;
 }
 
+.slide-3 .quote-body,
 .slide-7 .quote-body {
   font-size: 17px;
   color: var(--blue-gray);

@@ -4,7 +4,7 @@
 
 .slide-3 .content-area {
   display: grid;
-  grid-template-columns: 2fr 3fr;
+  grid-template-columns: 3fr 3fr;
   gap: 26px;
   padding-top: 28px;
   padding-bottom: 28px;
@@ -37,6 +37,7 @@
 
 .slide-3 .big-stat {
   display: flex;
+  flex-wrap: wrap;
   align-items: baseline;
   gap: 14px;
   margin-bottom: 6px;
