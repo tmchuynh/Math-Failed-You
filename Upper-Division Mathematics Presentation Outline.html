@@ -1,0 +1,625 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Upper-Division Mathematics Presentation Outline.md</title>
+<meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+
+<style>
+/* https://github.com/microsoft/vscode/blob/master/extensions/markdown-language-features/media/markdown.css */
+/*---------------------------------------------------------------------------------------------
+ *  Copyright (c) Microsoft Corporation. All rights reserved.
+ *  Licensed under the MIT License. See License.txt in the project root for license information.
+ *--------------------------------------------------------------------------------------------*/
+
+body {
+	font-family: var(--vscode-markdown-font-family, -apple-system, BlinkMacSystemFont, "Segoe WPC", "Segoe UI", "Ubuntu", "Droid Sans", sans-serif);
+	font-size: var(--vscode-markdown-font-size, 14px);
+	padding: 0 26px;
+	line-height: var(--vscode-markdown-line-height, 22px);
+	word-wrap: break-word;
+}
+
+#code-csp-warning {
+	position: fixed;
+	top: 0;
+	right: 0;
+	color: white;
+	margin: 16px;
+	text-align: center;
+	font-size: 12px;
+	font-family: sans-serif;
+	background-color:#444444;
+	cursor: pointer;
+	padding: 6px;
+	box-shadow: 1px 1px 1px rgba(0,0,0,.25);
+}
+
+#code-csp-warning:hover {
+	text-decoration: none;
+	background-color:#007acc;
+	box-shadow: 2px 2px 2px rgba(0,0,0,.25);
+}
+
+body.scrollBeyondLastLine {
+	margin-bottom: calc(100vh - 22px);
+}
+
+body.showEditorSelection .code-line {
+	position: relative;
+}
+
+body.showEditorSelection .code-active-line:before,
+body.showEditorSelection .code-line:hover:before {
+	content: "";
+	display: block;
+	position: absolute;
+	top: 0;
+	left: -12px;
+	height: 100%;
+}
+
+body.showEditorSelection li.code-active-line:before,
+body.showEditorSelection li.code-line:hover:before {
+	left: -30px;
+}
+
+.vscode-light.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(0, 0, 0, 0.15);
+}
+
+.vscode-light.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(0, 0, 0, 0.40);
+}
+
+.vscode-light.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+.vscode-dark.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(255, 255, 255, 0.4);
+}
+
+.vscode-dark.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(255, 255, 255, 0.60);
+}
+
+.vscode-dark.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+.vscode-high-contrast.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(255, 160, 0, 0.7);
+}
+
+.vscode-high-contrast.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(255, 160, 0, 1);
+}
+
+.vscode-high-contrast.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+img {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a:focus,
+input:focus,
+select:focus,
+textarea:focus {
+	outline: 1px solid -webkit-focus-ring-color;
+	outline-offset: -1px;
+}
+
+hr {
+	border: 0;
+	height: 2px;
+	border-bottom: 2px solid;
+}
+
+h1 {
+	padding-bottom: 0.3em;
+	line-height: 1.2;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+}
+
+h1, h2, h3 {
+	font-weight: normal;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+table > thead > tr > th {
+	text-align: left;
+	border-bottom: 1px solid;
+}
+
+table > thead > tr > th,
+table > thead > tr > td,
+table > tbody > tr > th,
+table > tbody > tr > td {
+	padding: 5px 10px;
+}
+
+table > tbody > tr + tr > td {
+	border-top: 1px solid;
+}
+
+blockquote {
+	margin: 0 7px 0 5px;
+	padding: 0 16px 0 10px;
+	border-left-width: 5px;
+	border-left-style: solid;
+}
+
+code {
+	font-family: Menlo, Monaco, Consolas, "Droid Sans Mono", "Courier New", monospace, "Droid Sans Fallback";
+	font-size: 1em;
+	line-height: 1.357em;
+}
+
+body.wordWrap pre {
+	white-space: pre-wrap;
+}
+
+pre:not(.hljs),
+pre.hljs code > div {
+	padding: 16px;
+	border-radius: 3px;
+	overflow: auto;
+}
+
+pre code {
+	color: var(--vscode-editor-foreground);
+	tab-size: 4;
+}
+
+/** Theming */
+
+.vscode-light pre {
+	background-color: rgba(220, 220, 220, 0.4);
+}
+
+.vscode-dark pre {
+	background-color: rgba(10, 10, 10, 0.4);
+}
+
+.vscode-high-contrast pre {
+	background-color: rgb(0, 0, 0);
+}
+
+.vscode-high-contrast h1 {
+	border-color: rgb(0, 0, 0);
+}
+
+.vscode-light table > thead > tr > th {
+	border-color: rgba(0, 0, 0, 0.69);
+}
+
+.vscode-dark table > thead > tr > th {
+	border-color: rgba(255, 255, 255, 0.69);
+}
+
+.vscode-light h1,
+.vscode-light hr,
+.vscode-light table > tbody > tr + tr > td {
+	border-color: rgba(0, 0, 0, 0.18);
+}
+
+.vscode-dark h1,
+.vscode-dark hr,
+.vscode-dark table > tbody > tr + tr > td {
+	border-color: rgba(255, 255, 255, 0.18);
+}
+
+</style>
+
+<style>
+/* Tomorrow Theme */
+/* http://jmblog.github.com/color-themes-for-google-code-highlightjs */
+/* Original theme - https://github.com/chriskempson/tomorrow-theme */
+
+/* Tomorrow Comment */
+.hljs-comment,
+.hljs-quote {
+	color: #8e908c;
+}
+
+/* Tomorrow Red */
+.hljs-variable,
+.hljs-template-variable,
+.hljs-tag,
+.hljs-name,
+.hljs-selector-id,
+.hljs-selector-class,
+.hljs-regexp,
+.hljs-deletion {
+	color: #c82829;
+}
+
+/* Tomorrow Orange */
+.hljs-number,
+.hljs-built_in,
+.hljs-builtin-name,
+.hljs-literal,
+.hljs-type,
+.hljs-params,
+.hljs-meta,
+.hljs-link {
+	color: #f5871f;
+}
+
+/* Tomorrow Yellow */
+.hljs-attribute {
+	color: #eab700;
+}
+
+/* Tomorrow Green */
+.hljs-string,
+.hljs-symbol,
+.hljs-bullet,
+.hljs-addition {
+	color: #718c00;
+}
+
+/* Tomorrow Blue */
+.hljs-title,
+.hljs-section {
+	color: #4271ae;
+}
+
+/* Tomorrow Purple */
+.hljs-keyword,
+.hljs-selector-tag {
+	color: #8959a8;
+}
+
+.hljs {
+	display: block;
+	overflow-x: auto;
+	color: #4d4d4c;
+	padding: 0.5em;
+}
+
+.hljs-emphasis {
+	font-style: italic;
+}
+
+.hljs-strong {
+	font-weight: bold;
+}
+</style>
+
+<style>
+/*
+ * Markdown PDF CSS
+ */
+
+ body {
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe WPC", "Segoe UI", "Ubuntu", "Droid Sans", sans-serif, "Meiryo";
+	padding: 0 12px;
+}
+
+pre {
+	background-color: #f8f8f8;
+	border: 1px solid #cccccc;
+	border-radius: 3px;
+	overflow-x: auto;
+	white-space: pre-wrap;
+	overflow-wrap: break-word;
+}
+
+pre:not(.hljs) {
+	padding: 23px;
+	line-height: 19px;
+}
+
+blockquote {
+	background: rgba(127, 127, 127, 0.1);
+	border-color: rgba(0, 122, 204, 0.5);
+}
+
+.emoji {
+	height: 1.4em;
+}
+
+code {
+	font-size: 14px;
+	line-height: 19px;
+}
+
+/* for inline code */
+:not(pre):not(.hljs) > code {
+	color: #C9AE75; /* Change the old color so it seems less like an error */
+	font-size: inherit;
+}
+
+/* Page Break : use <div class="page"/> or <div class="page"></div> to insert page break
+-------------------------------------------------------- */
+.page {
+	page-break-after: always;
+}
+
+</style>
+<link rel="stylesheet" href="file://C:\\Users\\tinah\\OneDrive\\Documents\\styles.css" type="text/css">
+<script src="https://unpkg.com/mermaid/dist/mermaid.min.js"></script>
+</head>
+<body>
+  <script>
+    mermaid.initialize({
+      startOnLoad: true,
+      theme: document.body.classList.contains('vscode-dark') || document.body.classList.contains('vscode-high-contrast')
+          ? 'dark'
+          : 'default'
+    });
+  </script>
+<h1 id="you-know-more-than-you-think">You Know More Than You Think</h1>
+<h2 id="presentation-outline">Presentation Outline</h2>
+<h3 id="audience">Audience</h3>
+<p>Mathematics majors who feel anxious about upper-division courses and students who are considering a master's degree or PhD in mathematics.</p>
+<h3 id="central-message">Central message</h3>
+<p>Upper-division mathematics can feel daunting because the language, abstraction, and expectations change. That feeling does <strong>not</strong> mean that a mathematics major lacks mathematical ability or is starting from zero. Mathematics majors already have a substantial toolkit—algebra, logic, pattern recognition, functions, problem-solving, and persistence. Advanced courses ask students to connect, formalize, and extend that knowledge.</p>
+<h3 id="presentation-goals">Presentation goals</h3>
+<p>By the end of the presentation, students should be able to:</p>
+<ol>
+<li>Recognize anxiety as a response to a challenging transition, not proof that they do not belong.</li>
+<li>Identify the mathematical knowledge and habits they already bring to upper-division courses.</li>
+<li>Use concrete strategies for learning definitions, proofs, abstraction, and notation.</li>
+<li>Locate support through faculty, peers, tutoring, and study groups.</li>
+<li>Understand master's and PhD study as possible pathways rather than tests of innate genius.</li>
+<li>Replace self-blame with specific, evidence-informed actions.</li>
+</ol>
+<hr>
+<h2 id="slide-1--mathematics-beyond-the-comfort-zone">Slide 1 — Mathematics Beyond the Comfort Zone</h2>
+<h3 id="purpose">Purpose</h3>
+<p>Establish the emotional focus of the presentation and reassure students immediately.</p>
+<h3 id="main-points">Main points</h3>
+<ul>
+<li>Upper-division mathematics may feel intimidating, especially when courses become proof-based and abstract.</li>
+<li>Students already know more mathematics than anxiety allows them to notice.</li>
+<li>The transition is not from “knowing no mathematics” to “knowing advanced mathematics.”</li>
+<li>It is a transition from using mathematical tools informally to making those tools explicit, connected, and rigorous.</li>
+<li>Graduate school is introduced as an option for students who are curious about continuing.</li>
+</ul>
+<h3 id="speaker-emphasis">Speaker emphasis</h3>
+<p>Open by naming the fear without reinforcing it: a difficult course can challenge a student's confidence while still being within that student's capacity to learn.</p>
+<hr>
+<h2 id="slide-2--when-the-rules-of-math-change">Slide 2 — When the Rules of Math Change</h2>
+<h3 id="purpose-1">Purpose</h3>
+<p>Explain why upper-division mathematics feels different without describing students as deficient.</p>
+<h3 id="main-points-1">Main points</h3>
+<ul>
+<li>Upper-division courses ask students to explain <em>why</em> a statement is true, not only calculate an answer.</li>
+<li>Definitions become working tools.</li>
+<li>Examples are no longer the entire lesson; students must identify general structures.</li>
+<li>Proofs often take multiple attempts.</li>
+<li>Mathematical language and notation can make familiar reasoning feel unfamiliar.</li>
+<li>The concepts, algebra, logic, and problem-solving habits students already have remain active underneath the new language.</li>
+</ul>
+<h3 id="key-reframing">Key reframing</h3>
+<table>
+<thead>
+<tr>
+<th>Anxiety interpretation</th>
+<th>More accurate interpretation</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>“I do not know enough math.”</td>
+<td>“I am learning a new way to use mathematics I already know.”</td>
+</tr>
+<tr>
+<td>“Everyone else understands this immediately.”</td>
+<td>“Everyone is learning how to make their reasoning more explicit.”</td>
+</tr>
+<tr>
+<td>“I cannot start this proof.”</td>
+<td>“I need to unpack the definitions and identify the first connection.”</td>
+</tr>
+</tbody>
+</table>
+<h3 id="research-connection">Research connection</h3>
+<p>Moore (1994) identified understanding definitions, interpreting mathematical language, and knowing how to begin a proof as recurring difficulties in the transition to formal proof. These are teachable practices, not evidence that students have learned nothing before.</p>
+<hr>
+<h2 id="slide-3--the-new-work-of-an-upper-division-major">Slide 3 — The New Work of an Upper-Division Major</h2>
+<h3 id="purpose-2">Purpose</h3>
+<p>Make students' existing mathematical knowledge visible and show how upper-division courses extend it.</p>
+<h3 id="existing-toolkit">Existing toolkit</h3>
+<ul>
+<li>Algebraic manipulation</li>
+<li>Logical reasoning</li>
+<li>Pattern recognition</li>
+<li>Functions and relationships</li>
+<li>Spatial and quantitative reasoning</li>
+<li>Problem-solving and persistence</li>
+<li>Explaining an approach and checking whether it works</li>
+</ul>
+<h3 id="new-practices">New practices</h3>
+<ol>
+<li><strong>Definitions:</strong> Rewrite a definition in your own words and create an example and a non-example.</li>
+<li><strong>Proofs:</strong> Identify the claim, evidence, and theorem or definition connecting each step.</li>
+<li><strong>Abstraction:</strong> Move from a concrete example to the structure that makes it general.</li>
+<li><strong>Communication:</strong> Use complete sentences to make mathematical reasoning visible.</li>
+<li><strong>Revision:</strong> Treat an incomplete proof as a draft rather than a verdict.</li>
+<li><strong>Persistence:</strong> Track better questions and clearer reasoning, not only immediate answers.</li>
+</ol>
+<h3 id="central-reassurance">Central reassurance</h3>
+<p>Students are not beginners at mathematics. They are becoming more deliberate about knowledge they have been building throughout the major.</p>
+<hr>
+<h2 id="slide-4--a-practical-study-system">Slide 4 — A Practical Study System</h2>
+<h3 id="purpose-3">Purpose</h3>
+<p>Give students an immediately usable routine for retrieving and extending the mathematics they already know.</p>
+<h3 id="before-class">Before class</h3>
+<ul>
+<li>Preview the definitions.</li>
+<li>Connect each new idea to a familiar example, theorem, algebraic move, or problem-solving habit.</li>
+<li>Mark unfamiliar notation instead of trying to memorize everything immediately.</li>
+</ul>
+<h3 id="after-class">After class</h3>
+<ul>
+<li>Reconstruct one example without looking.</li>
+<li>Explain one proof aloud or in writing.</li>
+<li>Name which earlier ideas make the new argument possible.</li>
+</ul>
+<h3 id="when-stuck">When stuck</h3>
+<ul>
+<li>Bring a specific attempt to office hours, tutoring, or a study group.</li>
+<li>State what you know and identify the new connection you cannot make yet.</li>
+<li>Treat a focused question as evidence of mathematical engagement, not failure.</li>
+</ul>
+<h3 id="key-line">Key line</h3>
+<p>You do not need to feel confident before you begin. A routine can help you retrieve, connect, and extend the mathematics you already know.</p>
+<hr>
+<h2 id="slide-5--what-the-research-supports">Slide 5 — What the Research Supports</h2>
+<h3 id="purpose-4">Purpose</h3>
+<p>Provide research-backed evidence that anxiety, classroom structure, and learning habits affect mathematical performance.</p>
+<h3 id="evidence-1-anxiety-can-consume-cognitive-resources">Evidence 1: Anxiety can consume cognitive resources</h3>
+<ul>
+<li>Lyons and Beilock (2012) used fMRI research to study students with high mathematics anxiety.</li>
+<li>Greater activation in pain-related regions appeared while participants anticipated doing mathematics.</li>
+<li>The finding supports taking math anxiety seriously as a cognitive and emotional experience.</li>
+<li>It does not show that anxious students lack mathematical ability.</li>
+</ul>
+<h3 id="evidence-2-active-learning-improves-outcomes">Evidence 2: Active learning improves outcomes</h3>
+<ul>
+<li>Freeman et al. (2014) synthesized 225 studies of undergraduate STEM courses.</li>
+<li>Active learning increased examination and concept-inventory performance by approximately 0.47 standard deviations compared with traditional lecture.</li>
+<li>Students in traditional lecture settings had higher odds of failing.</li>
+<li>The practical implication is to explain, retrieve, compare, discuss, and attempt mathematics—not only listen to it.</li>
+</ul>
+<h3 id="evidence-3-mindset-depends-on-context">Evidence 3: Mindset depends on context</h3>
+<ul>
+<li>Yeager et al. (2019) conducted a large randomized study of a brief growth-mindset intervention.</li>
+<li>Effects were modest and strongest for lower-achieving students in schools where peers supported challenge-seeking.</li>
+<li>A positive message is not enough by itself; students also need a community and environment that make asking questions and attempting difficult work acceptable.</li>
+</ul>
+<h3 id="research-caution">Research caution</h3>
+<p>These findings describe patterns and supports. They do not predict any individual student's future, and they do not make graduate school the only successful path.</p>
+<hr>
+<h2 id="slide-6--belonging-is-built-through-participation">Slide 6 — Belonging Is Built Through Participation</h2>
+<h3 id="purpose-5">Purpose</h3>
+<p>Connect mathematical belonging to ordinary practices rather than confidence or performance perfection.</p>
+<h3 id="main-points-2">Main points</h3>
+<ul>
+<li>Mathematicians ask questions.</li>
+<li>They compare multiple approaches.</li>
+<li>They revise arguments.</li>
+<li>They get stuck and return to definitions.</li>
+<li>They learn from incomplete attempts.</li>
+<li>These are not signs that a student is behind; they are everyday practices of mathematics.</li>
+</ul>
+<h3 id="build-a-support-network">Build a support network</h3>
+<p><strong>Faculty</strong></p>
+<ul>
+<li>Attend office hours before a crisis.</li>
+<li>Bring a specific attempt or question.</li>
+<li>Ask how to prepare for the next course or explore a field.</li>
+</ul>
+<p><strong>Peers</strong></p>
+<ul>
+<li>Join or form a study group.</li>
+<li>Explain reasoning aloud.</li>
+<li>Compare definitions, examples, and proof strategies.</li>
+<li>Leave with individual understanding rather than copied answers.</li>
+</ul>
+<p><strong>Self</strong></p>
+<ul>
+<li>Keep a proof or problem-solving journal.</li>
+<li>Record resolved questions and strategies that worked.</li>
+<li>Notice concepts that can now be explained more clearly.</li>
+</ul>
+<h3 id="key-line-1">Key line</h3>
+<p>Students do not have to feel fearless to recognize how much they already know.</p>
+<hr>
+<h2 id="slide-7--what-graduate-school-actually-asks">Slide 7 — What Graduate School Actually Asks</h2>
+<h3 id="purpose-6">Purpose</h3>
+<p>Make master's and PhD pathways more understandable and less mythologized.</p>
+<h3 id="masters-degree">Master's degree</h3>
+<ul>
+<li>Can provide deeper coursework and time to strengthen foundations.</li>
+<li>May help clarify interests in research, teaching, or applied mathematics.</li>
+<li>Can be one possible bridge between undergraduate study and later doctoral work.</li>
+</ul>
+<h3 id="phd">PhD</h3>
+<ul>
+<li>Involves sustained training in producing new mathematics.</li>
+<li>Usually includes advanced coursework, qualifying milestones, seminars, advising, and research.</li>
+<li>Is an apprenticeship in a mathematical community, not a test of being a genius.</li>
+<li>Requires curiosity, preparation, persistence, communication, and mentorship.</li>
+</ul>
+<h3 id="preparation">Preparation</h3>
+<ul>
+<li>Analysis, algebra, topology, and advanced problem-solving courses can help.</li>
+<li>These courses build on mathematical habits students already have.</li>
+<li>No single course, exam, or transcript completely defines a student's potential.</li>
+</ul>
+<h3 id="mentorship">Mentorship</h3>
+<p>Students can ask faculty about:</p>
+<ul>
+<li>Fields of mathematics</li>
+<li>Reading courses</li>
+<li>Research experiences</li>
+<li>Summer opportunities</li>
+<li>Graduate program expectations</li>
+<li>What preparation would be most useful next</li>
+</ul>
+<h3 id="important-distinction">Important distinction</h3>
+<p>Graduate school is an option, not an obligation. Mathematics majors can pursue teaching, statistics, computing, data, finance, public-sector work, and many other paths.</p>
+<hr>
+<h2 id="slide-8--a-plan-for-the-next-seven-days">Slide 8 — A Plan for the Next Seven Days</h2>
+<h3 id="purpose-7">Purpose</h3>
+<p>Convert reassurance into a small, measurable action plan.</p>
+<h3 id="one-week-experiment">One-week experiment</h3>
+<ol>
+<li><strong>Choose one definition.</strong> Rewrite it in your own words and provide an example and a non-example.</li>
+<li><strong>Attempt one proof.</strong> Mark every definition, theorem, assumption, and connection you use.</li>
+<li><strong>Ask one person.</strong> Bring the attempt to office hours, tutoring, or a study group.</li>
+<li><strong>Reflect briefly.</strong> Record what changed in your understanding, not only whether the answer was correct.</li>
+</ol>
+<h3 id="key-line-2">Key line</h3>
+<p>Confidence grows from repeated contact with hard ideas, supported by people who expect students to learn.</p>
+<hr>
+<h2 id="slide-9--selected-sources">Slide 9 — Selected Sources</h2>
+<h3 id="purpose-8">Purpose</h3>
+<p>Show the evidence base and model responsible use of research.</p>
+<h3 id="references">References</h3>
+<ul>
+<li>Moore, R. C. (1994). “Making the transition to formal proof.” <em>Educational Studies in Mathematics, 27</em>(3), 249–266. https://doi.org/10.1007/BF01273731</li>
+<li>Lyons, I. M., &amp; Beilock, S. L. (2012). “When Math Hurts: Math Anxiety Predicts Pain Network Activation in Anticipation of Doing Math.” <em>PLoS ONE, 7</em>(10), e48076. https://doi.org/10.1371/journal.pone.0048076</li>
+<li>Freeman, S., Eddy, S. L., McDonough, M., Smith, M. K., Okoroafor, N., Jordt, H., &amp; Wenderoth, M. P. (2014). “Active learning increases student performance in science, engineering, and mathematics.” <em>Proceedings of the National Academy of Sciences, 111</em>(23), 8410–8415. https://doi.org/10.1073/pnas.1319030111</li>
+<li>Yeager, D. S., et al. (2019). “A national experiment reveals where a growth mindset improves achievement.” <em>Nature, 573</em>, 364–369. https://doi.org/10.1038/s41586-019-1466-y</li>
+</ul>
+<h3 id="research-limitation">Research limitation</h3>
+<p>The studies support practical changes in how students interpret anxiety and learn mathematics. They do not determine whether any individual should pursue a master's degree or PhD.</p>
+<hr>
+<h2 id="slide-10--you-know-more-than-you-think">Slide 10 — You Know More Than You Think</h2>
+<h3 id="purpose-9">Purpose</h3>
+<p>End with a direct, memorable reframing of mathematical identity.</p>
+<h3 id="closing-message">Closing message</h3>
+<ul>
+<li>Upper-division mathematics can be daunting without being beyond a mathematics major.</li>
+<li>Anxiety can make existing knowledge difficult to retrieve or recognize.</li>
+<li>New notation does not erase familiar reasoning.</li>
+<li>Support, practice, and curiosity help students connect what they know to what comes next.</li>
+</ul>
+<h3 id="final-contrast">Final contrast</h3>
+<p><strong>Replace:</strong> “I do not know enough math.”</p>
+<p><strong>Practice saying:</strong> “I am connecting what I know to what comes next.”</p>
+<h3 id="final-takeaway">Final takeaway</h3>
+<p>Students belong in advanced mathematics not because every course feels easy, but because they already possess mathematical knowledge that can continue to grow.</p>
+
+</body>
+</html>
