@@ -1,211 +1,161 @@
-# Math Didn't Fail You — Language Did
+# Mathematics Beyond the Comfort Zone
 
 ## Speaker Notes
 
 ### Presentation purpose
 
-This presentation reframes math anxiety as a language-and-interface problem rather than a lack-of-ability problem, then shows concrete evidence and practical teaching moves.
+This talk supports upper-division mathematics majors by reframing transition struggles as a normal shift in language, expectations, and practice—not a sign they do not belong.
 
 ### Speaker reminder
 
-Keep the tone direct and validating: challenge the myth that math talent is rare while keeping claims anchored to evidence.
+Keep the tone validating and practical: affirm what students already know, then give concrete ways to engage the new demands of advanced courses.
 
 ---
 
-## Slide 1 — Math Didn't Fail You — Language Did
+## Slide 1 — Mathematics Beyond the Comfort Zone.
 
 ### Suggested opening
 
-“Most people who say they are bad at math are not reporting a lack of intelligence. They are reporting a mismatch between what they already understand and how math is often presented.”
+“Upper-division mathematics can feel intimidating, but this transition is not starting over. You already have real mathematical knowledge.”
 
-### Emphasize the thesis
+### Emphasize the core frame
 
-“The barrier between everyday people and advanced mathematics is often linguistic and psychological, not conceptual.”
-
-### Transition
-
-“Let’s test that claim right away with a question many people quietly carry.”
-
----
-
-## Slide 2 — Who Here Thinks They’re Bad at Math?
-
-### Prompt the room
-
-“Quick show of hands: who has ever thought, ‘I’m just bad at math’?”
-
-### Set the promise
-
-“By the end, I want to show that you already use ideas from calculus, abstract algebra, and topology in normal life—even if you would never label them that way.”
-
-### Frame the method
-
-“We’ll move from intimidating labels to familiar intuition.”
+“The goal now is to reorganize and connect existing tools under more formal language.”
 
 ### Transition
 
-“Before examples, we need to look at what research says about performance and anxiety.”
+“Let’s name what makes this transition feel so different.”
 
 ---
 
-## Slide 3 — What Really Drives Performance?
+## Slide 2 — When the Rules of Math Change
 
-### Main claim
+### Main message
 
-“Math anxiety is real, but it is often an indirect force. The key mechanism in performance is engagement.”
+“Upper-division work is a transition in expectations: you are asked to explain why, not just compute what.”
 
-### Walk through the model
+### Walk through the cards
 
-“Think of a pathway: anxiety can reduce engagement, and lower engagement predicts weaker performance. If we can protect engagement, we weaken anxiety’s impact.”
+- **What feels unfamiliar:** definitions, formal language, and proof starts often create friction.
+- **What anxiety says:** ‘Everyone else already gets this.’ Normalize this as a common thought, not a fact.
+- **More accurate interpretation:** new language + existing tools + practice leads to connected understanding.
 
-### Use the APA quote
+### Key line
 
-“People with high math anxiety often know how to do the math; the interference is emotional, not a pure skill deficit.”
+“You are not a beginner at mathematics—you are becoming more deliberate and explicit about what you already know.”
 
 ### Transition
 
-“So if ability is not the full story, what is creating the wall?”
+“Now let’s make the new work of an upper-division major concrete.”
 
 ---
 
-## Slide 4 — The Core Problem: It’s a Language Barrier
+## Slide 3 — The New Work of an Upper-Division Major
+
+### Delivery approach
+
+Move card-by-card and keep each one actionable.
+
+### Talking points
+
+- **Your toolkit is real:** algebra, logic, patterns, and problem-solving are already in place.
+- **Definitions & proofs:** unpack every word; test with examples and non-examples.
+- **Abstraction:** move between concrete examples and general structure.
+- **Communication & collaboration:** writing and peer discussion are part of solving.
+- **Revision & refinement:** first drafts are expected to be incomplete.
+- **Persistence & grit:** progress looks like better questions, not instant answers.
+
+### Transition
+
+“If this is the work, what does research say about support and performance?”
+
+---
+
+## Slide 4 — Evidence Can Replace Self-Blame with Strategy
+
+### Main message
+
+“Research does not erase difficulty, but it explains why design, support, and practice matter in advanced math learning.”
+
+### Walk through findings
+
+- **Anxiety is cognitive load:** anticipation alone can consume attention.
+- **Active learning works:** engagement-focused classrooms improve outcomes.
+- **Mindset needs community:** beliefs matter more when environments support challenge-seeking.
+
+### Caveat
+
+“Evidence is directional, not destiny. Effects vary by context and preparation.”
+
+### Transition
+
+“So what does belonging look like in day-to-day mathematical practice?”
+
+---
+
+## Slide 5 — Belonging Is Built Through Participation
 
 ### Core message
 
-“Across Tobias, Sfard, APA guidance, and newer vocabulary-memory research, the pattern is consistent: notation and jargon often trigger exclusion before reasoning even begins.”
+“You do not need to feel fearless to be doing real mathematics.”
 
-### Clarify the takeaway
+### Explain the quote
 
-“When students say ‘I’m bad at math,’ many are actually saying ‘Math language scares me.’”
-
-### Reframe
-
-“The ability may already be present; the interface is the failure point.”
+“Mathematicians ask questions, revise arguments, and learn from failed attempts. Those habits are evidence of participation, not deficiency.”
 
 ### Transition
 
-“Now let’s prove this by decoding ‘scary’ terms into ideas you already use.”
+“Next, let’s address what graduate school actually asks from students.”
 
 ---
 
-## Slide 5 — Scary Terms You Already Understand
+## Slide 6 — What Graduate School Actually Asks
 
-### Delivery approach
+### Frame expectations
 
-Move briskly through the cards and keep each one conversational.
+“Graduate pathways are about sustained curiosity, preparation, mentorship, and fit—not proving genius.”
 
-- **Derivative:** “Your speedometer answers ‘how fast right now?’”
-- **Integral:** “Adding many small pieces into one total.”
-- **Eigenvalue/Eigenvector:** “Stretching in a stable direction.”
-- **Combinatorics:** “Counting possible outfit combinations.”
-- **Ergodicity:** “Shuffling enough to sample the whole possibility space.”
-- **Graph Theory:** “People as nodes, connections as edges.”
-- **Fourier Transform:** “Separating a chord into component notes.”
-- **Topology:** “Donut and mug share one-hole structure.”
-- **Diffeomorphism:** “Smoothly reshaping pizza dough without tearing.”
+### Walk through pathways
 
-### Key line
-
-“These words are advanced; the underlying intuitions are familiar.”
+- **Curiosity:** start from questions that hold your attention.
+- **Preparation:** upper-division courses deepen habits you already have.
+- **Mentorship:** seek guidance early from faculty.
+- **Master’s degree:** can be a bridge for depth and confidence.
+- **PhD:** long apprenticeship in creating new mathematics.
+- **Many pathways:** graduate school is one option among many math-based futures.
 
 ### Transition
 
-“So the issue is not whether people can think mathematically. The issue is how symbols are introduced.”
+“Before closing, we should model responsible interpretation of sources.”
 
 ---
 
-## Slide 6 — The Barrier Isn’t Ability. It’s How Math Is Presented.
+## Slide 7 — Selected Sources
 
-### Explain the evidence cards
+### Purpose of this slide
 
-“Two independent reviews converge: symbolic format and notation density can trigger avoidance and overload working memory, even when conceptual potential is intact.”
+“Show that these recommendations are evidence-informed and that the evidence has limits.”
 
-### Practical implication
+### Speaker emphasis
 
-“If students are spending cognitive energy translating notation, they have less capacity left for reasoning.”
+“The cited studies support practical instructional and mindset shifts, but they do not predict one student’s future or prescribe one path.”
 
 ### Transition
 
-“Taken together, this gives us a design principle for teaching and learning.”
+“Let’s close with the identity shift this presentation invites.”
 
 ---
 
-## Slide 7 — Research Synthesis: Engagement Is the Mediating Variable
-
-### Main synthesis
-
-“Engagement quality is the operational lever. Language and sequencing control engagement; engagement strongly shapes performance.”
-
-### Emphasize agency
-
-“That means pedagogy is not cosmetic. It can interrupt the anxiety-performance chain.”
-
-### Cite pattern, not miracle
-
-“Across the cited studies, language supports and gradual notation introduction repeatedly improve outcomes across contexts.”
-
-### Transition
-
-“If this is true, then math should already be visible in daily cognition.”
-
----
-
-## Slide 8 — Math You Already Use Daily
-
-### Delivery approach
-
-Present this as recognition, not persuasion.
-
-- **Quick estimation:** trading precision for speed when useful.
-- **Spatial geometry:** parking, fitting, rotating, measuring.
-- **Symbolic modeling:** maps and signs as structured stand-ins.
-- **Pattern recognition:** predicting likely next outcomes.
-- **Budget arithmetic:** constrained optimization in purchases.
-- **Inevitable patterns:** order emerging in large systems.
-- **Cascade effects:** sensitivity to small initial changes.
-- **Clock arithmetic:** modular wrap-around time reasoning.
-- **Curvature intuition:** shortest paths on curved surfaces.
-
-### Key line
-
-“You are already doing mathematical thinking; formal language names and extends it.”
-
-### Transition
-
-“So how do we redesign instruction so more students can access what they already have?”
-
----
-
-## Slide 9 — How We Fix the Interface
-
-### Walk through the moves
-
-1. **Language first, notation second**
-2. **Break problems into smaller steps**
-3. **Define vocabulary explicitly**
-4. **Use familiar anchors**
-5. **Acknowledge and normalize anxiety**
-
-### Emphasize urgency
-
-“Stop gatekeeping intelligence behind jargon. Mathematical thinking is a universal human ability, not a rare trait.”
-
-### Transition
-
-“Let’s end with the identity shift this presentation is asking for.”
-
----
-
-## Slide 10 — You’re Not Bad at Math
+## Slide 8 — You Know More Than You Think.
 
 ### Closing contrast
 
-“Stop saying: ‘I’m bad at math.’ Start saying: ‘I’m learning the language.’”
+“Replace: ‘I do not know enough math.’ Practice saying: ‘I am connecting what I know to what comes next.’”
 
 ### Final message
 
-“You already think mathematically every day. As you learn the dialect, advanced math becomes more accessible, more meaningful, and more open.”
+“Upper-division mathematics can be daunting without being beyond you. Let support, practice, and curiosity—not anxiety—guide your next step.”
 
 ### Optional final prompt
 
-“What is one math idea you already use intuitively that you now want to name formally?”
+“What is one topic where you can now name knowledge you already have, and one concrete next step to build on it?”
